@@ -1,0 +1,1053 @@
+2019-05-29 23:11:30.205 +08:00 [INF] Starting PublicWebSite.Host.
+2019-05-29 23:11:31.418 +08:00 [INF] Loaded ABP modules:
+2019-05-29 23:11:31.419 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 23:11:31.419 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 23:11:31.419 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 23:11:31.420 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 23:11:31.420 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 23:11:31.420 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 23:11:31.420 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 23:11:31.420 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 23:11:31.420 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 23:11:31.420 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 23:11:31.420 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2019-05-29 23:11:31.420 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 23:11:31.420 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 23:11:31.420 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 23:11:31.420 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 23:11:31.420 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 23:11:31.420 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.Client.AbpAspNetCoreMvcClientModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.AspNetCore.Authentication.OAuth.AbpAspNetCoreAuthenticationOAuthModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2019-05-29 23:11:31.421 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2019-05-29 23:11:31.422 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2019-05-29 23:11:31.422 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2019-05-29 23:11:31.422 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.AbpAspNetCoreMvcUiBasicThemeModule
+2019-05-29 23:11:31.422 +08:00 [INF] - Volo.Blogging.BloggingDomainSharedModule
+2019-05-29 23:11:31.422 +08:00 [INF] - Volo.Blogging.BloggingApplicationContractsModule
+2019-05-29 23:11:31.422 +08:00 [INF] - Volo.Blogging.BloggingHttpApiClientModule
+2019-05-29 23:11:31.422 +08:00 [INF] - Volo.Blogging.BloggingHttpApiModule
+2019-05-29 23:11:31.422 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-05-29 23:11:31.422 +08:00 [INF] - Volo.Blogging.BloggingWebModule
+2019-05-29 23:11:31.422 +08:00 [INF] - ProductManagement.ProductManagementDomainSharedModule
+2019-05-29 23:11:31.422 +08:00 [INF] - ProductManagement.ProductManagementApplicationContractsModule
+2019-05-29 23:11:31.422 +08:00 [INF] - ProductManagement.ProductManagementHttpApiClientModule
+2019-05-29 23:11:31.422 +08:00 [INF] - PublicWebSite.Host.PublicWebSiteHostModule
+2019-05-29 23:11:31.488 +08:00 [DBG] No class found with auto mapping attributes.
+2019-05-29 23:11:39.489 +08:00 [WRN] Could not find IdentityClientConfiguration for . Either define a configuration for  or set a default configuration.
+2019-05-29 23:11:40.155 +08:00 [INF] Initialized all ABP modules.
+2019-05-29 23:11:40.269 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/  
+2019-05-29 23:11:42.527 +08:00 [INF] Route matched with {page = "/Index", area = "", action = "", controller = ""}. Executing page /Index
+2019-05-29 23:11:42.550 +08:00 [INF] Executing handler method PublicWebSite.Host.Pages.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-05-29 23:11:42.553 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-05-29 23:11:42.554 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-05-29 23:11:42.555 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-05-29 23:11:43.068 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 9.62 ms.
+2019-05-29 23:11:43.556 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:11:43.564 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:11:43.592 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.227 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 4.52 ms.
+2019-05-29 23:11:44.246 +08:00 [INF] Executed page /Index in 1715.904ms
+2019-05-29 23:11:44.254 +08:00 [INF] Request finished in 3986.3808ms 200 text/html; charset=utf-8
+2019-05-29 23:11:44.285 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/bootstrap/css/bootstrap.css?_v=636941025972647148  
+2019-05-29 23:11:44.285 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/font-awesome/css/font-awesome.css?_v=636941025972807161  
+2019-05-29 23:11:44.300 +08:00 [INF] Sending file. Request path: '/libs/font-awesome/css/font-awesome.css'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\font-awesome\css\font-awesome.css'
+2019-05-29 23:11:44.302 +08:00 [INF] Request finished in 16.9243ms 200 text/css
+2019-05-29 23:11:44.306 +08:00 [INF] Sending file. Request path: '/libs/bootstrap/css/bootstrap.css'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\bootstrap\css\bootstrap.css'
+2019-05-29 23:11:44.307 +08:00 [INF] Request finished in 21.4664ms 200 text/css
+2019-05-29 23:11:44.397 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/toastr/toastr.min.css?_v=636941025975417171  
+2019-05-29 23:11:44.398 +08:00 [INF] Sending file. Request path: '/libs/toastr/toastr.min.css'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\toastr\toastr.min.css'
+2019-05-29 23:11:44.398 +08:00 [INF] Request finished in 1.3267ms 200 text/css
+2019-05-29 23:11:44.418 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/datatables.net-bs4/css/dataTables.bootstrap4.css?_v=636941025972737148  
+2019-05-29 23:11:44.418 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/select2/css/select2.min.css?_v=636941025974557175  
+2019-05-29 23:11:44.419 +08:00 [INF] Sending file. Request path: '/libs/datatables.net-bs4/css/dataTables.bootstrap4.css'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\datatables.net-bs4\css\dataTables.bootstrap4.css'
+2019-05-29 23:11:44.419 +08:00 [INF] Sending file. Request path: '/libs/select2/css/select2.min.css'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\select2\css\select2.min.css'
+2019-05-29 23:11:44.419 +08:00 [INF] Request finished in 0.8385ms 200 text/css
+2019-05-29 23:11:44.419 +08:00 [INF] Request finished in 0.9214ms 200 text/css
+2019-05-29 23:11:44.422 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/abp/aspnetcore-mvc-ui-theme-shared/datatables/datatables-styles.css?_v=636946449502141871  
+2019-05-29 23:11:44.423 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/datatables/datatables-styles.css'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/datatables/datatables-styles.css'
+2019-05-29 23:11:44.423 +08:00 [INF] Request finished in 1.7492ms 200 text/css
+2019-05-29 23:11:44.434 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/themes/basic/layout.css?_v=636946449566876903  
+2019-05-29 23:11:44.434 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/abp/core/abp.js?_v=636941025972607151  
+2019-05-29 23:11:44.434 +08:00 [INF] Sending file. Request path: '/themes/basic/layout.css'. Physical path: '/wwwroot/themes/basic/layout.css'
+2019-05-29 23:11:44.434 +08:00 [INF] Request finished in 0.6186ms 200 text/css
+2019-05-29 23:11:44.434 +08:00 [INF] Sending file. Request path: '/libs/abp/core/abp.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\abp\core\abp.js'
+2019-05-29 23:11:44.435 +08:00 [INF] Request finished in 0.7535ms 200 application/javascript
+2019-05-29 23:11:44.437 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/jquery/jquery.js?_v=636941025974417159  
+2019-05-29 23:11:44.439 +08:00 [INF] Sending file. Request path: '/libs/jquery/jquery.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\jquery\jquery.js'
+2019-05-29 23:11:44.439 +08:00 [INF] Request finished in 2.4134ms 200 application/javascript
+2019-05-29 23:11:44.450 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/abp/jquery/abp.jquery.js?_v=636941025972617142  
+2019-05-29 23:11:44.451 +08:00 [INF] Sending file. Request path: '/libs/abp/jquery/abp.jquery.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\abp\jquery\abp.jquery.js'
+2019-05-29 23:11:44.451 +08:00 [INF] Request finished in 0.8588ms 200 application/javascript
+2019-05-29 23:11:44.451 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/bootstrap/js/bootstrap.bundle.js?_v=636941025972677147  
+2019-05-29 23:11:44.453 +08:00 [INF] Sending file. Request path: '/libs/bootstrap/js/bootstrap.bundle.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\bootstrap\js\bootstrap.bundle.js'
+2019-05-29 23:11:44.453 +08:00 [INF] Request finished in 1.8928ms 200 application/javascript
+2019-05-29 23:11:44.464 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/lodash/lodash.min.js?_v=636941025974437156  
+2019-05-29 23:11:44.466 +08:00 [INF] Sending file. Request path: '/libs/lodash/lodash.min.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\lodash\lodash.min.js'
+2019-05-29 23:11:44.466 +08:00 [INF] Request finished in 1.2131ms 200 application/javascript
+2019-05-29 23:11:44.483 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/jquery-validation/jquery.validate.js?_v=636941025973547152  
+2019-05-29 23:11:44.484 +08:00 [INF] Sending file. Request path: '/libs/jquery-validation/jquery.validate.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\jquery-validation\jquery.validate.js'
+2019-05-29 23:11:44.484 +08:00 [INF] Request finished in 1.1248ms 200 application/javascript
+2019-05-29 23:11:44.504 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/jquery-form/jquery.form.min.js?_v=636941025973517147  
+2019-05-29 23:11:44.504 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js?_v=636941025973537144  
+2019-05-29 23:11:44.505 +08:00 [INF] Sending file. Request path: '/libs/jquery-form/jquery.form.min.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\jquery-form\jquery.form.min.js'
+2019-05-29 23:11:44.505 +08:00 [INF] Sending file. Request path: '/libs/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js'
+2019-05-29 23:11:44.505 +08:00 [INF] Request finished in 1.2728ms 200 application/javascript
+2019-05-29 23:11:44.505 +08:00 [INF] Request finished in 1.1964ms 200 application/javascript
+2019-05-29 23:11:44.511 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/select2/js/select2.min.js?_v=636941025974897145  
+2019-05-29 23:11:44.512 +08:00 [INF] Sending file. Request path: '/libs/select2/js/select2.min.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\select2\js\select2.min.js'
+2019-05-29 23:11:44.512 +08:00 [INF] Request finished in 1.6815ms 200 application/javascript
+2019-05-29 23:11:44.530 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/datatables.net/js/jquery.dataTables.js?_v=636941025972787142  
+2019-05-29 23:11:44.531 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/datatables.net-bs4/js/dataTables.bootstrap4.js?_v=636941025972757142  
+2019-05-29 23:11:44.532 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/sweetalert/sweetalert.min.js?_v=636941025974917148  
+2019-05-29 23:11:44.532 +08:00 [INF] Sending file. Request path: '/libs/datatables.net-bs4/js/dataTables.bootstrap4.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\datatables.net-bs4\js\dataTables.bootstrap4.js'
+2019-05-29 23:11:44.532 +08:00 [INF] Request finished in 0.9553ms 200 application/javascript
+2019-05-29 23:11:44.532 +08:00 [INF] Sending file. Request path: '/libs/sweetalert/sweetalert.min.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\sweetalert\sweetalert.min.js'
+2019-05-29 23:11:44.533 +08:00 [INF] Request finished in 0.959ms 200 application/javascript
+2019-05-29 23:11:44.534 +08:00 [INF] Sending file. Request path: '/libs/datatables.net/js/jquery.dataTables.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\datatables.net\js\jquery.dataTables.js'
+2019-05-29 23:11:44.534 +08:00 [INF] Request finished in 3.6365ms 200 application/javascript
+2019-05-29 23:11:44.555 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/toastr/toastr.min.js?_v=636941025975417171  
+2019-05-29 23:11:44.555 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/timeago/jquery.timeago.js?_v=636941025974937141  
+2019-05-29 23:11:44.555 +08:00 [INF] Sending file. Request path: '/libs/toastr/toastr.min.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\toastr\toastr.min.js'
+2019-05-29 23:11:44.556 +08:00 [INF] Request finished in 0.9635ms 200 application/javascript
+2019-05-29 23:11:44.556 +08:00 [INF] Sending file. Request path: '/libs/timeago/jquery.timeago.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\timeago\jquery.timeago.js'
+2019-05-29 23:11:44.556 +08:00 [INF] Request finished in 0.9049ms 200 application/javascript
+2019-05-29 23:11:44.570 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery/jquery-extensions.js?_v=636946449502141871  
+2019-05-29 23:11:44.571 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery/jquery-extensions.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/jquery/jquery-extensions.js'
+2019-05-29 23:11:44.571 +08:00 [INF] Request finished in 1.1994ms 200 application/javascript
+2019-05-29 23:11:44.583 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery-form/jquery-form-extensions.js?_v=636946449502141871  
+2019-05-29 23:11:44.584 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery-form/jquery-form-extensions.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/jquery_form/jquery-form-extensions.js'
+2019-05-29 23:11:44.584 +08:00 [INF] Request finished in 0.7169ms 200 application/javascript
+2019-05-29 23:11:44.587 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/abp/aspnetcore-mvc-ui-theme-shared/bootstrap/dom-event-handlers.js?_v=636946449502141871  
+2019-05-29 23:11:44.588 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/bootstrap/dom-event-handlers.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/bootstrap/dom-event-handlers.js'
+2019-05-29 23:11:44.588 +08:00 [INF] Request finished in 1.0447ms 200 application/javascript
+2019-05-29 23:11:44.601 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/abp/aspnetcore-mvc-ui-theme-shared/bootstrap/modal-manager.js?_v=636946449502141871  
+2019-05-29 23:11:44.602 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/bootstrap/modal-manager.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/bootstrap/modal-manager.js'
+2019-05-29 23:11:44.602 +08:00 [INF] Request finished in 0.9765ms 200 application/javascript
+2019-05-29 23:11:44.602 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/abp/aspnetcore-mvc-ui-theme-shared/datatables/datatables-extensions.js?_v=636946449502141871  
+2019-05-29 23:11:44.602 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/datatables/datatables-extensions.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/datatables/datatables-extensions.js'
+2019-05-29 23:11:44.603 +08:00 [INF] Request finished in 0.5943ms 200 application/javascript
+2019-05-29 23:11:44.621 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/abp/aspnetcore-mvc-ui-theme-shared/sweetalert/abp-sweetalert.js?_v=636946449502141871  
+2019-05-29 23:11:44.621 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/abp/aspnetcore-mvc-ui-theme-shared/toastr/abp-toastr.js?_v=636946449502141871  
+2019-05-29 23:11:44.621 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/sweetalert/abp-sweetalert.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/sweetalert/abp-sweetalert.js'
+2019-05-29 23:11:44.621 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Pages/Abp/MultiTenancy/tenant-switch.js?_v=636946449533635718  
+2019-05-29 23:11:44.622 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/toastr/abp-toastr.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/toastr/abp-toastr.js'
+2019-05-29 23:11:44.622 +08:00 [INF] Request finished in 0.8565ms 200 application/javascript
+2019-05-29 23:11:44.622 +08:00 [INF] Request finished in 0.695ms 200 application/javascript
+2019-05-29 23:11:44.622 +08:00 [INF] Sending file. Request path: '/Pages/Abp/MultiTenancy/tenant-switch.js'. Physical path: '/Pages/Abp/MultiTenancy/tenant-switch.js'
+2019-05-29 23:11:44.622 +08:00 [INF] Request finished in 0.5609ms 200 application/javascript
+2019-05-29 23:11:44.644 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/themes/basic/layout.js?_v=636946449566876903  
+2019-05-29 23:11:44.644 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ApplicationConfigurationScript  
+2019-05-29 23:11:44.644 +08:00 [INF] Sending file. Request path: '/themes/basic/layout.js'. Physical path: '/wwwroot/themes/basic/layout.js'
+2019-05-29 23:11:44.644 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ServiceProxyScript  
+2019-05-29 23:11:44.644 +08:00 [INF] Request finished in 0.7332ms 200 application/javascript
+2019-05-29 23:11:44.654 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/product-images/asus.jpg  
+2019-05-29 23:11:44.654 +08:00 [INF] Sending file. Request path: '/product-images/asus.jpg'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\product-images\asus.jpg'
+2019-05-29 23:11:44.655 +08:00 [INF] Request finished in 0.7341ms 200 image/jpeg
+2019-05-29 23:11:44.658 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:11:44.664 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/product-images/playstation.jpg  
+2019-05-29 23:11:44.665 +08:00 [INF] Sending file. Request path: '/product-images/playstation.jpg'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\product-images\playstation.jpg'
+2019-05-29 23:11:44.665 +08:00 [INF] Request finished in 1.0705ms 200 image/jpeg
+2019-05-29 23:11:44.670 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:11:44.674 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/product-images/nikon.jpg  
+2019-05-29 23:11:44.674 +08:00 [INF] Sending file. Request path: '/product-images/nikon.jpg'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\product-images\nikon.jpg'
+2019-05-29 23:11:44.674 +08:00 [INF] Request finished in 0.7253ms 200 image/jpeg
+2019-05-29 23:11:44.742 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:11:44.743 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-05-29 23:11:44.777 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2019-05-29 23:11:44.781 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.782 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.Get
+2019-05-29 23:11:44.783 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.783 +08:00 [DBG] ActionApiDescriptionModel.Create: BlogFiles.GetAsyncByName
+2019-05-29 23:11:44.783 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.783 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.783 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.783 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.783 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.783 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.784 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.784 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.784 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.784 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.784 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.784 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.784 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.784 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.784 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.784 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.784 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.784 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.784 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:44.785 +08:00 [DBG] ActionApiDescriptionModel.Create: BlogFiles.GetForWebAsyncByName
+2019-05-29 23:11:44.785 +08:00 [DBG] ActionApiDescriptionModel.Create: BlogFiles.CreateAsyncByInput
+2019-05-29 23:11:44.785 +08:00 [DBG] ActionApiDescriptionModel.Create: BlogFiles.UploadImageByFile
+2019-05-29 23:11:44.786 +08:00 [DBG] ActionApiDescriptionModel.Create: Blogs.GetListAsync
+2019-05-29 23:11:44.786 +08:00 [DBG] ActionApiDescriptionModel.Create: Blogs.GetByShortNameAsyncByShortName
+2019-05-29 23:11:44.786 +08:00 [DBG] ActionApiDescriptionModel.Create: Blogs.GetAsyncById
+2019-05-29 23:11:44.786 +08:00 [DBG] ActionApiDescriptionModel.Create: Blogs.CreateByInput
+2019-05-29 23:11:44.786 +08:00 [DBG] ActionApiDescriptionModel.Create: Blogs.UpdateByIdAndInput
+2019-05-29 23:11:44.786 +08:00 [DBG] ActionApiDescriptionModel.Create: Blogs.DeleteById
+2019-05-29 23:11:44.786 +08:00 [DBG] ActionApiDescriptionModel.Create: Comments.GetHierarchicalListOfPostAsyncByPostId
+2019-05-29 23:11:44.787 +08:00 [DBG] ActionApiDescriptionModel.Create: Comments.CreateAsyncByInput
+2019-05-29 23:11:44.787 +08:00 [DBG] ActionApiDescriptionModel.Create: Comments.UpdateAsyncByIdAndInput
+2019-05-29 23:11:44.787 +08:00 [DBG] ActionApiDescriptionModel.Create: Comments.DeleteAsyncById
+2019-05-29 23:11:44.787 +08:00 [DBG] ActionApiDescriptionModel.Create: Posts.GetListByBlogIdAndTagNameByBlogIdAndTagName
+2019-05-29 23:11:44.787 +08:00 [DBG] ActionApiDescriptionModel.Create: Posts.GetForReadingAsyncByInput
+2019-05-29 23:11:44.787 +08:00 [DBG] ActionApiDescriptionModel.Create: Posts.GetAsyncById
+2019-05-29 23:11:44.787 +08:00 [DBG] ActionApiDescriptionModel.Create: Posts.CreateAsyncByInput
+2019-05-29 23:11:44.788 +08:00 [DBG] ActionApiDescriptionModel.Create: Posts.UpdateAsyncByIdAndInput
+2019-05-29 23:11:44.788 +08:00 [DBG] ActionApiDescriptionModel.Create: Posts.DeleteAsyncById
+2019-05-29 23:11:44.788 +08:00 [DBG] ActionApiDescriptionModel.Create: Tags.GetPopularTagsByBlogIdAndInput
+2019-05-29 23:11:44.801 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:11:44.801 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:11:44.801 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:11:44.802 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:11:44.803 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:11:44.803 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:11:44.806 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 59.1991ms.
+2019-05-29 23:11:44.819 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 76.619700000000009ms.
+2019-05-29 23:11:44.819 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:11:44.820 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 150.01250000000002ms
+2019-05-29 23:11:44.820 +08:00 [INF] Request finished in 175.8968ms 200 text/plain; charset=utf-8
+2019-05-29 23:11:44.825 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:11:44.827 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 169.548ms
+2019-05-29 23:11:44.832 +08:00 [INF] Request finished in 188.0249ms 200 text/plain; charset=utf-8
+2019-05-29 23:11:44.891 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+2019-05-29 23:11:44.892 +08:00 [INF] Sending file. Request path: '/libs/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\font-awesome\fonts\fontawesome-webfont.woff2'
+2019-05-29 23:11:44.892 +08:00 [INF] Request finished in 1.0716ms 200 font/woff2
+2019-05-29 23:11:45.561 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/favicon.ico  
+2019-05-29 23:11:45.565 +08:00 [INF] Request finished in 4.1292ms 404 
+2019-05-29 23:12:08.299 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:53435/?handler=Login application/x-www-form-urlencoded 182
+2019-05-29 23:12:08.301 +08:00 [INF] Route matched with {page = "/Index", area = "", action = "", controller = ""}. Executing page /Index
+2019-05-29 23:12:08.322 +08:00 [INF] Executing handler method PublicWebSite.Host.Pages.IndexModel.OnPostLoginAsync with arguments (null) - ModelState is "Valid"
+2019-05-29 23:12:08.468 +08:00 [INF] AuthenticationScheme: oidc was challenged.
+2019-05-29 23:12:08.471 +08:00 [INF] Executed handler method OnPostLoginAsync, returned result .
+2019-05-29 23:12:08.471 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-05-29 23:12:08.472 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-05-29 23:12:08.478 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.28 ms.
+2019-05-29 23:12:08.480 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:12:08.481 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:12:08.481 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:08.483 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.56 ms.
+2019-05-29 23:12:08.483 +08:00 [INF] Executed page /Index in 181.93710000000002ms
+2019-05-29 23:12:08.483 +08:00 [INF] Request finished in 184.3447ms 302 text/html; charset=utf-8
+2019-05-29 23:12:47.193 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:53435/signin-oidc application/x-www-form-urlencoded 1736
+2019-05-29 23:12:47.786 +08:00 [INF] AuthenticationScheme: Cookies signed in.
+2019-05-29 23:12:47.787 +08:00 [INF] Request finished in 593.1403ms 302 
+2019-05-29 23:12:47.812 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/?handler=Login  
+2019-05-29 23:12:47.814 +08:00 [INF] Route matched with {page = "/Index", area = "", action = "", controller = ""}. Executing page /Index
+2019-05-29 23:12:47.814 +08:00 [INF] Executing handler method PublicWebSite.Host.Pages.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-05-29 23:12:47.814 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-05-29 23:12:47.814 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-05-29 23:12:47.814 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-05-29 23:12:47.825 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.33 ms.
+2019-05-29 23:12:49.521 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:12:49.522 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:12:49.522 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:49.523 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:49.862 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.52 ms.
+2019-05-29 23:12:49.862 +08:00 [INF] Executed page /Index in 2048.6326ms
+2019-05-29 23:12:49.863 +08:00 [INF] Request finished in 2050.6156ms 200 text/html; charset=utf-8
+2019-05-29 23:12:50.015 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ApplicationConfigurationScript  
+2019-05-29 23:12:50.018 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:12:50.025 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:12:50.026 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ServiceProxyScript  
+2019-05-29 23:12:50.028 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.028 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.028 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.028 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.028 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.028 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.028 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.028 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.029 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.029 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.029 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.029 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.029 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.029 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.029 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.029 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.029 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.029 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.029 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.030 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.030 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:50.031 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:12:50.031 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:12:50.031 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:12:50.031 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:12:50.031 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:12:50.031 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:12:50.031 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:12:50.034 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-05-29 23:12:50.034 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.2237ms.
+2019-05-29 23:12:50.034 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.6431ms.
+2019-05-29 23:12:50.034 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:12:50.034 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:12:50.035 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 15.763300000000001ms
+2019-05-29 23:12:50.035 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 3.3625000000000003ms
+2019-05-29 23:12:50.035 +08:00 [INF] Request finished in 19.5994ms 200 text/plain; charset=utf-8
+2019-05-29 23:12:50.035 +08:00 [INF] Request finished in 9.0142ms 200 text/plain; charset=utf-8
+2019-05-29 23:12:54.199 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Products  
+2019-05-29 23:12:54.388 +08:00 [INF] Route matched with {page = "/Products", area = "", action = "", controller = ""}. Executing page /Products
+2019-05-29 23:12:54.392 +08:00 [INF] Executing handler method PublicWebSite.Host.Pages.ProductsModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-05-29 23:12:59.402 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/jquery-form/jquery.form.min.js.map  
+2019-05-29 23:12:59.405 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/bootstrap/js/bootstrap.bundle.js.map  
+2019-05-29 23:12:59.405 +08:00 [INF] Request finished in 3.0391ms 404 
+2019-05-29 23:12:59.407 +08:00 [INF] Request finished in 2.0438ms 404 
+2019-05-29 23:12:59.407 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/toastr/toastr.js.map  
+2019-05-29 23:12:59.408 +08:00 [INF] Sending file. Request path: '/libs/toastr/toastr.js.map'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\toastr\toastr.js.map'
+2019-05-29 23:12:59.408 +08:00 [INF] Request finished in 1.2361ms 200 text/plain
+2019-05-29 23:12:59.496 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/bootstrap/css/bootstrap.css.map  
+2019-05-29 23:12:59.496 +08:00 [INF] Request finished in 0.8767ms 404 
+2019-05-29 23:13:03.797 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-05-29 23:13:03.797 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-05-29 23:13:03.797 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-05-29 23:13:03.819 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.29 ms.
+2019-05-29 23:13:03.822 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:03.824 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:03.824 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.825 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.827 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.56 ms.
+2019-05-29 23:13:03.831 +08:00 [INF] Executed page /Products in 9442.2269ms
+2019-05-29 23:13:03.831 +08:00 [INF] Request finished in 9631.9281ms 200 text/html; charset=utf-8
+2019-05-29 23:13:03.867 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Pages/Products.css  
+2019-05-29 23:13:03.867 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/product-images/sunny.jpg  
+2019-05-29 23:13:03.867 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/product-images/rampage.jpg  
+2019-05-29 23:13:03.868 +08:00 [INF] Sending file. Request path: '/Pages/Products.css'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\Pages\Products.css'
+2019-05-29 23:13:03.868 +08:00 [INF] Request finished in 1.2147ms 200 text/css
+2019-05-29 23:13:03.868 +08:00 [INF] Sending file. Request path: '/product-images/sunny.jpg'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\product-images\sunny.jpg'
+2019-05-29 23:13:03.868 +08:00 [INF] Sending file. Request path: '/product-images/rampage.jpg'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\product-images\rampage.jpg'
+2019-05-29 23:13:03.868 +08:00 [INF] Request finished in 1.4325ms 200 image/jpeg
+2019-05-29 23:13:03.868 +08:00 [INF] Request finished in 0.9274ms 200 image/jpeg
+2019-05-29 23:13:03.985 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ApplicationConfigurationScript  
+2019-05-29 23:13:03.986 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ServiceProxyScript  
+2019-05-29 23:13:03.988 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/product-images/oki.jpg  
+2019-05-29 23:13:03.990 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/product-images/bluecat.jpg  
+2019-05-29 23:13:03.990 +08:00 [INF] Sending file. Request path: '/product-images/oki.jpg'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\product-images\oki.jpg'
+2019-05-29 23:13:03.991 +08:00 [INF] Request finished in 2.2619ms 200 image/jpeg
+2019-05-29 23:13:03.991 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:13:03.991 +08:00 [INF] Sending file. Request path: '/product-images/bluecat.jpg'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\product-images\bluecat.jpg'
+2019-05-29 23:13:03.992 +08:00 [INF] Request finished in 1.9689ms 200 image/jpeg
+2019-05-29 23:13:03.992 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:13:03.993 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-05-29 23:13:03.993 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/product-images/beats.jpg  
+2019-05-29 23:13:03.993 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:13:03.993 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0884ms.
+2019-05-29 23:13:03.993 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/product-images/lego.jpg  
+2019-05-29 23:13:03.994 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:13:03.994 +08:00 [INF] Sending file. Request path: '/product-images/beats.jpg'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\product-images\beats.jpg'
+2019-05-29 23:13:03.994 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 2.0248ms
+2019-05-29 23:13:03.994 +08:00 [INF] Request finished in 1.2439ms 200 image/jpeg
+2019-05-29 23:13:03.994 +08:00 [INF] Request finished in 8.2501ms 200 text/plain; charset=utf-8
+2019-05-29 23:13:03.995 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.995 +08:00 [INF] Sending file. Request path: '/product-images/lego.jpg'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\product-images\lego.jpg'
+2019-05-29 23:13:03.995 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.995 +08:00 [INF] Request finished in 1.8058ms 200 image/jpeg
+2019-05-29 23:13:03.995 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.995 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.996 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.996 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.996 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.996 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.996 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.996 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.996 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.997 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.997 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.997 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.997 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.997 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.997 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.997 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.998 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.998 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.998 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:03.999 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:03.999 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:03.999 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:03.999 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:04.000 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:04.000 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:04.003 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 9.3443ms.
+2019-05-29 23:13:04.003 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:13:04.004 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 12.8511ms
+2019-05-29 23:13:04.005 +08:00 [INF] Request finished in 20.8662ms 200 text/plain; charset=utf-8
+2019-05-29 23:13:04.101 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/bootstrap/js/bootstrap.bundle.js.map  
+2019-05-29 23:13:04.104 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/jquery-form/jquery.form.min.js.map  
+2019-05-29 23:13:04.105 +08:00 [INF] Request finished in 3.3306ms 404 
+2019-05-29 23:13:04.107 +08:00 [INF] Request finished in 3.6339ms 404 
+2019-05-29 23:13:04.198 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/bootstrap/css/bootstrap.css.map  
+2019-05-29 23:13:04.199 +08:00 [INF] Request finished in 0.9845ms 404 
+2019-05-29 23:13:12.177 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/?handler=Login  
+2019-05-29 23:13:12.178 +08:00 [INF] Route matched with {page = "/Index", area = "", action = "", controller = ""}. Executing page /Index
+2019-05-29 23:13:12.179 +08:00 [INF] Executing handler method PublicWebSite.Host.Pages.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-05-29 23:13:12.179 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-05-29 23:13:12.179 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-05-29 23:13:12.179 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-05-29 23:13:12.180 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.25 ms.
+2019-05-29 23:13:12.182 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:12.183 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:12.183 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:12.184 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:12.189 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 1.25 ms.
+2019-05-29 23:13:12.189 +08:00 [INF] Executed page /Index in 10.5009ms
+2019-05-29 23:13:12.189 +08:00 [INF] Request finished in 11.9981ms 200 text/html; charset=utf-8
+2019-05-29 23:13:12.413 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/bootstrap/css/bootstrap.css.map  
+2019-05-29 23:13:12.414 +08:00 [INF] Request finished in 0.7235ms 404 
+2019-05-29 23:13:12.482 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/bootstrap/js/bootstrap.bundle.js.map  
+2019-05-29 23:13:12.483 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/jquery-form/jquery.form.min.js.map  
+2019-05-29 23:13:12.483 +08:00 [INF] Request finished in 1.2563ms 404 
+2019-05-29 23:13:12.485 +08:00 [INF] Request finished in 1.4961ms 404 
+2019-05-29 23:13:15.189 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Blog  
+2019-05-29 23:13:15.407 +08:00 [INF] Route matched with {page = "/Blog/Index", area = "", action = "", controller = ""}. Executing page /Blog/Index
+2019-05-29 23:13:15.420 +08:00 [INF] Executing handler method Volo.Blogging.Pages.Blog.IndexModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-05-29 23:13:23.875 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Products  
+2019-05-29 23:13:23.877 +08:00 [INF] Route matched with {page = "/Products", area = "", action = "", controller = ""}. Executing page /Products
+2019-05-29 23:13:23.877 +08:00 [INF] Executing handler method PublicWebSite.Host.Pages.ProductsModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-05-29 23:13:23.922 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-05-29 23:13:23.922 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-05-29 23:13:23.922 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-05-29 23:13:23.925 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.48 ms.
+2019-05-29 23:13:23.927 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:23.928 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:23.929 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:23.931 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:23.939 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 1.25 ms.
+2019-05-29 23:13:23.940 +08:00 [INF] Executed page /Products in 63.1668ms
+2019-05-29 23:13:23.940 +08:00 [INF] Request finished in 64.9092ms 200 text/html; charset=utf-8
+2019-05-29 23:13:24.120 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ApplicationConfigurationScript  
+2019-05-29 23:13:24.122 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ServiceProxyScript  
+2019-05-29 23:13:24.123 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:13:24.125 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:13:24.125 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:13:24.125 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-05-29 23:13:24.125 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0775ms.
+2019-05-29 23:13:24.126 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:13:24.126 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 1.4032ms
+2019-05-29 23:13:24.126 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.126 +08:00 [INF] Request finished in 4.6679ms 200 text/plain; charset=utf-8
+2019-05-29 23:13:24.127 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.127 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.127 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.127 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.128 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.128 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.128 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.128 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.128 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.128 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.129 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.129 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.129 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.129 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.129 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.129 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.129 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.130 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.130 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.130 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:24.131 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:24.131 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:24.131 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:24.131 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:24.131 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:24.132 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:24.133 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.7214ms.
+2019-05-29 23:13:24.133 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:13:24.133 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 9.8948ms
+2019-05-29 23:13:24.134 +08:00 [INF] Request finished in 13.3109ms 200 text/plain; charset=utf-8
+2019-05-29 23:13:24.207 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/bootstrap/js/bootstrap.bundle.js.map  
+2019-05-29 23:13:24.208 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/jquery-form/jquery.form.min.js.map  
+2019-05-29 23:13:24.208 +08:00 [INF] Request finished in 1.1644ms 404 
+2019-05-29 23:13:24.209 +08:00 [INF] Request finished in 0.9891ms 404 
+2019-05-29 23:13:24.267 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/bootstrap/css/bootstrap.css.map  
+2019-05-29 23:13:24.268 +08:00 [INF] Request finished in 0.9505ms 404 
+2019-05-29 23:13:25.674 +08:00 [INF] Executed handler method OnGetAsync, returned result Microsoft.AspNetCore.Mvc.RedirectToPageResult.
+2019-05-29 23:13:25.677 +08:00 [INF] Executing RedirectToPageResult, redirecting to ./Posts/Index.
+2019-05-29 23:13:25.677 +08:00 [INF] Executed page /Blog/Index in 10269.3897ms
+2019-05-29 23:13:25.677 +08:00 [INF] Request finished in 10488.2052ms 302 
+2019-05-29 23:13:26.940 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/blog/abp  
+2019-05-29 23:13:27.192 +08:00 [INF] Route matched with {page = "/Blog/Posts/Index", area = "", action = "", controller = ""}. Executing page /Blog/Posts/Index
+2019-05-29 23:13:27.202 +08:00 [INF] Executing handler method Volo.Blogging.Pages.Blog.Posts.IndexModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-05-29 23:13:27.716 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-05-29 23:13:27.716 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-05-29 23:13:27.716 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-05-29 23:13:27.793 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.798 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.28 ms.
+2019-05-29 23:13:27.808 +08:00 [DBG] Added bundle 'Volo.Blogging.Pages.Blog.Posts.IndexModel' to the page in 0.86 ms.
+2019-05-29 23:13:27.809 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:27.809 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:27.809 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.810 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.812 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.55 ms.
+2019-05-29 23:13:27.817 +08:00 [DBG] Added bundle 'Volo.Blogging.Pages.Blog.Posts.IndexModel' to the page in 0.95 ms.
+2019-05-29 23:13:27.818 +08:00 [INF] Executed page /Blog/Posts/Index in 625.327ms
+2019-05-29 23:13:27.818 +08:00 [INF] Request finished in 877.8478ms 200 text/html; charset=utf-8
+2019-05-29 23:13:27.868 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/owl.carousel/assets/owl.carousel.min.css?_v=636941025974487166  
+2019-05-29 23:13:27.868 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/owl.carousel/assets/owl.theme.default.min.css?_v=636941025974497161  
+2019-05-29 23:13:27.869 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/owl.carousel/assets/owl.theme.green.min.css?_v=636941025974517166  
+2019-05-29 23:13:27.869 +08:00 [INF] Sending file. Request path: '/libs/owl.carousel/assets/owl.theme.default.min.css'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\owl.carousel\assets\owl.theme.default.min.css'
+2019-05-29 23:13:27.869 +08:00 [INF] Sending file. Request path: '/libs/owl.carousel/assets/owl.carousel.min.css'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\owl.carousel\assets\owl.carousel.min.css'
+2019-05-29 23:13:27.869 +08:00 [INF] Request finished in 0.8833ms 200 text/css
+2019-05-29 23:13:27.869 +08:00 [INF] Request finished in 1.1497ms 200 text/css
+2019-05-29 23:13:27.870 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Pages/Blog/Shared/Styles/blog.css?_v=636946452156069897  
+2019-05-29 23:13:27.869 +08:00 [INF] Sending file. Request path: '/libs/owl.carousel/assets/owl.theme.green.min.css'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\owl.carousel\assets\owl.theme.green.min.css'
+2019-05-29 23:13:27.870 +08:00 [INF] Request finished in 0.9104ms 200 text/css
+2019-05-29 23:13:27.870 +08:00 [INF] Sending file. Request path: '/Pages/Blog/Shared/Styles/blog.css'. Physical path: '/Pages/Blog/Shared/Styles/blog.css'
+2019-05-29 23:13:27.870 +08:00 [INF] Request finished in 0.8739ms 200 text/css
+2019-05-29 23:13:27.889 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ApplicationConfigurationScript  
+2019-05-29 23:13:27.889 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/api/blogging/files/www/100d4c0445cbf55f687339ec8e656abb.jpg  
+2019-05-29 23:13:27.891 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:13:27.892 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:13:27.893 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.893 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.893 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.893 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.893 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.894 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.894 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.894 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.894 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.894 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.894 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.894 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.894 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.894 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.894 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.894 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.894 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.894 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.895 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.895 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.895 +08:00 [INF] Authorization was successful.
+2019-05-29 23:13:27.895 +08:00 [INF] Route matched with {area = "blogging", action = "GetForWebAsync", controller = "BlogFiles", page = ""}. Executing action Volo.Blogging.BlogFilesController.GetForWebAsync (Volo.Blogging.HttpApi)
+2019-05-29 23:13:27.895 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:27.895 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:27.895 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:27.896 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:27.896 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:27.896 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:27.897 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.3178ms.
+2019-05-29 23:13:27.897 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:13:27.897 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 5.8301ms
+2019-05-29 23:13:27.897 +08:00 [INF] Request finished in 8.3235ms 200 text/plain; charset=utf-8
+2019-05-29 23:13:27.903 +08:00 [INF] Executing action method Volo.Blogging.BlogFilesController.GetForWebAsync (Volo.Blogging.HttpApi) with arguments (["100d4c0445cbf55f687339ec8e656abb.jpg"]) - Validation state: "Valid"
+2019-05-29 23:13:28.006 +08:00 [INF] Executed action method Volo.Blogging.BlogFilesController.GetForWebAsync (Volo.Blogging.HttpApi), returned result Microsoft.AspNetCore.Mvc.FileContentResult in 102.39160000000001ms.
+2019-05-29 23:13:28.007 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ServiceProxyScript  
+2019-05-29 23:13:28.011 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/owl.carousel/owl.carousel.min.js?_v=636941025974537150  
+2019-05-29 23:13:28.014 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Pages/Blog/Shared/Scripts/blog.js?_v=636946452156069897  
+2019-05-29 23:13:28.014 +08:00 [INF] Sending file. Request path: '/libs/owl.carousel/owl.carousel.min.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\PublicWebSite.Host\wwwroot\libs\owl.carousel\owl.carousel.min.js'
+2019-05-29 23:13:28.014 +08:00 [INF] Request finished in 3.4102ms 200 application/javascript
+2019-05-29 23:13:28.015 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:13:28.015 +08:00 [INF] Executing Microsoft.AspNetCore.Mvc.FileContentResult, sending file with download name '' ...
+2019-05-29 23:13:28.016 +08:00 [INF] Sending file. Request path: '/Pages/Blog/Shared/Scripts/blog.js'. Physical path: '/Pages/Blog/Shared/Scripts/blog.js'
+2019-05-29 23:13:28.016 +08:00 [INF] Request finished in 1.8722ms 200 application/javascript
+2019-05-29 23:13:28.016 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-05-29 23:13:28.016 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1411ms.
+2019-05-29 23:13:28.017 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:13:28.018 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 3.1154ms
+2019-05-29 23:13:28.019 +08:00 [INF] Request finished in 11.4595ms 200 text/plain; charset=utf-8
+2019-05-29 23:13:28.034 +08:00 [INF] Executed action Volo.Blogging.BlogFilesController.GetForWebAsync (Volo.Blogging.HttpApi) in 138.7776ms
+2019-05-29 23:13:28.036 +08:00 [INF] Request finished in 146.8548ms 200 image/jpeg
+2019-05-29 23:13:28.114 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/bootstrap/js/bootstrap.bundle.js.map  
+2019-05-29 23:13:28.114 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/jquery-form/jquery.form.min.js.map  
+2019-05-29 23:13:28.116 +08:00 [INF] Request finished in 2.2643ms 404 
+2019-05-29 23:13:28.116 +08:00 [INF] Request finished in 1.9172ms 404 
+2019-05-29 23:13:28.179 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/bootstrap/css/bootstrap.css.map  
+2019-05-29 23:13:28.181 +08:00 [INF] Request finished in 1.0916ms 404 
+2019-05-29 23:13:46.989 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/blog/abp/introduction-to-abp-vnext  
+2019-05-29 23:13:46.990 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:47.353 +08:00 [INF] Route matched with {page = "/Blog/Posts/Detail", area = "", action = "", controller = ""}. Executing page /Blog/Posts/Detail
+2019-05-29 23:13:47.359 +08:00 [INF] Executing handler method Volo.Blogging.Pages.Blog.Posts.DetailModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-05-29 23:13:47.360 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:47.361 +08:00 [WRN] Could not find IdentityClientConfiguration for . Either define a configuration for  or set a default configuration.
+2019-05-29 23:13:47.386 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:47.387 +08:00 [WRN] Could not find IdentityClientConfiguration for . Either define a configuration for  or set a default configuration.
+2019-05-29 23:13:47.435 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:47.435 +08:00 [WRN] Could not find IdentityClientConfiguration for . Either define a configuration for  or set a default configuration.
+2019-05-29 23:13:47.492 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-05-29 23:13:47.492 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-05-29 23:13:47.492 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-05-29 23:13:47.567 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.567 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.571 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.26 ms.
+2019-05-29 23:13:47.573 +08:00 [DBG] Added bundle 'Volo.Blogging.Pages.Blog.Posts.DetailModel' to the page in 0.12 ms.
+2019-05-29 23:13:47.574 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:47.574 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:47.575 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.576 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.58 ms.
+2019-05-29 23:13:47.581 +08:00 [DBG] Added bundle 'Volo.Blogging.Pages.Blog.Posts.DetailModel' to the page in 0.42 ms.
+2019-05-29 23:13:47.582 +08:00 [INF] Executed page /Blog/Posts/Detail in 229.0902ms
+2019-05-29 23:13:47.583 +08:00 [INF] Request finished in 593.3483ms 200 text/html; charset=utf-8
+2019-05-29 23:13:47.622 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ApplicationConfigurationScript  
+2019-05-29 23:13:47.622 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ServiceProxyScript  
+2019-05-29 23:13:47.623 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Pages/Blog/Posts/detail.js?_v=636946452156069897  
+2019-05-29 23:13:47.623 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:47.623 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:47.624 +08:00 [INF] Sending file. Request path: '/Pages/Blog/Posts/detail.js'. Physical path: '/Pages/Blog/Posts/detail.js'
+2019-05-29 23:13:47.624 +08:00 [INF] Request finished in 0.9975ms 200 application/javascript
+2019-05-29 23:13:47.625 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:13:47.625 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:13:47.628 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-05-29 23:13:47.628 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1316ms.
+2019-05-29 23:13:47.628 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:13:47.629 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 2.6103ms
+2019-05-29 23:13:47.629 +08:00 [INF] Request finished in 6.3589ms 200 text/plain; charset=utf-8
+2019-05-29 23:13:47.630 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:13:47.633 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.634 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.634 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.634 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.634 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.635 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.635 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.635 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.635 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.635 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.635 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.635 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.636 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.636 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.636 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.636 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.636 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.636 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.636 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.636 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.636 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:47.637 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:47.638 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:47.638 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:47.638 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:47.639 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:47.640 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:47.641 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 11.122300000000001ms.
+2019-05-29 23:13:47.641 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:13:47.641 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 15.6331ms
+2019-05-29 23:13:47.642 +08:00 [INF] Request finished in 19.6175ms 200 text/plain; charset=utf-8
+2019-05-29 23:13:47.841 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/bootstrap/js/bootstrap.bundle.js.map  
+2019-05-29 23:13:47.842 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/jquery-form/jquery.form.min.js.map  
+2019-05-29 23:13:47.842 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:47.842 +08:00 [INF] Request finished in 1.2405ms 404 
+2019-05-29 23:13:47.843 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:47.843 +08:00 [INF] Request finished in 1.1776ms 404 
+2019-05-29 23:13:47.889 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/api/blogging/files/www/100d4c0445cbf55f687339ec8e656abb.jpg  
+2019-05-29 23:13:47.890 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:47.892 +08:00 [INF] Route matched with {area = "blogging", action = "GetForWebAsync", controller = "BlogFiles", page = ""}. Executing action Volo.Blogging.BlogFilesController.GetForWebAsync (Volo.Blogging.HttpApi)
+2019-05-29 23:13:47.893 +08:00 [INF] Executing action method Volo.Blogging.BlogFilesController.GetForWebAsync (Volo.Blogging.HttpApi) with arguments (["100d4c0445cbf55f687339ec8e656abb.jpg"]) - Validation state: "Valid"
+2019-05-29 23:13:47.893 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:47.893 +08:00 [WRN] Could not find IdentityClientConfiguration for . Either define a configuration for  or set a default configuration.
+2019-05-29 23:13:47.947 +08:00 [INF] Executed action method Volo.Blogging.BlogFilesController.GetForWebAsync (Volo.Blogging.HttpApi), returned result Microsoft.AspNetCore.Mvc.FileContentResult in 53.7273ms.
+2019-05-29 23:13:47.948 +08:00 [INF] Executing Microsoft.AspNetCore.Mvc.FileContentResult, sending file with download name '' ...
+2019-05-29 23:13:47.950 +08:00 [INF] Executed action Volo.Blogging.BlogFilesController.GetForWebAsync (Volo.Blogging.HttpApi) in 57.942600000000006ms
+2019-05-29 23:13:47.951 +08:00 [INF] Request finished in 61.4937ms 200 image/jpeg
+2019-05-29 23:13:47.978 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/libs/bootstrap/css/bootstrap.css.map  
+2019-05-29 23:13:47.980 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:47.980 +08:00 [INF] Request finished in 1.8708ms 404 
+2019-05-29 23:13:57.054 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/  
+2019-05-29 23:13:57.055 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:57.055 +08:00 [INF] Route matched with {page = "/Index", area = "", action = "", controller = ""}. Executing page /Index
+2019-05-29 23:13:57.056 +08:00 [INF] Executing handler method PublicWebSite.Host.Pages.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-05-29 23:13:57.056 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-05-29 23:13:57.056 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-05-29 23:13:57.056 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-05-29 23:13:57.057 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.40 ms.
+2019-05-29 23:13:57.058 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:57.059 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:57.059 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.062 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.91 ms.
+2019-05-29 23:13:57.063 +08:00 [INF] Executed page /Index in 7.3944ms
+2019-05-29 23:13:57.063 +08:00 [INF] Request finished in 8.9136ms 200 text/html; charset=utf-8
+2019-05-29 23:13:57.170 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ApplicationConfigurationScript  
+2019-05-29 23:13:57.170 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ServiceProxyScript  
+2019-05-29 23:13:57.171 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:57.171 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:57.171 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:13:57.171 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:13:57.172 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-05-29 23:13:57.172 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.049300000000000004ms.
+2019-05-29 23:13:57.172 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:13:57.172 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:13:57.172 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 0.70710000000000006ms
+2019-05-29 23:13:57.172 +08:00 [INF] Request finished in 2.2702ms 200 text/plain; charset=utf-8
+2019-05-29 23:13:57.173 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.173 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.173 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.174 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.174 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.174 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.174 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.174 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.174 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.174 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.174 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.174 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.174 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.174 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.174 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.174 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.174 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.174 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.174 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.175 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.175 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:57.176 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:57.176 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:57.176 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:57.176 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:57.176 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:57.176 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:57.178 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.2153ms.
+2019-05-29 23:13:57.179 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:13:57.179 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 7.7357000000000005ms
+2019-05-29 23:13:57.180 +08:00 [INF] Request finished in 9.4919ms 200 text/plain; charset=utf-8
+2019-05-29 23:13:58.336 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/  
+2019-05-29 23:13:58.336 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:58.337 +08:00 [INF] Route matched with {page = "/Index", area = "", action = "", controller = ""}. Executing page /Index
+2019-05-29 23:13:58.337 +08:00 [INF] Executing handler method PublicWebSite.Host.Pages.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-05-29 23:13:58.338 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-05-29 23:13:58.338 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-05-29 23:13:58.338 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-05-29 23:13:58.339 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.36 ms.
+2019-05-29 23:13:58.340 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:58.341 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:58.342 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.343 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.59 ms.
+2019-05-29 23:13:58.344 +08:00 [INF] Executed page /Index in 6.1693000000000007ms
+2019-05-29 23:13:58.344 +08:00 [INF] Request finished in 7.9106ms 200 text/html; charset=utf-8
+2019-05-29 23:13:58.385 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ApplicationConfigurationScript  
+2019-05-29 23:13:58.385 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:58.387 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:13:58.389 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:13:58.390 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.390 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ServiceProxyScript  
+2019-05-29 23:13:58.390 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.390 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.390 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.390 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.390 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.390 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.390 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.390 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:58.390 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.391 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.391 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.391 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.391 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.391 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.391 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.391 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.391 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.391 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.391 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.391 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:13:58.391 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.391 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:58.391 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-05-29 23:13:58.392 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0347ms.
+2019-05-29 23:13:58.392 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:58.392 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:13:58.392 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:58.392 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 0.64850000000000008ms
+2019-05-29 23:13:58.392 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:58.392 +08:00 [INF] Request finished in 2.2032ms 200 text/plain; charset=utf-8
+2019-05-29 23:13:58.392 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:58.392 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:58.392 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:58.393 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.5008ms.
+2019-05-29 23:13:58.394 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:13:58.394 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 6.6122000000000005ms
+2019-05-29 23:13:58.394 +08:00 [INF] Request finished in 9.4567ms 200 text/plain; charset=utf-8
+2019-05-29 23:13:59.097 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Products  
+2019-05-29 23:13:59.097 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:59.098 +08:00 [INF] Route matched with {page = "/Products", area = "", action = "", controller = ""}. Executing page /Products
+2019-05-29 23:13:59.098 +08:00 [INF] Executing handler method PublicWebSite.Host.Pages.ProductsModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-05-29 23:13:59.099 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:59.099 +08:00 [WRN] Could not find IdentityClientConfiguration for . Either define a configuration for  or set a default configuration.
+2019-05-29 23:13:59.133 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-05-29 23:13:59.133 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-05-29 23:13:59.133 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-05-29 23:13:59.135 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.25 ms.
+2019-05-29 23:13:59.136 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:59.136 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:59.136 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.138 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.55 ms.
+2019-05-29 23:13:59.138 +08:00 [INF] Executed page /Products in 39.8206ms
+2019-05-29 23:13:59.138 +08:00 [INF] Request finished in 41.3119ms 200 text/html; charset=utf-8
+2019-05-29 23:13:59.202 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ServiceProxyScript  
+2019-05-29 23:13:59.202 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ApplicationConfigurationScript  
+2019-05-29 23:13:59.203 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:59.203 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:59.204 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:13:59.205 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:13:59.205 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-05-29 23:13:59.205 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0577ms.
+2019-05-29 23:13:59.205 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:13:59.206 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 0.94170000000000009ms
+2019-05-29 23:13:59.206 +08:00 [INF] Request finished in 3.9388ms 200 text/plain; charset=utf-8
+2019-05-29 23:13:59.206 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:13:59.207 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.207 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.207 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.207 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.207 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.207 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.207 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.208 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.208 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.208 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.208 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.208 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.208 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.208 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.208 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.208 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.208 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.208 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.208 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.209 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.209 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:59.209 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:59.209 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:59.209 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:13:59.209 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:59.209 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:59.210 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:13:59.210 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.1850000000000005ms.
+2019-05-29 23:13:59.211 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:13:59.211 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 6.0001000000000007ms
+2019-05-29 23:13:59.211 +08:00 [INF] Request finished in 9.564ms 200 text/plain; charset=utf-8
+2019-05-29 23:14:01.475 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/blog/abp  
+2019-05-29 23:14:01.476 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:14:01.478 +08:00 [INF] Route matched with {page = "/Blog/Posts/Index", area = "", action = "", controller = ""}. Executing page /Blog/Posts/Index
+2019-05-29 23:14:01.480 +08:00 [INF] Executing handler method Volo.Blogging.Pages.Blog.Posts.IndexModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-05-29 23:14:01.480 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:14:01.480 +08:00 [WRN] Could not find IdentityClientConfiguration for . Either define a configuration for  or set a default configuration.
+2019-05-29 23:14:01.502 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:14:01.502 +08:00 [WRN] Could not find IdentityClientConfiguration for . Either define a configuration for  or set a default configuration.
+2019-05-29 23:14:01.531 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:14:01.531 +08:00 [WRN] Could not find IdentityClientConfiguration for . Either define a configuration for  or set a default configuration.
+2019-05-29 23:14:01.551 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-05-29 23:14:01.551 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-05-29 23:14:01.551 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-05-29 23:14:01.553 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.555 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.35 ms.
+2019-05-29 23:14:01.555 +08:00 [DBG] Added bundle 'Volo.Blogging.Pages.Blog.Posts.IndexModel' to the page in 0.21 ms.
+2019-05-29 23:14:01.556 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:14:01.557 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:14:01.557 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.559 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.75 ms.
+2019-05-29 23:14:01.560 +08:00 [DBG] Added bundle 'Volo.Blogging.Pages.Blog.Posts.IndexModel' to the page in 0.23 ms.
+2019-05-29 23:14:01.560 +08:00 [INF] Executed page /Blog/Posts/Index in 81.8636ms
+2019-05-29 23:14:01.560 +08:00 [INF] Request finished in 84.8705ms 200 text/html; charset=utf-8
+2019-05-29 23:14:01.604 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ApplicationConfigurationScript  
+2019-05-29 23:14:01.604 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:14:01.605 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/api/blogging/files/www/100d4c0445cbf55f687339ec8e656abb.jpg  
+2019-05-29 23:14:01.605 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:14:01.605 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:14:01.606 +08:00 [INF] Route matched with {area = "blogging", action = "GetForWebAsync", controller = "BlogFiles", page = ""}. Executing action Volo.Blogging.BlogFilesController.GetForWebAsync (Volo.Blogging.HttpApi)
+2019-05-29 23:14:01.606 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:14:01.606 +08:00 [INF] Executing action method Volo.Blogging.BlogFilesController.GetForWebAsync (Volo.Blogging.HttpApi) with arguments (["100d4c0445cbf55f687339ec8e656abb.jpg"]) - Validation state: "Valid"
+2019-05-29 23:14:01.606 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:14:01.606 +08:00 [WRN] Could not find IdentityClientConfiguration for . Either define a configuration for  or set a default configuration.
+2019-05-29 23:14:01.607 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.607 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.607 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.607 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.607 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.607 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.607 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.607 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.607 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.607 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.607 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.608 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.608 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.608 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.608 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.608 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.608 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.608 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.608 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.608 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.608 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:01.609 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:14:01.609 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:14:01.609 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:14:01.609 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:14:01.609 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:14:01.609 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:14:01.611 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 5.0344000000000007ms.
+2019-05-29 23:14:01.611 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:14:01.612 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 7.0452ms
+2019-05-29 23:14:01.613 +08:00 [INF] Request finished in 9.6902ms 200 text/plain; charset=utf-8
+2019-05-29 23:14:01.642 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ServiceProxyScript  
+2019-05-29 23:14:01.642 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:14:01.647 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:14:01.648 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-05-29 23:14:01.649 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.099ms.
+2019-05-29 23:14:01.649 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:14:01.649 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 2.2282ms
+2019-05-29 23:14:01.649 +08:00 [INF] Request finished in 7.7947ms 200 text/plain; charset=utf-8
+2019-05-29 23:14:01.735 +08:00 [INF] Executed action method Volo.Blogging.BlogFilesController.GetForWebAsync (Volo.Blogging.HttpApi), returned result Microsoft.AspNetCore.Mvc.FileContentResult in 128.5538ms.
+2019-05-29 23:14:01.735 +08:00 [INF] Executing Microsoft.AspNetCore.Mvc.FileContentResult, sending file with download name '' ...
+2019-05-29 23:14:01.736 +08:00 [INF] Executed action Volo.Blogging.BlogFilesController.GetForWebAsync (Volo.Blogging.HttpApi) in 129.8304ms
+2019-05-29 23:14:01.736 +08:00 [INF] Request finished in 131.4521ms 200 image/jpeg
+2019-05-29 23:14:02.796 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/blog/abp/introduction-to-abp-vnext  
+2019-05-29 23:14:02.797 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:14:02.798 +08:00 [INF] Route matched with {page = "/Blog/Posts/Detail", area = "", action = "", controller = ""}. Executing page /Blog/Posts/Detail
+2019-05-29 23:14:02.798 +08:00 [INF] Executing handler method Volo.Blogging.Pages.Blog.Posts.DetailModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-05-29 23:14:02.798 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:14:02.799 +08:00 [WRN] Could not find IdentityClientConfiguration for . Either define a configuration for  or set a default configuration.
+2019-05-29 23:14:02.822 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:14:02.822 +08:00 [WRN] Could not find IdentityClientConfiguration for . Either define a configuration for  or set a default configuration.
+2019-05-29 23:14:02.848 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:14:02.848 +08:00 [WRN] Could not find IdentityClientConfiguration for . Either define a configuration for  or set a default configuration.
+2019-05-29 23:14:02.867 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-05-29 23:14:02.867 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-05-29 23:14:02.867 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-05-29 23:14:02.880 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.880 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.882 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.23 ms.
+2019-05-29 23:14:02.882 +08:00 [DBG] Added bundle 'Volo.Blogging.Pages.Blog.Posts.DetailModel' to the page in 0.10 ms.
+2019-05-29 23:14:02.883 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:14:02.883 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:14:02.883 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.884 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.45 ms.
+2019-05-29 23:14:02.885 +08:00 [DBG] Added bundle 'Volo.Blogging.Pages.Blog.Posts.DetailModel' to the page in 0.06 ms.
+2019-05-29 23:14:02.885 +08:00 [INF] Executed page /Blog/Posts/Detail in 86.997ms
+2019-05-29 23:14:02.885 +08:00 [INF] Request finished in 88.5204ms 200 text/html; charset=utf-8
+2019-05-29 23:14:02.907 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ApplicationConfigurationScript  
+2019-05-29 23:14:02.908 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:14:02.910 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:14:02.910 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ServiceProxyScript  
+2019-05-29 23:14:02.911 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:14:02.913 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:14:02.914 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:14:02.914 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-05-29 23:14:02.914 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.053700000000000005ms.
+2019-05-29 23:14:02.914 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.915 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:14:02.915 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.915 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.915 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 1.0612000000000001ms
+2019-05-29 23:14:02.915 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.915 +08:00 [INF] Request finished in 4.9508ms 200 text/plain; charset=utf-8
+2019-05-29 23:14:02.915 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.915 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.915 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.915 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.915 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.915 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.915 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.916 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.916 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.916 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.916 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.916 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.916 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.916 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.916 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.916 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.916 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:02.917 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:14:02.917 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:14:02.917 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:14:02.917 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:14:02.917 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:14:02.917 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:14:02.918 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.4292ms.
+2019-05-29 23:14:02.918 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:14:02.918 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 7.8537000000000008ms
+2019-05-29 23:14:02.918 +08:00 [INF] Request finished in 10.7676ms 200 text/plain; charset=utf-8
+2019-05-29 23:14:03.003 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/api/blogging/files/www/100d4c0445cbf55f687339ec8e656abb.jpg  
+2019-05-29 23:14:03.004 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:14:03.005 +08:00 [INF] Route matched with {area = "blogging", action = "GetForWebAsync", controller = "BlogFiles", page = ""}. Executing action Volo.Blogging.BlogFilesController.GetForWebAsync (Volo.Blogging.HttpApi)
+2019-05-29 23:14:03.007 +08:00 [INF] Executing action method Volo.Blogging.BlogFilesController.GetForWebAsync (Volo.Blogging.HttpApi) with arguments (["100d4c0445cbf55f687339ec8e656abb.jpg"]) - Validation state: "Valid"
+2019-05-29 23:14:03.007 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:14:03.007 +08:00 [WRN] Could not find IdentityClientConfiguration for . Either define a configuration for  or set a default configuration.
+2019-05-29 23:14:03.071 +08:00 [INF] Executed action method Volo.Blogging.BlogFilesController.GetForWebAsync (Volo.Blogging.HttpApi), returned result Microsoft.AspNetCore.Mvc.FileContentResult in 63.964200000000005ms.
+2019-05-29 23:14:03.071 +08:00 [INF] Executing Microsoft.AspNetCore.Mvc.FileContentResult, sending file with download name '' ...
+2019-05-29 23:14:03.072 +08:00 [INF] Executed action Volo.Blogging.BlogFilesController.GetForWebAsync (Volo.Blogging.HttpApi) in 66.4832ms
+2019-05-29 23:14:03.072 +08:00 [INF] Request finished in 68.5008ms 200 image/jpeg
+2019-05-29 23:14:08.422 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/?page=%2FAccount%2FLogin  
+2019-05-29 23:14:08.423 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:14:08.424 +08:00 [INF] Route matched with {page = "/Index", area = "", action = "", controller = ""}. Executing page /Index
+2019-05-29 23:14:08.424 +08:00 [INF] Executing handler method PublicWebSite.Host.Pages.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-05-29 23:14:08.424 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-05-29 23:14:08.424 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-05-29 23:14:08.424 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-05-29 23:14:08.425 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.22 ms.
+2019-05-29 23:14:08.426 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:14:08.427 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:14:08.428 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.430 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.60 ms.
+2019-05-29 23:14:08.430 +08:00 [INF] Executed page /Index in 6.0539000000000005ms
+2019-05-29 23:14:08.430 +08:00 [INF] Request finished in 7.4466ms 200 text/html; charset=utf-8
+2019-05-29 23:14:08.457 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ApplicationConfigurationScript  
+2019-05-29 23:14:08.457 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:53435/Abp/ServiceProxyScript  
+2019-05-29 23:14:08.458 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:14:08.458 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:14:08.458 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:14:08.458 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:14:08.459 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-05-29 23:14:08.459 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.0497ms.
+2019-05-29 23:14:08.459 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:14:08.459 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:14:08.459 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 0.66680000000000006ms
+2019-05-29 23:14:08.459 +08:00 [INF] Request finished in 2.2002ms 200 text/plain; charset=utf-8
+2019-05-29 23:14:08.460 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.460 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.461 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.461 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.461 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.461 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.461 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.461 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.461 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.461 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.461 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.461 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.462 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.462 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.462 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.462 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.462 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.462 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.462 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.462 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.462 +08:00 [INF] Authorization failed.
+2019-05-29 23:14:08.463 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:14:08.463 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:14:08.463 +08:00 [WRN] Could not find the localization resource AbpUiNavigation on the remote server!
+2019-05-29 23:14:08.463 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:14:08.463 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:14:08.463 +08:00 [WRN] Could not find the localization resource AbpUiMultiTenancy on the remote server!
+2019-05-29 23:14:08.464 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 4.8850000000000007ms.
+2019-05-29 23:14:08.464 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:14:08.464 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 5.8834ms
+2019-05-29 23:14:08.465 +08:00 [INF] Request finished in 7.3466ms 200 text/plain; charset=utf-8

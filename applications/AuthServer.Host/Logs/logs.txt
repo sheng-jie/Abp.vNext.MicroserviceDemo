@@ -1,0 +1,1676 @@
+2019-05-29 22:58:35.268 +08:00 [INF] Starting AuthServer.Host.
+2019-05-29 22:58:38.728 +08:00 [INF] Creating key "9f27b661-ca06-4df4-a8d7-805e105ac28c" with creation date "2019-05-29T14:58:38.7221550+00:00", activation date "2019-05-29T14:58:38.6975213+00:00", and expiration date "2019-08-27T14:58:38.6975213+00:00".
+2019-05-29 22:58:38.746 +08:00 [WRN] No XML encryptor configured. Key "9f27b661-ca06-4df4-a8d7-805e105ac28c" may be persisted to storage in unencrypted form.
+2019-05-29 22:58:38.791 +08:00 [INF] Loaded ABP modules:
+2019-05-29 22:58:38.791 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 22:58:38.792 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 22:58:38.792 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 22:58:38.792 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 22:58:38.792 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 22:58:38.792 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 22:58:38.792 +08:00 [INF] - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2019-05-29 22:58:38.792 +08:00 [INF] - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2019-05-29 22:58:38.792 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 22:58:38.792 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 22:58:38.792 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 22:58:38.792 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 22:58:38.792 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 22:58:38.792 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 22:58:38.792 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 22:58:38.792 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 22:58:38.792 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 22:58:38.792 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2019-05-29 22:58:38.793 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.IdentityServer.AbpIdentityServerDomainModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.IdentityServer.EntityFrameworkCore.AbpIdentityServerEntityFrameworkCoreModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2019-05-29 22:58:38.794 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2019-05-29 22:58:38.795 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2019-05-29 22:58:38.795 +08:00 [INF] - Volo.Abp.Account.Web.AbpAccountWebModule
+2019-05-29 22:58:38.795 +08:00 [INF] - Volo.Abp.Account.Web.AbpAccountWebIdentityServerModule
+2019-05-29 22:58:38.795 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2019-05-29 22:58:38.795 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2019-05-29 22:58:38.795 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.AbpAspNetCoreMvcUiBasicThemeModule
+2019-05-29 22:58:38.795 +08:00 [INF] - AuthServer.Host.AuthServerHostModule
+2019-05-29 22:58:38.882 +08:00 [DBG] No class found with auto mapping attributes.
+2019-05-29 22:58:39.778 +08:00 [DBG] Using Identity.Application as default scheme for authentication
+2019-05-29 22:58:39.778 +08:00 [DBG] Using Identity.External as default scheme for sign-in
+2019-05-29 22:58:39.778 +08:00 [DBG] Using Identity.External as default scheme for sign-out
+2019-05-29 22:58:39.778 +08:00 [DBG] Using Identity.Application as default scheme for challenge
+2019-05-29 22:58:39.778 +08:00 [DBG] Using Identity.Application as default scheme for forbid
+2019-05-29 22:58:40.055 +08:00 [WRN] It was not possible to connect to the redis server(s); to create a disconnected multiplexer, disable AbortOnConnectFail. MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s); to create a disconnected multiplexer, disable AbortOnConnectFail. MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectAsync(String configuration, TextWriter log) in c:\code\StackExchange.Redis\StackExchange.Redis\StackExchange\Redis\ConnectionMultiplexer.cs:line 799
+   at Microsoft.Extensions.Caching.Redis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.Redis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.Redis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`1.GetAsync(String key, Nullable`1 hideErrors, CancellationToken token) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Caching\Volo\Abp\Caching\DistributedCache.cs:line 119
+2019-05-29 22:58:42.459 +08:00 [WRN] It was not possible to connect to the redis server(s); to create a disconnected multiplexer, disable AbortOnConnectFail. SocketFailure on PING
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s); to create a disconnected multiplexer, disable AbortOnConnectFail. SocketFailure on PING
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectAsync(String configuration, TextWriter log) in c:\code\StackExchange.Redis\StackExchange.Redis\StackExchange\Redis\ConnectionMultiplexer.cs:line 799
+   at Microsoft.Extensions.Caching.Redis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.Redis.RedisCache.SetAsync(String key, Byte[] value, DistributedCacheEntryOptions options, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`1.SetAsync(String key, TCacheItem value, DistributedCacheEntryOptions options, Nullable`1 hideErrors, CancellationToken token) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Caching\Volo\Abp\Caching\DistributedCache.cs:line 273
+2019-05-29 22:58:42.465 +08:00 [WRN] It was not possible to connect to the redis server(s); to create a disconnected multiplexer, disable AbortOnConnectFail. MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s); to create a disconnected multiplexer, disable AbortOnConnectFail. MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectAsync(String configuration, TextWriter log) in c:\code\StackExchange.Redis\StackExchange.Redis\StackExchange\Redis\ConnectionMultiplexer.cs:line 799
+   at Microsoft.Extensions.Caching.Redis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.Redis.RedisCache.GetAndRefreshAsync(String key, Boolean getData, CancellationToken token)
+   at Microsoft.Extensions.Caching.Redis.RedisCache.GetAsync(String key, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`1.GetAsync(String key, Nullable`1 hideErrors, CancellationToken token) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Caching\Volo\Abp\Caching\DistributedCache.cs:line 119
+2019-05-29 22:58:42.508 +08:00 [WRN] It was not possible to connect to the redis server(s); to create a disconnected multiplexer, disable AbortOnConnectFail. MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s); to create a disconnected multiplexer, disable AbortOnConnectFail. MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectAsync(String configuration, TextWriter log) in c:\code\StackExchange.Redis\StackExchange.Redis\StackExchange\Redis\ConnectionMultiplexer.cs:line 799
+   at Microsoft.Extensions.Caching.Redis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.Redis.RedisCache.SetAsync(String key, Byte[] value, DistributedCacheEntryOptions options, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`1.SetAsync(String key, TCacheItem value, DistributedCacheEntryOptions options, Nullable`1 hideErrors, CancellationToken token) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Caching\Volo\Abp\Caching\DistributedCache.cs:line 273
+2019-05-29 22:58:43.005 +08:00 [WRN] It was not possible to connect to the redis server(s); to create a disconnected multiplexer, disable AbortOnConnectFail. SocketFailure on PING
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s); to create a disconnected multiplexer, disable AbortOnConnectFail. SocketFailure on PING
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectAsync(String configuration, TextWriter log) in c:\code\StackExchange.Redis\StackExchange.Redis\StackExchange\Redis\ConnectionMultiplexer.cs:line 799
+   at Microsoft.Extensions.Caching.Redis.RedisCache.ConnectAsync(CancellationToken token)
+   at Microsoft.Extensions.Caching.Redis.RedisCache.RemoveAsync(String key, CancellationToken token)
+   at Volo.Abp.Caching.DistributedCache`1.RemoveAsync(String key, Nullable`1 hideErrors, CancellationToken token) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Caching\Volo\Abp\Caching\DistributedCache.cs:line 392
+2019-05-29 22:58:43.512 +08:00 [WRN] None of the specified endpoints were reachable
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable ---> System.AggregateException: One or more errors occurred. (Connection failed) ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5672
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__272_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at Volo.Abp.RabbitMQ.ConnectionPool.<>c__DisplayClass8_0.<Get>b__0() in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.RabbitMQ\Volo\Abp\RabbitMQ\ConnectionPool.cs:line 30
+   at System.Collections.Generic.AbpDictionaryExtensions.<>c__DisplayClass6_0`2.<GetOrAdd>b__0(TKey k) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\System\Collections\Generic\AbpDictionaryExtensions.cs:line 115
+   at System.Collections.Generic.AbpDictionaryExtensions.GetOrAdd[TKey,TValue](IDictionary`2 dictionary, TKey key, Func`2 factory) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\System\Collections\Generic\AbpDictionaryExtensions.cs:line 101
+   at System.Collections.Generic.AbpDictionaryExtensions.GetOrAdd[TKey,TValue](IDictionary`2 dictionary, TKey key, Func`1 factory) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\System\Collections\Generic\AbpDictionaryExtensions.cs:line 115
+   at Volo.Abp.RabbitMQ.ConnectionPool.Get(String connectionName) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.RabbitMQ\Volo\Abp\RabbitMQ\ConnectionPool.cs:line 28
+   at Volo.Abp.RabbitMQ.RabbitMqMessageConsumer.TryCreateChannel() in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.RabbitMQ\Volo\Abp\RabbitMQ\RabbitMqMessageConsumer.cs:line 142
+2019-05-29 22:58:43.514 +08:00 [WRN] None of the specified endpoints were reachable
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable ---> System.AggregateException: One or more errors occurred. (Connection failed) ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5672
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__272_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at Volo.Abp.RabbitMQ.ConnectionPool.<>c__DisplayClass8_0.<Get>b__0() in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.RabbitMQ\Volo\Abp\RabbitMQ\ConnectionPool.cs:line 30
+   at System.Collections.Generic.AbpDictionaryExtensions.<>c__DisplayClass6_0`2.<GetOrAdd>b__0(TKey k) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\System\Collections\Generic\AbpDictionaryExtensions.cs:line 115
+   at System.Collections.Generic.AbpDictionaryExtensions.GetOrAdd[TKey,TValue](IDictionary`2 dictionary, TKey key, Func`2 factory) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\System\Collections\Generic\AbpDictionaryExtensions.cs:line 101
+   at System.Collections.Generic.AbpDictionaryExtensions.GetOrAdd[TKey,TValue](IDictionary`2 dictionary, TKey key, Func`1 factory) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\System\Collections\Generic\AbpDictionaryExtensions.cs:line 115
+   at Volo.Abp.RabbitMQ.ConnectionPool.Get(String connectionName) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.RabbitMQ\Volo\Abp\RabbitMQ\ConnectionPool.cs:line 28
+   at Volo.Abp.RabbitMQ.RabbitMqMessageConsumer.TryCreateChannel() in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.RabbitMQ\Volo\Abp\RabbitMQ\RabbitMqMessageConsumer.cs:line 142
+2019-05-29 22:58:44.300 +08:00 [WRN] None of the specified endpoints were reachable
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable ---> System.AggregateException: One or more errors occurred. (Connection failed) ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5672
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__272_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at Volo.Abp.RabbitMQ.ConnectionPool.<>c__DisplayClass8_0.<Get>b__0() in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.RabbitMQ\Volo\Abp\RabbitMQ\ConnectionPool.cs:line 30
+   at System.Collections.Generic.AbpDictionaryExtensions.<>c__DisplayClass6_0`2.<GetOrAdd>b__0(TKey k) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\System\Collections\Generic\AbpDictionaryExtensions.cs:line 115
+   at System.Collections.Generic.AbpDictionaryExtensions.GetOrAdd[TKey,TValue](IDictionary`2 dictionary, TKey key, Func`2 factory) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\System\Collections\Generic\AbpDictionaryExtensions.cs:line 101
+   at System.Collections.Generic.AbpDictionaryExtensions.GetOrAdd[TKey,TValue](IDictionary`2 dictionary, TKey key, Func`1 factory) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\System\Collections\Generic\AbpDictionaryExtensions.cs:line 115
+   at Volo.Abp.RabbitMQ.ConnectionPool.Get(String connectionName) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.RabbitMQ\Volo\Abp\RabbitMQ\ConnectionPool.cs:line 28
+   at Volo.Abp.RabbitMQ.RabbitMqMessageConsumer.TryCreateChannel() in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.RabbitMQ\Volo\Abp\RabbitMQ\RabbitMqMessageConsumer.cs:line 142
+2019-05-29 22:58:47.072 +08:00 [FTL] Application startup exception
+RabbitMQ.Client.Exceptions.BrokerUnreachableException: None of the specified endpoints were reachable ---> System.AggregateException: One or more errors occurred. (Connection failed) ---> RabbitMQ.Client.Exceptions.ConnectFailureException: Connection failed ---> System.Net.Internals.SocketExceptionFactory+ExtendedSocketException: No connection could be made because the target machine actively refused it 127.0.0.1:5672
+   at System.Net.Sockets.Socket.EndConnect(IAsyncResult asyncResult)
+   at System.Net.Sockets.Socket.<>c.<ConnectAsync>b__272_0(IAsyncResult iar)
+--- End of stack trace from previous location where exception was thrown ---
+   at RabbitMQ.Client.TcpClientAdapter.ConnectAsync(String host, Int32 port)
+   at RabbitMQ.Client.Impl.TaskExtensions.TimeoutAfter(Task task, Int32 millisecondsTimeout)
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectOrFail(ITcpClient socket, AmqpTcpEndpoint endpoint, Int32 timeout)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.Impl.SocketFrameHandler.ConnectUsingAddressFamily(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 timeout, AddressFamily family)
+   at RabbitMQ.Client.Impl.SocketFrameHandler..ctor(AmqpTcpEndpoint endpoint, Func`2 socketFactory, Int32 connectionTimeout, Int32 readTimeout, Int32 writeTimeout)
+   at RabbitMQ.Client.ConnectionFactory.CreateFrameHandler(AmqpTcpEndpoint endpoint)
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.EndpointResolverExtensions.SelectOne[T](IEndpointResolver resolver, Func`2 selector)
+   at RabbitMQ.Client.Framing.Impl.AutorecoveringConnection.Init(IEndpointResolver endpoints)
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   --- End of inner exception stack trace ---
+   at RabbitMQ.Client.ConnectionFactory.CreateConnection(IEndpointResolver endpointResolver, String clientProvidedName)
+   at Volo.Abp.RabbitMQ.ConnectionPool.<>c__DisplayClass8_0.<Get>b__0() in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.RabbitMQ\Volo\Abp\RabbitMQ\ConnectionPool.cs:line 30
+   at System.Collections.Generic.AbpDictionaryExtensions.<>c__DisplayClass6_0`2.<GetOrAdd>b__0(TKey k) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\System\Collections\Generic\AbpDictionaryExtensions.cs:line 115
+   at System.Collections.Generic.AbpDictionaryExtensions.GetOrAdd[TKey,TValue](IDictionary`2 dictionary, TKey key, Func`2 factory) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\System\Collections\Generic\AbpDictionaryExtensions.cs:line 101
+   at System.Collections.Generic.AbpDictionaryExtensions.GetOrAdd[TKey,TValue](IDictionary`2 dictionary, TKey key, Func`1 factory) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\System\Collections\Generic\AbpDictionaryExtensions.cs:line 115
+   at Volo.Abp.RabbitMQ.ConnectionPool.Get(String connectionName) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.RabbitMQ\Volo\Abp\RabbitMQ\ConnectionPool.cs:line 28
+   at Volo.Abp.EventBus.RabbitMq.RabbitMqDistributedEventBus.PublishAsync(Type eventType, Object eventData) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.EventBus.RabbitMQ\Volo\Abp\EventBus\RabbitMq\RabbitMqDistributedEventBus.cs:line 170
+   at Volo.Abp.Domain.Entities.Events.EntityChangeEventHelper.<>c__DisplayClass26_0.<TriggerEventWithEntity>b__0() in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Ddd.Domain\Volo\Abp\Domain\Entities\Events\EntityChangeEventHelper.cs:line 200
+   at Volo.Abp.Uow.UnitOfWork.OnCompletedAsync() in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Uow\Volo\Abp\Uow\UnitOfWork.cs:line 244
+   at Volo.Abp.Uow.UnitOfWork.CompleteAsync(CancellationToken cancellationToken) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Uow\Volo\Abp\Uow\UnitOfWork.cs:line 135
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Uow\Volo\Abp\Uow\UnitOfWorkInterceptor.cs:line 47
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpInterceptorAdapter`1.ExecuteWithReturnValueAsync[T](IInvocation invocation, IInvocationProceedInfo proceedInfo) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Castle.Core\Volo\Abp\Castle\DynamicProxy\CastleAbpInterceptorAdapter.cs:line 82
+   at Volo.Abp.PermissionManagement.PermissionDataSeeder.SeedAsync(String providerName, String providerKey, IEnumerable`1 grantedPermissions, Nullable`1 tenantId) in D:\Programming\Coding\dotnet\abp\modules\permission-management\src\Volo.Abp.PermissionManagement.Domain\Volo\Abp\PermissionManagement\PermissionDataSeeder.cs:line 35
+   at Volo.Abp.Data.DataSeeder.SeedAsync(DataSeedContext context) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Data\Volo\Abp\Data\DataSeeder.cs:line 32
+   at AuthServer.Host.AuthServerHostModule.<>c__DisplayClass1_0.<<OnApplicationInitialization>b__0>d.MoveNext() in D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\AuthServerHostModule.cs:line 96
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+--- End of stack trace from previous location where exception was thrown ---
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Volo.Abp.Threading.AsyncHelper.RunSync(Func`1 action) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Volo\Abp\Threading\AsyncHelper.cs:line 69
+   at AuthServer.Host.AuthServerHostModule.OnApplicationInitialization(ApplicationInitializationContext context) in D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\AuthServerHostModule.cs:line 92
+   at Volo.Abp.Modularity.OnApplicationInitializationModuleLifecycleContributor.Initialize(ApplicationInitializationContext context, IAbpModule module) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Volo\Abp\Modularity\DefaultModuleLifecycleContributor.cs:line 7
+   at Volo.Abp.Modularity.ModuleManager.InitializeModules(ApplicationInitializationContext context) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Volo\Abp\Modularity\ModuleManager.cs:line 41
+   at Volo.Abp.AbpApplicationBase.InitializeModules() in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationBase.cs:line 72
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider.Initialize(IServiceProvider serviceProvider) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationWithExternalServiceProvider.cs:line 27
+   at Microsoft.AspNetCore.Builder.AbpApplicationBuilderExtensions.InitializeApplication(IApplicationBuilder app) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.AspNetCore\Microsoft\AspNetCore\Builder\AbpApplicationBuilderExtensions.cs:line 28
+   at AuthServer.Host.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\Startup.cs:line 24
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Mvc.Internal.MiddlewareFilterBuilderStartupFilter.<>c__DisplayClass0_0.<Configure>g__MiddlewareFilterBuilder|0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISSetupFilter.<>c__DisplayClass4_0.<Configure>b__0(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.AutoRequestServicesStartupFilter.<>c__DisplayClass0_0.<Configure>b__0(IApplicationBuilder builder)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2019-05-29 22:58:47.322 +08:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:29001/iisintegration  0
+2019-05-29 22:58:47.322 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 22:58:47.342 +08:00 [ERR] Connection id "0HLN48OJFV60J", Request id "0HLN48OJFV60J:00000001": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: values
+   at System.String.Join(String separator, IEnumerable`1 values)
+   at Microsoft.Extensions.RazorViews.BaseView.EndWriteAttribute()
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-05-29 22:58:47.346 +08:00 [INF] Request finished in 24.3302ms 500 text/html; charset=utf-8
+2019-05-29 22:58:47.371 +08:00 [ERR] Connection id "0HLN48OJFV60K", Request id "0HLN48OJFV60K:00000001": An unhandled exception was thrown by the application.
+System.ObjectDisposedException: Cannot write to the response body, the response has completed.
+Object name: 'HttpResponseStream'.
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.<ValidateState>g__ThrowObjectDisposedException|24_0()
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamWriter.Flush(Boolean flushStream, Boolean flushEncoder)
+   at System.IO.StreamWriter.Write(String value)
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-05-29 22:58:47.374 +08:00 [INF] Request finished in 53.1925ms 500 
+2019-05-29 22:58:53.239 +08:00 [INF] Starting AuthServer.Host.
+2019-05-29 22:58:53.943 +08:00 [FTL] Application startup exception
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImpl(Object configuration, TextWriter log) in C:\projects\stackexchange-redis\src\StackExchange.Redis\ConnectionMultiplexer.cs:line 935
+   at AuthServer.Host.AuthServerHostModule.ConfigureServices(ServiceConfigurationContext context) in D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\AuthServerHostModule.cs:line 75
+   at Volo.Abp.Modularity.ModuleLoader.ConfigureServices(List`1 modules, IServiceCollection services) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Volo\Abp\Modularity\ModuleLoader.cs:line 122
+   at Volo.Abp.Modularity.ModuleLoader.LoadModules(IServiceCollection services, Type startupModuleType, PlugInSourceList plugInSources) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Volo\Abp\Modularity\ModuleLoader.cs:line 23
+   at Volo.Abp.AbpApplicationBase.LoadModules(IServiceCollection services, AbpApplicationCreationOptions options) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationBase.cs:line 80
+   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationBase.cs:line 44
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationWithExternalServiceProvider.cs:line 13
+   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationFactory.cs:line 37
+   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationFactory.cs:line 29
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Microsoft\Extensions\DependencyInjection\ServiceCollectionApplicationExtensions.cs:line 15
+   at AuthServer.Host.Startup.ConfigureServices(IServiceCollection services) in D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\Startup.cs:line 14
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.ConfigureServices(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.EnsureApplicationServices()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Initialize()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2019-05-29 22:58:54.207 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 22:58:54.222 +08:00 [INF] Request finished in 15.6604ms 500 text/html; charset=utf-8
+2019-05-29 22:59:35.093 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 22:59:35.099 +08:00 [INF] Request finished in 5.2646ms 500 text/html; charset=utf-8
+2019-05-29 22:59:35.538 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 22:59:35.545 +08:00 [INF] Request finished in 6.6261ms 500 text/html; charset=utf-8
+2019-05-29 23:00:10.677 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:00:10.681 +08:00 [INF] Request finished in 3.7938ms 500 text/html; charset=utf-8
+2019-05-29 23:00:11.048 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:00:11.053 +08:00 [INF] Request finished in 4.197ms 500 text/html; charset=utf-8
+2019-05-29 23:00:11.606 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:00:11.611 +08:00 [INF] Request finished in 5.2023ms 500 text/html; charset=utf-8
+2019-05-29 23:00:11.842 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:00:11.846 +08:00 [INF] Request finished in 3.9434ms 500 text/html; charset=utf-8
+2019-05-29 23:00:12.172 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:00:12.176 +08:00 [INF] Request finished in 3.925ms 500 text/html; charset=utf-8
+2019-05-29 23:00:12.413 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:00:12.419 +08:00 [INF] Request finished in 5.2692ms 500 text/html; charset=utf-8
+2019-05-29 23:00:26.985 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:00:26.989 +08:00 [INF] Request finished in 3.9366ms 500 text/html; charset=utf-8
+2019-05-29 23:00:27.206 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:00:27.212 +08:00 [INF] Request finished in 5.3704ms 500 text/html; charset=utf-8
+2019-05-29 23:00:27.915 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:00:27.921 +08:00 [INF] Request finished in 6.0146ms 500 text/html; charset=utf-8
+2019-05-29 23:00:28.153 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:00:28.159 +08:00 [INF] Request finished in 5.708ms 500 text/html; charset=utf-8
+2019-05-29 23:00:28.510 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:00:28.514 +08:00 [INF] Request finished in 4.0729ms 500 text/html; charset=utf-8
+2019-05-29 23:00:28.749 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:00:28.756 +08:00 [INF] Request finished in 6.4694ms 500 text/html; charset=utf-8
+2019-05-29 23:00:29.219 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:00:29.225 +08:00 [INF] Request finished in 5.8033ms 500 text/html; charset=utf-8
+2019-05-29 23:00:29.441 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:00:29.444 +08:00 [INF] Request finished in 3.6916ms 500 text/html; charset=utf-8
+2019-05-29 23:00:29.504 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:00:29.511 +08:00 [INF] Request finished in 6.4753ms 500 text/html; charset=utf-8
+2019-05-29 23:00:29.707 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:00:29.711 +08:00 [INF] Request finished in 4.3325ms 500 text/html; charset=utf-8
+2019-05-29 23:00:29.786 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:00:29.792 +08:00 [INF] Request finished in 6.2628ms 500 text/html; charset=utf-8
+2019-05-29 23:00:30.009 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:00:30.014 +08:00 [INF] Request finished in 5.4688ms 500 text/html; charset=utf-8
+2019-05-29 23:00:55.527 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:00:55.533 +08:00 [INF] Request finished in 5.7382ms 500 text/html; charset=utf-8
+2019-05-29 23:00:55.738 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:00:55.742 +08:00 [INF] Request finished in 3.572ms 500 text/html; charset=utf-8
+2019-05-29 23:00:56.299 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:00:56.303 +08:00 [INF] Request finished in 4.4092ms 500 text/html; charset=utf-8
+2019-05-29 23:00:56.505 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:00:56.509 +08:00 [INF] Request finished in 3.6891ms 500 text/html; charset=utf-8
+2019-05-29 23:00:56.527 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:00:56.534 +08:00 [INF] Request finished in 6.4632ms 500 text/html; charset=utf-8
+2019-05-29 23:00:56.744 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:00:56.753 +08:00 [INF] Request finished in 9.1117ms 500 text/html; charset=utf-8
+2019-05-29 23:00:56.773 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:00:56.778 +08:00 [INF] Request finished in 4.8321ms 500 text/html; charset=utf-8
+2019-05-29 23:00:57.000 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:00:57.008 +08:00 [INF] Request finished in 7.9749ms 500 text/html; charset=utf-8
+2019-05-29 23:00:57.138 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:00:57.141 +08:00 [INF] Request finished in 3.478ms 500 text/html; charset=utf-8
+2019-05-29 23:00:57.375 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:00:57.379 +08:00 [INF] Request finished in 4.1097ms 500 text/html; charset=utf-8
+2019-05-29 23:00:57.517 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:00:57.521 +08:00 [INF] Request finished in 3.8201ms 500 text/html; charset=utf-8
+2019-05-29 23:00:57.744 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:00:57.754 +08:00 [INF] Request finished in 10.0755ms 500 text/html; charset=utf-8
+2019-05-29 23:00:57.866 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:00:57.870 +08:00 [INF] Request finished in 3.7334ms 500 text/html; charset=utf-8
+2019-05-29 23:00:58.095 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:00:58.106 +08:00 [INF] Request finished in 11.165ms 500 text/html; charset=utf-8
+2019-05-29 23:05:21.974 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:21.978 +08:00 [INF] Request finished in 3.8302ms 500 text/html; charset=utf-8
+2019-05-29 23:05:22.347 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:22.351 +08:00 [INF] Request finished in 4.1669ms 500 text/html; charset=utf-8
+2019-05-29 23:05:23.251 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:23.255 +08:00 [INF] Request finished in 3.7147ms 500 text/html; charset=utf-8
+2019-05-29 23:05:23.474 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:23.479 +08:00 [INF] Request finished in 5.073ms 500 text/html; charset=utf-8
+2019-05-29 23:05:23.901 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:23.905 +08:00 [INF] Request finished in 3.6561ms 500 text/html; charset=utf-8
+2019-05-29 23:05:24.107 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:24.111 +08:00 [INF] Request finished in 3.718ms 500 text/html; charset=utf-8
+2019-05-29 23:05:24.198 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:24.202 +08:00 [INF] Request finished in 3.497ms 500 text/html; charset=utf-8
+2019-05-29 23:05:24.392 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:24.399 +08:00 [INF] Request finished in 7.0571ms 500 text/html; charset=utf-8
+2019-05-29 23:05:24.562 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:24.569 +08:00 [INF] Request finished in 6.5546ms 500 text/html; charset=utf-8
+2019-05-29 23:05:24.749 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:24.755 +08:00 [INF] Request finished in 6.1835ms 500 text/html; charset=utf-8
+2019-05-29 23:05:25.047 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:25.051 +08:00 [INF] Request finished in 4.1011ms 500 text/html; charset=utf-8
+2019-05-29 23:05:25.227 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:25.234 +08:00 [INF] Request finished in 6.5396ms 500 text/html; charset=utf-8
+2019-05-29 23:05:25.347 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:25.350 +08:00 [INF] Request finished in 3.5089ms 500 text/html; charset=utf-8
+2019-05-29 23:05:25.547 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:25.555 +08:00 [INF] Request finished in 8.2332ms 500 text/html; charset=utf-8
+2019-05-29 23:05:25.602 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:25.606 +08:00 [INF] Request finished in 3.9971ms 500 text/html; charset=utf-8
+2019-05-29 23:05:25.822 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:25.827 +08:00 [INF] Request finished in 4.303ms 500 text/html; charset=utf-8
+2019-05-29 23:05:25.887 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:25.891 +08:00 [INF] Request finished in 4.0762ms 500 text/html; charset=utf-8
+2019-05-29 23:05:26.077 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:26.082 +08:00 [INF] Request finished in 5.2415ms 500 text/html; charset=utf-8
+2019-05-29 23:05:26.156 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:26.159 +08:00 [INF] Request finished in 3.5657ms 500 text/html; charset=utf-8
+2019-05-29 23:05:26.344 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:26.349 +08:00 [INF] Request finished in 5.2648ms 500 text/html; charset=utf-8
+2019-05-29 23:05:26.448 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:26.453 +08:00 [INF] Request finished in 5.2033ms 500 text/html; charset=utf-8
+2019-05-29 23:05:26.640 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:26.644 +08:00 [INF] Request finished in 4.249ms 500 text/html; charset=utf-8
+2019-05-29 23:05:26.744 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:26.753 +08:00 [INF] Request finished in 8.8895ms 500 text/html; charset=utf-8
+2019-05-29 23:05:26.959 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:26.967 +08:00 [INF] Request finished in 7.1369ms 500 text/html; charset=utf-8
+2019-05-29 23:05:27.155 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:27.158 +08:00 [INF] Request finished in 3.4504ms 500 text/html; charset=utf-8
+2019-05-29 23:05:27.380 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:27.389 +08:00 [INF] Request finished in 9.1057ms 500 text/html; charset=utf-8
+2019-05-29 23:05:27.577 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:27.584 +08:00 [INF] Request finished in 7.1426ms 500 text/html; charset=utf-8
+2019-05-29 23:05:27.841 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:27.854 +08:00 [INF] Request finished in 13.1781ms 500 text/html; charset=utf-8
+2019-05-29 23:05:28.043 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:28.049 +08:00 [INF] Request finished in 5.9754ms 500 text/html; charset=utf-8
+2019-05-29 23:05:28.283 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:28.289 +08:00 [INF] Request finished in 5.8499ms 500 text/html; charset=utf-8
+2019-05-29 23:05:28.508 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:28.514 +08:00 [INF] Request finished in 5.5156ms 500 text/html; charset=utf-8
+2019-05-29 23:05:28.756 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:28.761 +08:00 [INF] Request finished in 4.7063ms 500 text/html; charset=utf-8
+2019-05-29 23:05:28.956 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:28.959 +08:00 [INF] Request finished in 3.5369ms 500 text/html; charset=utf-8
+2019-05-29 23:05:29.174 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:29.178 +08:00 [INF] Request finished in 4.6409ms 500 text/html; charset=utf-8
+2019-05-29 23:05:33.790 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:33.796 +08:00 [INF] Request finished in 5.1851ms 500 text/html; charset=utf-8
+2019-05-29 23:05:34.009 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:34.017 +08:00 [INF] Request finished in 7.5848ms 500 text/html; charset=utf-8
+2019-05-29 23:05:34.537 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:34.540 +08:00 [INF] Request finished in 3.3174ms 500 text/html; charset=utf-8
+2019-05-29 23:05:34.723 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:34.728 +08:00 [INF] Request finished in 4.7491ms 500 text/html; charset=utf-8
+2019-05-29 23:05:35.010 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:35.015 +08:00 [INF] Request finished in 5.0806ms 500 text/html; charset=utf-8
+2019-05-29 23:05:35.201 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:35.206 +08:00 [INF] Request finished in 5.3674ms 500 text/html; charset=utf-8
+2019-05-29 23:05:35.225 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:35.232 +08:00 [INF] Request finished in 6.4733ms 500 text/html; charset=utf-8
+2019-05-29 23:05:35.455 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:35.459 +08:00 [INF] Request finished in 3.8626ms 500 text/html; charset=utf-8
+2019-05-29 23:05:43.304 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:43.308 +08:00 [INF] Request finished in 3.9046ms 500 text/html; charset=utf-8
+2019-05-29 23:05:43.722 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:43.732 +08:00 [INF] Request finished in 10.3782ms 500 text/html; charset=utf-8
+2019-05-29 23:05:55.219 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:55.223 +08:00 [INF] Request finished in 4.0908ms 500 text/html; charset=utf-8
+2019-05-29 23:05:55.600 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:55.604 +08:00 [INF] Request finished in 3.3729ms 500 text/html; charset=utf-8
+2019-05-29 23:05:55.970 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:05:55.975 +08:00 [INF] Request finished in 4.1444ms 500 text/html; charset=utf-8
+2019-05-29 23:05:56.219 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:05:56.223 +08:00 [INF] Request finished in 3.7906ms 500 text/html; charset=utf-8
+2019-05-29 23:08:32.482 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:08:32.486 +08:00 [INF] Request finished in 4.2284ms 500 text/html; charset=utf-8
+2019-05-29 23:08:32.864 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:08:32.868 +08:00 [INF] Request finished in 4.084ms 500 text/html; charset=utf-8
+2019-05-29 23:08:33.207 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:08:33.213 +08:00 [INF] Request finished in 5.4832ms 500 text/html; charset=utf-8
+2019-05-29 23:08:33.431 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:08:33.435 +08:00 [INF] Request finished in 4.1448ms 500 text/html; charset=utf-8
+2019-05-29 23:08:33.534 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:08:33.541 +08:00 [INF] Request finished in 6.8324ms 500 text/html; charset=utf-8
+2019-05-29 23:08:33.785 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:08:33.793 +08:00 [INF] Request finished in 7.9333ms 500 text/html; charset=utf-8
+2019-05-29 23:08:33.875 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:08:33.882 +08:00 [INF] Request finished in 6.9959ms 500 text/html; charset=utf-8
+2019-05-29 23:08:34.079 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:08:34.082 +08:00 [INF] Request finished in 3.3612ms 500 text/html; charset=utf-8
+2019-05-29 23:08:47.542 +08:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:11448/iisintegration  0
+2019-05-29 23:09:03.222 +08:00 [INF] Starting AuthServer.Host.
+2019-05-29 23:09:05.188 +08:00 [INF] Creating key "0bf079da-d506-46b2-ba1e-3decb396e9d5" with creation date "2019-05-29T15:09:05.1804858+00:00", activation date "2019-05-29T15:09:05.1590425+00:00", and expiration date "2019-08-27T15:09:05.1590425+00:00".
+2019-05-29 23:09:05.199 +08:00 [WRN] No XML encryptor configured. Key "0bf079da-d506-46b2-ba1e-3decb396e9d5" may be persisted to storage in unencrypted form.
+2019-05-29 23:09:05.244 +08:00 [INF] Loaded ABP modules:
+2019-05-29 23:09:05.244 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 23:09:05.244 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 23:09:05.244 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-05-29 23:09:05.245 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.IdentityServer.AbpIdentityServerDomainModule
+2019-05-29 23:09:05.246 +08:00 [INF] - Volo.Abp.IdentityServer.EntityFrameworkCore.AbpIdentityServerEntityFrameworkCoreModule
+2019-05-29 23:09:05.247 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2019-05-29 23:09:05.247 +08:00 [INF] - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2019-05-29 23:09:05.247 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 23:09:05.247 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 23:09:05.247 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 23:09:05.247 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 23:09:05.247 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 23:09:05.247 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 23:09:05.247 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2019-05-29 23:09:05.247 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2019-05-29 23:09:05.247 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2019-05-29 23:09:05.247 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2019-05-29 23:09:05.247 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2019-05-29 23:09:05.247 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2019-05-29 23:09:05.247 +08:00 [INF] - Volo.Abp.Account.Web.AbpAccountWebModule
+2019-05-29 23:09:05.247 +08:00 [INF] - Volo.Abp.Account.Web.AbpAccountWebIdentityServerModule
+2019-05-29 23:09:05.247 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2019-05-29 23:09:05.247 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2019-05-29 23:09:05.247 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.AbpAspNetCoreMvcUiBasicThemeModule
+2019-05-29 23:09:05.247 +08:00 [INF] - AuthServer.Host.AuthServerHostModule
+2019-05-29 23:09:05.304 +08:00 [DBG] No class found with auto mapping attributes.
+2019-05-29 23:09:06.031 +08:00 [DBG] Using Identity.Application as default scheme for authentication
+2019-05-29 23:09:06.031 +08:00 [DBG] Using Identity.External as default scheme for sign-in
+2019-05-29 23:09:06.031 +08:00 [DBG] Using Identity.External as default scheme for sign-out
+2019-05-29 23:09:06.031 +08:00 [DBG] Using Identity.Application as default scheme for challenge
+2019-05-29 23:09:06.032 +08:00 [DBG] Using Identity.Application as default scheme for forbid
+2019-05-29 23:09:10.463 +08:00 [INF] Initialized all ABP modules.
+2019-05-29 23:09:10.588 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:09:13.089 +08:00 [INF] Route matched with {page = "/Index", controller = "", area = "", action = ""}. Executing page /Index
+2019-05-29 23:09:13.103 +08:00 [INF] Executing handler method AuthServer.Host.Pages.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-05-29 23:09:13.103 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-05-29 23:09:13.105 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-05-29 23:09:13.105 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-05-29 23:09:13.535 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 9.76 ms.
+2019-05-29 23:09:14.586 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 2.98 ms.
+2019-05-29 23:09:14.599 +08:00 [INF] Executed page /Index in 1507.9533000000001ms
+2019-05-29 23:09:14.610 +08:00 [INF] Request finished in 4021.739ms 200 text/html; charset=utf-8
+2019-05-29 23:09:14.631 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/font-awesome/css/font-awesome.css?_v=636941025967607222  
+2019-05-29 23:09:14.631 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/bootstrap/css/bootstrap.css?_v=636941025967437172  
+2019-05-29 23:09:14.645 +08:00 [INF] Sending file. Request path: '/libs/font-awesome/css/font-awesome.css'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\libs\font-awesome\css\font-awesome.css'
+2019-05-29 23:09:14.647 +08:00 [INF] Request finished in 16.4647ms 200 text/css
+2019-05-29 23:09:14.652 +08:00 [INF] Sending file. Request path: '/libs/bootstrap/css/bootstrap.css'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\libs\bootstrap\css\bootstrap.css'
+2019-05-29 23:09:14.652 +08:00 [INF] Request finished in 21.5626ms 200 text/css
+2019-05-29 23:09:14.727 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/toastr/toastr.min.css?_v=636941025970097170  
+2019-05-29 23:09:14.728 +08:00 [INF] Sending file. Request path: '/libs/toastr/toastr.min.css'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\libs\toastr\toastr.min.css'
+2019-05-29 23:09:14.728 +08:00 [INF] Request finished in 0.9178ms 200 text/css
+2019-05-29 23:09:14.743 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/select2/css/select2.min.css?_v=636941025969027160  
+2019-05-29 23:09:14.744 +08:00 [INF] Sending file. Request path: '/libs/select2/css/select2.min.css'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\libs\select2\css\select2.min.css'
+2019-05-29 23:09:14.744 +08:00 [INF] Request finished in 0.9216ms 200 text/css
+2019-05-29 23:09:14.744 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/datatables.net-bs4/css/dataTables.bootstrap4.css?_v=636941025967507166  
+2019-05-29 23:09:14.745 +08:00 [INF] Sending file. Request path: '/libs/datatables.net-bs4/css/dataTables.bootstrap4.css'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\libs\datatables.net-bs4\css\dataTables.bootstrap4.css'
+2019-05-29 23:09:14.745 +08:00 [INF] Request finished in 0.766ms 200 text/css
+2019-05-29 23:09:14.749 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/abp/aspnetcore-mvc-ui-theme-shared/datatables/datatables-styles.css?_v=636946449502141871  
+2019-05-29 23:09:14.751 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/datatables/datatables-styles.css'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/datatables/datatables-styles.css'
+2019-05-29 23:09:14.752 +08:00 [INF] Request finished in 3.078ms 200 text/css
+2019-05-29 23:09:14.760 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/themes/basic/layout.css?_v=636946449566876903  
+2019-05-29 23:09:14.761 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/abp/core/abp.js?_v=636941025967377223  
+2019-05-29 23:09:14.761 +08:00 [INF] Sending file. Request path: '/themes/basic/layout.css'. Physical path: '/wwwroot/themes/basic/layout.css'
+2019-05-29 23:09:14.761 +08:00 [INF] Request finished in 0.5616ms 200 text/css
+2019-05-29 23:09:14.761 +08:00 [INF] Sending file. Request path: '/libs/abp/core/abp.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\libs\abp\core\abp.js'
+2019-05-29 23:09:14.761 +08:00 [INF] Request finished in 0.6816ms 200 application/javascript
+2019-05-29 23:09:14.762 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/jquery/jquery.js?_v=636941025968987141  
+2019-05-29 23:09:14.764 +08:00 [INF] Sending file. Request path: '/libs/jquery/jquery.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\libs\jquery\jquery.js'
+2019-05-29 23:09:14.764 +08:00 [INF] Request finished in 2.2562ms 200 application/javascript
+2019-05-29 23:09:14.778 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/abp/jquery/abp.jquery.js?_v=636941025967397520  
+2019-05-29 23:09:14.779 +08:00 [INF] Sending file. Request path: '/libs/abp/jquery/abp.jquery.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\libs\abp\jquery\abp.jquery.js'
+2019-05-29 23:09:14.779 +08:00 [INF] Request finished in 0.8068ms 200 application/javascript
+2019-05-29 23:09:14.779 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/bootstrap/js/bootstrap.bundle.js?_v=636941025967467249  
+2019-05-29 23:09:14.781 +08:00 [INF] Sending file. Request path: '/libs/bootstrap/js/bootstrap.bundle.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\libs\bootstrap\js\bootstrap.bundle.js'
+2019-05-29 23:09:14.781 +08:00 [INF] Request finished in 2.02ms 200 application/javascript
+2019-05-29 23:09:14.794 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/lodash/lodash.min.js?_v=636941025969007153  
+2019-05-29 23:09:14.795 +08:00 [INF] Sending file. Request path: '/libs/lodash/lodash.min.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\libs\lodash\lodash.min.js'
+2019-05-29 23:09:14.796 +08:00 [INF] Request finished in 1.2537ms 200 application/javascript
+2019-05-29 23:09:14.808 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/jquery-validation/jquery.validate.js?_v=636941025967827171  
+2019-05-29 23:09:14.809 +08:00 [INF] Sending file. Request path: '/libs/jquery-validation/jquery.validate.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\libs\jquery-validation\jquery.validate.js'
+2019-05-29 23:09:14.809 +08:00 [INF] Request finished in 0.9847ms 200 application/javascript
+2019-05-29 23:09:14.828 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js?_v=636941025967807178  
+2019-05-29 23:09:14.829 +08:00 [INF] Sending file. Request path: '/libs/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\libs\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js'
+2019-05-29 23:09:14.829 +08:00 [INF] Request finished in 1.0729ms 200 application/javascript
+2019-05-29 23:09:14.837 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/jquery-form/jquery.form.min.js?_v=636941025967787221  
+2019-05-29 23:09:14.837 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/select2/js/select2.min.js?_v=636941025969497143  
+2019-05-29 23:09:14.838 +08:00 [INF] Sending file. Request path: '/libs/jquery-form/jquery.form.min.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\libs\jquery-form\jquery.form.min.js'
+2019-05-29 23:09:14.838 +08:00 [INF] Request finished in 1.182ms 200 application/javascript
+2019-05-29 23:09:14.839 +08:00 [INF] Sending file. Request path: '/libs/select2/js/select2.min.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\libs\select2\js\select2.min.js'
+2019-05-29 23:09:14.839 +08:00 [INF] Request finished in 1.4137ms 200 application/javascript
+2019-05-29 23:09:14.844 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/datatables.net/js/jquery.dataTables.js?_v=636941025967577289  
+2019-05-29 23:09:14.848 +08:00 [INF] Sending file. Request path: '/libs/datatables.net/js/jquery.dataTables.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\libs\datatables.net\js\jquery.dataTables.js'
+2019-05-29 23:09:14.848 +08:00 [INF] Request finished in 3.5588ms 200 application/javascript
+2019-05-29 23:09:14.859 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/datatables.net-bs4/js/dataTables.bootstrap4.js?_v=636941025967527238  
+2019-05-29 23:09:14.860 +08:00 [INF] Sending file. Request path: '/libs/datatables.net-bs4/js/dataTables.bootstrap4.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\libs\datatables.net-bs4\js\dataTables.bootstrap4.js'
+2019-05-29 23:09:14.860 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/sweetalert/sweetalert.min.js?_v=636941025969507145  
+2019-05-29 23:09:14.860 +08:00 [INF] Request finished in 1.1642ms 200 application/javascript
+2019-05-29 23:09:14.861 +08:00 [INF] Sending file. Request path: '/libs/sweetalert/sweetalert.min.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\libs\sweetalert\sweetalert.min.js'
+2019-05-29 23:09:14.861 +08:00 [INF] Request finished in 0.9026ms 200 application/javascript
+2019-05-29 23:09:14.881 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/toastr/toastr.min.js?_v=636941025970107146  
+2019-05-29 23:09:14.882 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/timeago/jquery.timeago.js?_v=636941025969517152  
+2019-05-29 23:09:14.883 +08:00 [INF] Sending file. Request path: '/libs/timeago/jquery.timeago.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\libs\timeago\jquery.timeago.js'
+2019-05-29 23:09:14.883 +08:00 [INF] Sending file. Request path: '/libs/toastr/toastr.min.js'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\libs\toastr\toastr.min.js'
+2019-05-29 23:09:14.883 +08:00 [INF] Request finished in 1.5186ms 200 application/javascript
+2019-05-29 23:09:14.883 +08:00 [INF] Request finished in 1.7058ms 200 application/javascript
+2019-05-29 23:09:14.905 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery/jquery-extensions.js?_v=636946449502141871  
+2019-05-29 23:09:14.905 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery-form/jquery-form-extensions.js?_v=636946449502141871  
+2019-05-29 23:09:14.905 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery/jquery-extensions.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/jquery/jquery-extensions.js'
+2019-05-29 23:09:14.905 +08:00 [INF] Request finished in 0.6653ms 200 application/javascript
+2019-05-29 23:09:14.905 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/jquery-form/jquery-form-extensions.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/jquery_form/jquery-form-extensions.js'
+2019-05-29 23:09:14.906 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/abp/aspnetcore-mvc-ui-theme-shared/bootstrap/dom-event-handlers.js?_v=636946449502141871  
+2019-05-29 23:09:14.906 +08:00 [INF] Request finished in 0.5213ms 200 application/javascript
+2019-05-29 23:09:14.906 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/bootstrap/dom-event-handlers.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/bootstrap/dom-event-handlers.js'
+2019-05-29 23:09:14.906 +08:00 [INF] Request finished in 0.927ms 200 application/javascript
+2019-05-29 23:09:14.925 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/abp/aspnetcore-mvc-ui-theme-shared/bootstrap/modal-manager.js?_v=636946449502141871  
+2019-05-29 23:09:14.925 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/abp/aspnetcore-mvc-ui-theme-shared/datatables/datatables-extensions.js?_v=636946449502141871  
+2019-05-29 23:09:14.925 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/bootstrap/modal-manager.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/bootstrap/modal-manager.js'
+2019-05-29 23:09:14.925 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/datatables/datatables-extensions.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/datatables/datatables-extensions.js'
+2019-05-29 23:09:14.925 +08:00 [INF] Request finished in 0.6338ms 200 application/javascript
+2019-05-29 23:09:14.925 +08:00 [INF] Request finished in 0.4365ms 200 application/javascript
+2019-05-29 23:09:14.925 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/abp/aspnetcore-mvc-ui-theme-shared/sweetalert/abp-sweetalert.js?_v=636946449502141871  
+2019-05-29 23:09:14.926 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/sweetalert/abp-sweetalert.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/sweetalert/abp-sweetalert.js'
+2019-05-29 23:09:14.926 +08:00 [INF] Request finished in 0.4903ms 200 application/javascript
+2019-05-29 23:09:14.944 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/abp/aspnetcore-mvc-ui-theme-shared/toastr/abp-toastr.js?_v=636946449502141871  
+2019-05-29 23:09:14.945 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/Pages/Abp/MultiTenancy/tenant-switch.js?_v=636946449533635718  
+2019-05-29 23:09:14.945 +08:00 [INF] Sending file. Request path: '/libs/abp/aspnetcore-mvc-ui-theme-shared/toastr/abp-toastr.js'. Physical path: '/wwwroot/libs/abp/aspnetcore_mvc_ui_theme_shared/toastr/abp-toastr.js'
+2019-05-29 23:09:14.945 +08:00 [INF] Request finished in 1.1108ms 200 application/javascript
+2019-05-29 23:09:14.945 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/themes/basic/layout.js?_v=636946449566876903  
+2019-05-29 23:09:14.945 +08:00 [INF] Sending file. Request path: '/Pages/Abp/MultiTenancy/tenant-switch.js'. Physical path: '/Pages/Abp/MultiTenancy/tenant-switch.js'
+2019-05-29 23:09:14.946 +08:00 [INF] Request finished in 0.8731ms 200 application/javascript
+2019-05-29 23:09:14.946 +08:00 [INF] Sending file. Request path: '/themes/basic/layout.js'. Physical path: '/wwwroot/themes/basic/layout.js'
+2019-05-29 23:09:14.946 +08:00 [INF] Request finished in 0.5176ms 200 application/javascript
+2019-05-29 23:09:14.960 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/Abp/ApplicationConfigurationScript  
+2019-05-29 23:09:14.961 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/Abp/ServiceProxyScript  
+2019-05-29 23:09:14.961 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/images/anonymous-user.png  
+2019-05-29 23:09:14.963 +08:00 [INF] The file /images/anonymous-user.png was not modified
+2019-05-29 23:09:14.966 +08:00 [INF] Request finished in 4.4985ms 304 image/png
+2019-05-29 23:09:14.973 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:09:14.984 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:09:15.031 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:09:15.032 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-05-29 23:09:15.064 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.LoginByLogin
+2019-05-29 23:09:15.070 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:15.070 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:15.070 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:15.070 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:15.071 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:15.071 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:15.071 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:15.071 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:15.071 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:15.071 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.CheckPasswordByLogin
+2019-05-29 23:09:15.071 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:15.071 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:15.071 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2019-05-29 23:09:15.072 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.Get
+2019-05-29 23:09:15.088 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 52.1231ms.
+2019-05-29 23:09:15.092 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:09:15.093 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 108.9351ms
+2019-05-29 23:09:15.094 +08:00 [INF] Request finished in 132.9178ms 200 text/plain; charset=utf-8
+2019-05-29 23:09:15.120 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 88.93950000000001ms.
+2019-05-29 23:09:15.125 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:09:15.127 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 153.8521ms
+2019-05-29 23:09:15.258 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:09:15.258 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:09:15.261 +08:00 [INF] Request finished in 300.8978ms 200 text/plain; charset=utf-8
+2019-05-29 23:09:16.532 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/favicon.ico  
+2019-05-29 23:09:16.533 +08:00 [INF] Request finished in 1.5629ms 404 
+2019-05-29 23:09:25.295 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:09:25.296 +08:00 [INF] Route matched with {page = "/Index", controller = "", area = "", action = ""}. Executing page /Index
+2019-05-29 23:09:25.297 +08:00 [INF] Executing handler method AuthServer.Host.Pages.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-05-29 23:09:25.297 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-05-29 23:09:25.298 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-05-29 23:09:25.298 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-05-29 23:09:25.300 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.33 ms.
+2019-05-29 23:09:25.303 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.59 ms.
+2019-05-29 23:09:25.303 +08:00 [INF] Executed page /Index in 6.8915000000000006ms
+2019-05-29 23:09:25.304 +08:00 [INF] Request finished in 9.2167ms 200 text/html; charset=utf-8
+2019-05-29 23:09:25.363 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/Abp/ApplicationConfigurationScript  
+2019-05-29 23:09:25.363 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/images/anonymous-user.png  
+2019-05-29 23:09:25.366 +08:00 [INF] Sending file. Request path: '/images/anonymous-user.png'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\images\anonymous-user.png'
+2019-05-29 23:09:25.366 +08:00 [INF] Request finished in 2.9825ms 200 image/png
+2019-05-29 23:09:25.373 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:09:25.374 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:09:25.375 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:25.375 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:25.375 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:25.375 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:25.375 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:25.375 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:25.375 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:25.375 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:25.375 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:25.375 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:25.375 +08:00 [INF] Authorization failed.
+2019-05-29 23:09:25.377 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.0015ms.
+2019-05-29 23:09:25.377 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:09:25.377 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 4.6537000000000006ms
+2019-05-29 23:09:25.389 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:09:25.389 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:09:25.389 +08:00 [INF] Request finished in 25.9123ms 200 text/plain; charset=utf-8
+2019-05-29 23:09:25.426 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/Abp/ServiceProxyScript  
+2019-05-29 23:09:25.428 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:09:25.429 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-05-29 23:09:25.429 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.090900000000000009ms.
+2019-05-29 23:09:25.429 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:09:25.429 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 1.0878ms
+2019-05-29 23:09:25.429 +08:00 [INF] Request finished in 2.8742ms 200 text/plain; charset=utf-8
+2019-05-29 23:10:13.189 +08:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:37144/iisintegration  0
+2019-05-29 23:10:13.189 +08:00 [INF] Request finished in 0.284ms 202 
+2019-05-29 23:11:50.354 +08:00 [INF] Starting AuthServer.Host.
+2019-05-29 23:11:52.397 +08:00 [INF] Loaded ABP modules:
+2019-05-29 23:11:52.398 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 23:11:52.398 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 23:11:52.398 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 23:11:52.398 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 23:11:52.398 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 23:11:52.398 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 23:11:52.398 +08:00 [INF] - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2019-05-29 23:11:52.398 +08:00 [INF] - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2019-05-29 23:11:52.398 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 23:11:52.398 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 23:11:52.398 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 23:11:52.398 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 23:11:52.399 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 23:11:52.399 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 23:11:52.399 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 23:11:52.399 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 23:11:52.399 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 23:11:52.399 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 23:11:52.399 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 23:11:52.399 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 23:11:52.399 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 23:11:52.399 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-05-29 23:11:52.399 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 23:11:52.399 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 23:11:52.399 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-05-29 23:11:52.399 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-05-29 23:11:52.399 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-05-29 23:11:52.399 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-05-29 23:11:52.399 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-05-29 23:11:52.399 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-05-29 23:11:52.399 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-05-29 23:11:52.399 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.IdentityServer.AbpIdentityServerDomainModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.IdentityServer.EntityFrameworkCore.AbpIdentityServerEntityFrameworkCoreModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.Identity.AspNetCore.AbpIdentityAspNetCoreModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 23:11:52.400 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 23:11:52.401 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 23:11:52.401 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 23:11:52.401 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 23:11:52.401 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 23:11:52.401 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2019-05-29 23:11:52.401 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2019-05-29 23:11:52.401 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2019-05-29 23:11:52.401 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2019-05-29 23:11:52.401 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2019-05-29 23:11:52.401 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2019-05-29 23:11:52.401 +08:00 [INF] - Volo.Abp.Account.Web.AbpAccountWebModule
+2019-05-29 23:11:52.401 +08:00 [INF] - Volo.Abp.Account.Web.AbpAccountWebIdentityServerModule
+2019-05-29 23:11:52.401 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2019-05-29 23:11:52.401 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2019-05-29 23:11:52.401 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.AbpAspNetCoreMvcUiBasicThemeModule
+2019-05-29 23:11:52.401 +08:00 [INF] - AuthServer.Host.AuthServerHostModule
+2019-05-29 23:11:52.455 +08:00 [DBG] No class found with auto mapping attributes.
+2019-05-29 23:11:53.060 +08:00 [DBG] Using Identity.Application as default scheme for authentication
+2019-05-29 23:11:53.062 +08:00 [DBG] Using Identity.External as default scheme for sign-in
+2019-05-29 23:11:53.062 +08:00 [DBG] Using Identity.External as default scheme for sign-out
+2019-05-29 23:11:53.062 +08:00 [DBG] Using Identity.Application as default scheme for challenge
+2019-05-29 23:11:53.062 +08:00 [DBG] Using Identity.Application as default scheme for forbid
+2019-05-29 23:11:56.927 +08:00 [INF] Initialized all ABP modules.
+2019-05-29 23:11:57.036 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/.well-known/openid-configuration  
+2019-05-29 23:11:57.114 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-29 23:11:57.142 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-29 23:11:57.142 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-29 23:11:57.147 +08:00 [DBG] Start discovery request
+2019-05-29 23:11:57.383 +08:00 [INF] Request finished in 348.8503ms 200 application/json; charset=UTF-8
+2019-05-29 23:12:08.340 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/.well-known/openid-configuration  
+2019-05-29 23:12:08.340 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-29 23:12:08.357 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-29 23:12:08.357 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-29 23:12:08.357 +08:00 [DBG] Start discovery request
+2019-05-29 23:12:08.371 +08:00 [INF] Request finished in 31.5893ms 200 application/json; charset=UTF-8
+2019-05-29 23:12:08.416 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/.well-known/openid-configuration/jwks  
+2019-05-29 23:12:08.416 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-05-29 23:12:08.428 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-05-29 23:12:08.428 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-05-29 23:12:08.431 +08:00 [DBG] Start key discovery request
+2019-05-29 23:12:08.447 +08:00 [INF] Request finished in 30.6503ms 200 application/json; charset=UTF-8
+2019-05-29 23:12:08.497 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/connect/authorize?client_id=public-website-client&redirect_uri=http%3A%2F%2Flocalhost%3A53435%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20role%20email%20phone%20PublicWebSiteGateway%20ProductService%20BloggingService&response_mode=form_post&nonce=636947395284668745.MjFmZjg4MzYtYjY2OS00ZjU5LTkzMzAtZTQwNjc2N2VlOWNjMmFmNDgyZGQtMGYyZS00Nzk4LWIwZGItODcwOTI3ZjQ3ZDQw&state=CfDJ8Np58AsG1bJGuh497LOW6dUM-xvjJBcRR5y9XytxU0sVzaOOTf27fUvbdFG0Nzip0XHF1-aH8KJ7SbZTG54P0CE3B0-DlThMAkVrubhSnkBxi9h8BM4sFUdUx7cai8k8ptoHKZ8xvteZoQZ8twzIl80Gyk6qUyQkHWL1lfso31NYJKpI8svlassF-uZb1RXexwWfbt-Ff6v--Usa3HXeFcqi0QaNqCInnuxlpezukmHShP0ydkE6if6mSClUILFWYiE59jnu4ii14d5LxV5O1qiqlQEQ4FoWP1zRH_j4l6hY4I5RlUbaCi2H4vjfcnYoJ9gYJG8Vo9bgqfMkuSN4YrI&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0  
+2019-05-29 23:12:08.497 +08:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-05-29 23:12:08.523 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-05-29 23:12:08.523 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-05-29 23:12:08.526 +08:00 [DBG] Start authorize request
+2019-05-29 23:12:08.535 +08:00 [DBG] No user present in authorize request
+2019-05-29 23:12:08.539 +08:00 [DBG] Start authorize request protocol validation
+2019-05-29 23:12:08.583 +08:00 [DBG] client configuration validation for client public-website-client succeeded.
+2019-05-29 23:12:08.589 +08:00 [DBG] Checking for PKCE parameters
+2019-05-29 23:12:08.590 +08:00 [DBG] No PKCE used.
+2019-05-29 23:12:08.763 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-05-29 23:12:08.772 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "public-website-client",
+  "ClientName": "public-website-client",
+  "RedirectUri": "http://localhost:53435/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:53435/signin-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile role email phone PublicWebSiteGateway ProductService BloggingService",
+  "State": "CfDJ8Np58AsG1bJGuh497LOW6dUM-xvjJBcRR5y9XytxU0sVzaOOTf27fUvbdFG0Nzip0XHF1-aH8KJ7SbZTG54P0CE3B0-DlThMAkVrubhSnkBxi9h8BM4sFUdUx7cai8k8ptoHKZ8xvteZoQZ8twzIl80Gyk6qUyQkHWL1lfso31NYJKpI8svlassF-uZb1RXexwWfbt-Ff6v--Usa3HXeFcqi0QaNqCInnuxlpezukmHShP0ydkE6if6mSClUILFWYiE59jnu4ii14d5LxV5O1qiqlQEQ4FoWP1zRH_j4l6hY4I5RlUbaCi2H4vjfcnYoJ9gYJG8Vo9bgqfMkuSN4YrI",
+  "Nonce": "636947395284668745.MjFmZjg4MzYtYjY2OS00ZjU5LTkzMzAtZTQwNjc2N2VlOWNjMmFmNDgyZGQtMGYyZS00Nzk4LWIwZGItODcwOTI3ZjQ3ZDQw",
+  "Raw": {
+    "client_id": "public-website-client",
+    "redirect_uri": "http://localhost:53435/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile role email phone PublicWebSiteGateway ProductService BloggingService",
+    "response_mode": "form_post",
+    "nonce": "636947395284668745.MjFmZjg4MzYtYjY2OS00ZjU5LTkzMzAtZTQwNjc2N2VlOWNjMmFmNDgyZGQtMGYyZS00Nzk4LWIwZGItODcwOTI3ZjQ3ZDQw",
+    "state": "CfDJ8Np58AsG1bJGuh497LOW6dUM-xvjJBcRR5y9XytxU0sVzaOOTf27fUvbdFG0Nzip0XHF1-aH8KJ7SbZTG54P0CE3B0-DlThMAkVrubhSnkBxi9h8BM4sFUdUx7cai8k8ptoHKZ8xvteZoQZ8twzIl80Gyk6qUyQkHWL1lfso31NYJKpI8svlassF-uZb1RXexwWfbt-Ff6v--Usa3HXeFcqi0QaNqCInnuxlpezukmHShP0ydkE6if6mSClUILFWYiE59jnu4ii14d5LxV5O1qiqlQEQ4FoWP1zRH_j4l6hY4I5RlUbaCi2H4vjfcnYoJ9gYJG8Vo9bgqfMkuSN4YrI",
+    "x-client-SKU": "ID_NETSTANDARD2_0",
+    "x-client-ver": "5.3.0.0"
+  }
+}
+2019-05-29 23:12:08.780 +08:00 [INF] Showing login: User is not authenticated
+2019-05-29 23:12:08.785 +08:00 [INF] Request finished in 288.4888ms 302 
+2019-05-29 23:12:08.801 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dpublic-website-client%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A53435%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520role%2520email%2520phone%2520PublicWebSiteGateway%2520ProductService%2520BloggingService%26response_mode%3Dform_post%26nonce%3D636947395284668745.MjFmZjg4MzYtYjY2OS00ZjU5LTkzMzAtZTQwNjc2N2VlOWNjMmFmNDgyZGQtMGYyZS00Nzk4LWIwZGItODcwOTI3ZjQ3ZDQw%26state%3DCfDJ8Np58AsG1bJGuh497LOW6dUM-xvjJBcRR5y9XytxU0sVzaOOTf27fUvbdFG0Nzip0XHF1-aH8KJ7SbZTG54P0CE3B0-DlThMAkVrubhSnkBxi9h8BM4sFUdUx7cai8k8ptoHKZ8xvteZoQZ8twzIl80Gyk6qUyQkHWL1lfso31NYJKpI8svlassF-uZb1RXexwWfbt-Ff6v--Usa3HXeFcqi0QaNqCInnuxlpezukmHShP0ydkE6if6mSClUILFWYiE59jnu4ii14d5LxV5O1qiqlQEQ4FoWP1zRH_j4l6hY4I5RlUbaCi2H4vjfcnYoJ9gYJG8Vo9bgqfMkuSN4YrI%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0  
+2019-05-29 23:12:10.815 +08:00 [INF] Route matched with {page = "/Account/Login", controller = "", area = "", action = ""}. Executing page /Account/Login
+2019-05-29 23:12:10.863 +08:00 [INF] Executing handler method Volo.Abp.Account.Web.Pages.Account.LoginModel.OnGetAsync with arguments (null) - ModelState is "Valid"
+2019-05-29 23:12:10.877 +08:00 [DBG] Start authorize request protocol validation
+2019-05-29 23:12:10.887 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:10.887 +08:00 [DBG] client configuration validation for client public-website-client succeeded.
+2019-05-29 23:12:10.887 +08:00 [DBG] Checking for PKCE parameters
+2019-05-29 23:12:10.887 +08:00 [DBG] No PKCE used.
+2019-05-29 23:12:10.892 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:10.913 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:10.917 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:10.934 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:10.934 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-05-29 23:12:10.946 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:10.946 +08:00 [DBG] client configuration validation for client public-website-client succeeded.
+2019-05-29 23:12:10.949 +08:00 [INF] Executed handler method OnGetAsync, returned result .
+2019-05-29 23:12:10.950 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-05-29 23:12:10.950 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-05-29 23:12:11.118 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:11.131 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:11.695 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 8.86 ms.
+2019-05-29 23:12:12.762 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 3.72 ms.
+2019-05-29 23:12:12.773 +08:00 [INF] Executed page /Account/Login in 1956.1818ms
+2019-05-29 23:12:12.783 +08:00 [INF] Request finished in 3982.5475ms 200 text/html; charset=utf-8
+2019-05-29 23:12:12.866 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/Abp/ApplicationConfigurationScript  
+2019-05-29 23:12:12.874 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/Abp/ServiceProxyScript  
+2019-05-29 23:12:12.881 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:12:12.886 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:12:12.936 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:12:12.936 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-05-29 23:12:12.962 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.LoginByLogin
+2019-05-29 23:12:12.968 +08:00 [DBG] ActionApiDescriptionModel.Create: Account.CheckPasswordByLogin
+2019-05-29 23:12:12.969 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2019-05-29 23:12:12.969 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.Get
+2019-05-29 23:12:12.981 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:12.981 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:12.981 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:12.982 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:12.982 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:12.982 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:12.982 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:12.982 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:12.982 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:12.982 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:12.983 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:12.987 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 47.6291ms.
+2019-05-29 23:12:12.995 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:12:12.997 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 110.7621ms
+2019-05-29 23:12:12.998 +08:00 [INF] Request finished in 123.6086ms 200 text/plain; charset=utf-8
+2019-05-29 23:12:13.038 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 101.6825ms.
+2019-05-29 23:12:13.046 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:12:13.046 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 165.64430000000002ms
+2019-05-29 23:12:13.193 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:13.193 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:13.194 +08:00 [INF] Request finished in 327.7255ms 200 text/plain; charset=utf-8
+2019-05-29 23:12:37.220 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:64999/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dpublic-website-client%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A53435%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520role%2520email%2520phone%2520PublicWebSiteGateway%2520ProductService%2520BloggingService%26response_mode%3Dform_post%26nonce%3D636947395284668745.MjFmZjg4MzYtYjY2OS00ZjU5LTkzMzAtZTQwNjc2N2VlOWNjMmFmNDgyZGQtMGYyZS00Nzk4LWIwZGItODcwOTI3ZjQ3ZDQw%26state%3DCfDJ8Np58AsG1bJGuh497LOW6dUM-xvjJBcRR5y9XytxU0sVzaOOTf27fUvbdFG0Nzip0XHF1-aH8KJ7SbZTG54P0CE3B0-DlThMAkVrubhSnkBxi9h8BM4sFUdUx7cai8k8ptoHKZ8xvteZoQZ8twzIl80Gyk6qUyQkHWL1lfso31NYJKpI8svlassF-uZb1RXexwWfbt-Ff6v--Usa3HXeFcqi0QaNqCInnuxlpezukmHShP0ydkE6if6mSClUILFWYiE59jnu4ii14d5LxV5O1qiqlQEQ4FoWP1zRH_j4l6hY4I5RlUbaCi2H4vjfcnYoJ9gYJG8Vo9bgqfMkuSN4YrI%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0 application/x-www-form-urlencoded 1187
+2019-05-29 23:12:37.227 +08:00 [INF] Route matched with {page = "/Account/Login", controller = "", area = "", action = ""}. Executing page /Account/Login
+2019-05-29 23:12:37.279 +08:00 [INF] Executing handler method Volo.Abp.Account.Web.Pages.Account.LoginModel.OnPostAsync with arguments (["Login"]) - ModelState is "Valid"
+2019-05-29 23:12:37.334 +08:00 [WRN] Invalid password for user 3edd90be-60d2-8c6a-a0be-39ee16501e76.
+2019-05-29 23:12:37.335 +08:00 [WRN] User 3edd90be-60d2-8c6a-a0be-39ee16501e76 failed to provide the correct password.
+2019-05-29 23:12:37.379 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:37.379 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:37.384 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:37.395 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-05-29 23:12:37.425 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.91 ms.
+2019-05-29 23:12:37.440 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 2.27 ms.
+2019-05-29 23:12:37.442 +08:00 [INF] Executed page /Account/Login in 214.29010000000002ms
+2019-05-29 23:12:37.444 +08:00 [INF] Request finished in 223.6355ms 200 text/html; charset=utf-8
+2019-05-29 23:12:37.496 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/Abp/ApplicationConfigurationScript  
+2019-05-29 23:12:37.497 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/Abp/ServiceProxyScript  
+2019-05-29 23:12:37.501 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:12:37.501 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:12:37.502 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-05-29 23:12:37.502 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.2884ms.
+2019-05-29 23:12:37.502 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:12:37.502 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:12:37.503 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 1.8752000000000002ms
+2019-05-29 23:12:37.503 +08:00 [INF] Request finished in 6.3668ms 200 text/plain; charset=utf-8
+2019-05-29 23:12:37.503 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:37.504 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:37.504 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:37.504 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:37.504 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:37.504 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:37.504 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:37.504 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:37.504 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:37.504 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:37.505 +08:00 [INF] Authorization failed.
+2019-05-29 23:12:37.511 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.2355ms.
+2019-05-29 23:12:37.512 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:12:37.512 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 11.5404ms
+2019-05-29 23:12:37.523 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:37.523 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:37.524 +08:00 [INF] Request finished in 27.5683ms 200 text/plain; charset=utf-8
+2019-05-29 23:12:38.196 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/.well-known/openid-configuration  
+2019-05-29 23:12:38.196 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-29 23:12:38.210 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-29 23:12:38.210 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-29 23:12:38.210 +08:00 [DBG] Start discovery request
+2019-05-29 23:12:38.219 +08:00 [INF] Request finished in 23.3821ms 200 application/json; charset=UTF-8
+2019-05-29 23:12:38.235 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/.well-known/openid-configuration/jwks  
+2019-05-29 23:12:38.235 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-05-29 23:12:38.248 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-05-29 23:12:38.248 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-05-29 23:12:38.248 +08:00 [DBG] Start key discovery request
+2019-05-29 23:12:38.248 +08:00 [INF] Request finished in 13.45ms 200 application/json; charset=UTF-8
+2019-05-29 23:12:38.275 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:64999/connect/token application/x-www-form-urlencoded 67
+2019-05-29 23:12:38.276 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-05-29 23:12:38.298 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-05-29 23:12:38.298 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-05-29 23:12:38.304 +08:00 [DBG] Start token request.
+2019-05-29 23:12:38.309 +08:00 [DBG] Start client validation
+2019-05-29 23:12:38.313 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-05-29 23:12:38.314 +08:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2019-05-29 23:12:38.314 +08:00 [DBG] Secret id found: blogging-service-client
+2019-05-29 23:12:38.320 +08:00 [DBG] client configuration validation for client blogging-service-client succeeded.
+2019-05-29 23:12:38.330 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-05-29 23:12:38.330 +08:00 [DBG] Client validation success
+2019-05-29 23:12:38.346 +08:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "blogging-service-client",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLN48VUR84AJ:00000005",
+  "TimeStamp": "2019-05-29T15:12:38Z",
+  "ProcessId": 13360,
+  "LocalIpAddress": "127.0.0.1:8492",
+  "RemoteIpAddress": "::1"
+}
+2019-05-29 23:12:38.351 +08:00 [DBG] Start token request validation
+2019-05-29 23:12:38.357 +08:00 [DBG] Start client credentials token request validation
+2019-05-29 23:12:38.403 +08:00 [DBG] blogging-service-client credentials token request validation success
+2019-05-29 23:12:38.408 +08:00 [INF] Token request validation success
+{
+  "ClientId": "blogging-service-client",
+  "ClientName": "blogging-service-client",
+  "GrantType": "client_credentials",
+  "Scopes": "IdentityService InternalGateway",
+  "Raw": {
+    "grant_type": "client_credentials",
+    "scope": "InternalGateway IdentityService"
+  }
+}
+2019-05-29 23:12:38.425 +08:00 [DBG] Getting claims for access token for client: blogging-service-client
+2019-05-29 23:12:38.495 +08:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "blogging-service-client",
+  "ClientName": "blogging-service-client",
+  "Endpoint": "Token",
+  "Scopes": "IdentityService InternalGateway",
+  "GrantType": "client_credentials",
+  "Tokens": [
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****3wKg"
+    }
+  ],
+  "ActivityId": "0HLN48VUR84AJ:00000005",
+  "TimeStamp": "2019-05-29T15:12:38Z",
+  "ProcessId": 13360,
+  "LocalIpAddress": "127.0.0.1:8492",
+  "RemoteIpAddress": "::1"
+}
+2019-05-29 23:12:38.496 +08:00 [DBG] Token request success.
+2019-05-29 23:12:38.501 +08:00 [INF] Request finished in 225.9301ms 200 application/json; charset=UTF-8
+2019-05-29 23:12:38.542 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/.well-known/openid-configuration  
+2019-05-29 23:12:38.542 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-29 23:12:38.562 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-29 23:12:38.562 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-29 23:12:38.562 +08:00 [DBG] Start discovery request
+2019-05-29 23:12:38.571 +08:00 [INF] Request finished in 29.0425ms 200 application/json; charset=UTF-8
+2019-05-29 23:12:38.644 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/.well-known/openid-configuration/jwks  
+2019-05-29 23:12:38.644 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-05-29 23:12:38.658 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-05-29 23:12:38.658 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-05-29 23:12:38.658 +08:00 [DBG] Start key discovery request
+2019-05-29 23:12:38.658 +08:00 [INF] Request finished in 14.4636ms 200 application/json; charset=UTF-8
+2019-05-29 23:12:45.449 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/.well-known/openid-configuration  
+2019-05-29 23:12:45.450 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-29 23:12:45.461 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-29 23:12:45.461 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-29 23:12:45.462 +08:00 [DBG] Start discovery request
+2019-05-29 23:12:45.470 +08:00 [INF] Request finished in 20.5371ms 200 application/json; charset=UTF-8
+2019-05-29 23:12:45.540 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/.well-known/openid-configuration/jwks  
+2019-05-29 23:12:45.541 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-05-29 23:12:45.550 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-05-29 23:12:45.551 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-05-29 23:12:45.551 +08:00 [DBG] Start key discovery request
+2019-05-29 23:12:45.551 +08:00 [INF] Request finished in 10.4458ms 200 application/json; charset=UTF-8
+2019-05-29 23:12:46.480 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:64999/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dpublic-website-client%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A53435%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520profile%2520role%2520email%2520phone%2520PublicWebSiteGateway%2520ProductService%2520BloggingService%26response_mode%3Dform_post%26nonce%3D636947395284668745.MjFmZjg4MzYtYjY2OS00ZjU5LTkzMzAtZTQwNjc2N2VlOWNjMmFmNDgyZGQtMGYyZS00Nzk4LWIwZGItODcwOTI3ZjQ3ZDQw%26state%3DCfDJ8Np58AsG1bJGuh497LOW6dUM-xvjJBcRR5y9XytxU0sVzaOOTf27fUvbdFG0Nzip0XHF1-aH8KJ7SbZTG54P0CE3B0-DlThMAkVrubhSnkBxi9h8BM4sFUdUx7cai8k8ptoHKZ8xvteZoQZ8twzIl80Gyk6qUyQkHWL1lfso31NYJKpI8svlassF-uZb1RXexwWfbt-Ff6v--Usa3HXeFcqi0QaNqCInnuxlpezukmHShP0ydkE6if6mSClUILFWYiE59jnu4ii14d5LxV5O1qiqlQEQ4FoWP1zRH_j4l6hY4I5RlUbaCi2H4vjfcnYoJ9gYJG8Vo9bgqfMkuSN4YrI%26x-client-SKU%3DID_NETSTANDARD2_0%26x-client-ver%3D5.3.0.0 application/x-www-form-urlencoded 1188
+2019-05-29 23:12:46.483 +08:00 [INF] Route matched with {page = "/Account/Login", controller = "", area = "", action = ""}. Executing page /Account/Login
+2019-05-29 23:12:46.511 +08:00 [INF] Executing handler method Volo.Abp.Account.Web.Pages.Account.LoginModel.OnPostAsync with arguments (["Login"]) - ModelState is "Valid"
+2019-05-29 23:12:46.531 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:46.531 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:46.695 +08:00 [DBG] Augmenting SignInContext
+2019-05-29 23:12:46.697 +08:00 [DBG] Adding idp claim with value: local
+2019-05-29 23:12:46.697 +08:00 [DBG] Adding amr claim with value: pwd
+2019-05-29 23:12:46.698 +08:00 [DBG] Adding auth_time claim with value: 1559142766
+2019-05-29 23:12:46.709 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2019-05-29 23:12:46.715 +08:00 [INF] {
+  "Name": "User Login Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1000,
+  "Username": "admin",
+  "SubjectId": "3edd90be-60d2-8c6a-a0be-39ee16501e76",
+  "DisplayName": "admin",
+  "Endpoint": "UI",
+  "ActivityId": "0HLN48VUR84AI:0000000A",
+  "TimeStamp": "2019-05-29T15:12:46Z",
+  "ProcessId": 13360,
+  "LocalIpAddress": "127.0.0.1:8492",
+  "RemoteIpAddress": "::1"
+}
+2019-05-29 23:12:46.716 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:46.719 +08:00 [INF] Executed handler method OnPostAsync, returned result Microsoft.AspNetCore.Mvc.RedirectResult.
+2019-05-29 23:12:46.722 +08:00 [INF] Executing RedirectResult, redirecting to /connect/authorize/callback?client_id=public-website-client&redirect_uri=http%3A%2F%2Flocalhost%3A53435%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20role%20email%20phone%20PublicWebSiteGateway%20ProductService%20BloggingService&response_mode=form_post&nonce=636947395284668745.MjFmZjg4MzYtYjY2OS00ZjU5LTkzMzAtZTQwNjc2N2VlOWNjMmFmNDgyZGQtMGYyZS00Nzk4LWIwZGItODcwOTI3ZjQ3ZDQw&state=CfDJ8Np58AsG1bJGuh497LOW6dUM-xvjJBcRR5y9XytxU0sVzaOOTf27fUvbdFG0Nzip0XHF1-aH8KJ7SbZTG54P0CE3B0-DlThMAkVrubhSnkBxi9h8BM4sFUdUx7cai8k8ptoHKZ8xvteZoQZ8twzIl80Gyk6qUyQkHWL1lfso31NYJKpI8svlassF-uZb1RXexwWfbt-Ff6v--Usa3HXeFcqi0QaNqCInnuxlpezukmHShP0ydkE6if6mSClUILFWYiE59jnu4ii14d5LxV5O1qiqlQEQ4FoWP1zRH_j4l6hY4I5RlUbaCi2H4vjfcnYoJ9gYJG8Vo9bgqfMkuSN4YrI&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0.
+2019-05-29 23:12:46.723 +08:00 [INF] Executed page /Account/Login in 239.71540000000002ms
+2019-05-29 23:12:46.723 +08:00 [INF] Request finished in 242.8454ms 302 
+2019-05-29 23:12:46.732 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/.well-known/openid-configuration  
+2019-05-29 23:12:46.733 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-29 23:12:46.741 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/connect/authorize/callback?client_id=public-website-client&redirect_uri=http%3A%2F%2Flocalhost%3A53435%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20role%20email%20phone%20PublicWebSiteGateway%20ProductService%20BloggingService&response_mode=form_post&nonce=636947395284668745.MjFmZjg4MzYtYjY2OS00ZjU5LTkzMzAtZTQwNjc2N2VlOWNjMmFmNDgyZGQtMGYyZS00Nzk4LWIwZGItODcwOTI3ZjQ3ZDQw&state=CfDJ8Np58AsG1bJGuh497LOW6dUM-xvjJBcRR5y9XytxU0sVzaOOTf27fUvbdFG0Nzip0XHF1-aH8KJ7SbZTG54P0CE3B0-DlThMAkVrubhSnkBxi9h8BM4sFUdUx7cai8k8ptoHKZ8xvteZoQZ8twzIl80Gyk6qUyQkHWL1lfso31NYJKpI8svlassF-uZb1RXexwWfbt-Ff6v--Usa3HXeFcqi0QaNqCInnuxlpezukmHShP0ydkE6if6mSClUILFWYiE59jnu4ii14d5LxV5O1qiqlQEQ4FoWP1zRH_j4l6hY4I5RlUbaCi2H4vjfcnYoJ9gYJG8Vo9bgqfMkuSN4YrI&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0  
+2019-05-29 23:12:46.749 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-29 23:12:46.749 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-29 23:12:46.749 +08:00 [DBG] Start discovery request
+2019-05-29 23:12:46.766 +08:00 [INF] Request finished in 33.485ms 200 application/json; charset=UTF-8
+2019-05-29 23:12:46.769 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/.well-known/openid-configuration/jwks  
+2019-05-29 23:12:46.770 +08:00 [DBG] Request path /connect/authorize/callback matched to endpoint type Authorize
+2019-05-29 23:12:46.770 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-05-29 23:12:46.777 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint
+2019-05-29 23:12:46.777 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback
+2019-05-29 23:12:46.785 +08:00 [DBG] Start authorize callback request
+2019-05-29 23:12:46.786 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-05-29 23:12:46.786 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-05-29 23:12:46.786 +08:00 [DBG] Start key discovery request
+2019-05-29 23:12:46.786 +08:00 [INF] Request finished in 16.9702ms 200 application/json; charset=UTF-8
+2019-05-29 23:12:46.790 +08:00 [DBG] User in authorize request: 3edd90be-60d2-8c6a-a0be-39ee16501e76
+2019-05-29 23:12:46.790 +08:00 [DBG] Start authorize request protocol validation
+2019-05-29 23:12:46.796 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:64999/connect/token application/x-www-form-urlencoded 67
+2019-05-29 23:12:46.797 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-05-29 23:12:46.800 +08:00 [DBG] client configuration validation for client public-website-client succeeded.
+2019-05-29 23:12:46.800 +08:00 [DBG] Checking for PKCE parameters
+2019-05-29 23:12:46.800 +08:00 [DBG] No PKCE used.
+2019-05-29 23:12:46.815 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-05-29 23:12:46.815 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-05-29 23:12:46.815 +08:00 [DBG] Start token request.
+2019-05-29 23:12:46.815 +08:00 [DBG] Start client validation
+2019-05-29 23:12:46.815 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-05-29 23:12:46.815 +08:00 [DBG] Parser found secret: BasicAuthenticationSecretParser
+2019-05-29 23:12:46.815 +08:00 [DBG] Secret id found: blogging-service-client
+2019-05-29 23:12:46.827 +08:00 [DBG] client configuration validation for client blogging-service-client succeeded.
+2019-05-29 23:12:46.827 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-05-29 23:12:46.827 +08:00 [DBG] Client validation success
+2019-05-29 23:12:46.827 +08:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "blogging-service-client",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLN48VUR84AJ:0000000A",
+  "TimeStamp": "2019-05-29T15:12:46Z",
+  "ProcessId": 13360,
+  "LocalIpAddress": "127.0.0.1:8492",
+  "RemoteIpAddress": "::1"
+}
+2019-05-29 23:12:46.827 +08:00 [DBG] Start token request validation
+2019-05-29 23:12:46.828 +08:00 [DBG] Start client credentials token request validation
+2019-05-29 23:12:46.860 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-05-29 23:12:46.861 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "public-website-client",
+  "ClientName": "public-website-client",
+  "RedirectUri": "http://localhost:53435/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:53435/signin-oidc"
+  ],
+  "SubjectId": "3edd90be-60d2-8c6a-a0be-39ee16501e76",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile role email phone PublicWebSiteGateway ProductService BloggingService",
+  "State": "CfDJ8Np58AsG1bJGuh497LOW6dUM-xvjJBcRR5y9XytxU0sVzaOOTf27fUvbdFG0Nzip0XHF1-aH8KJ7SbZTG54P0CE3B0-DlThMAkVrubhSnkBxi9h8BM4sFUdUx7cai8k8ptoHKZ8xvteZoQZ8twzIl80Gyk6qUyQkHWL1lfso31NYJKpI8svlassF-uZb1RXexwWfbt-Ff6v--Usa3HXeFcqi0QaNqCInnuxlpezukmHShP0ydkE6if6mSClUILFWYiE59jnu4ii14d5LxV5O1qiqlQEQ4FoWP1zRH_j4l6hY4I5RlUbaCi2H4vjfcnYoJ9gYJG8Vo9bgqfMkuSN4YrI",
+  "Nonce": "636947395284668745.MjFmZjg4MzYtYjY2OS00ZjU5LTkzMzAtZTQwNjc2N2VlOWNjMmFmNDgyZGQtMGYyZS00Nzk4LWIwZGItODcwOTI3ZjQ3ZDQw",
+  "SessionId": "69e7f7876f37517a96a367f4d8913b3e",
+  "Raw": {
+    "client_id": "public-website-client",
+    "redirect_uri": "http://localhost:53435/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile role email phone PublicWebSiteGateway ProductService BloggingService",
+    "response_mode": "form_post",
+    "nonce": "636947395284668745.MjFmZjg4MzYtYjY2OS00ZjU5LTkzMzAtZTQwNjc2N2VlOWNjMmFmNDgyZGQtMGYyZS00Nzk4LWIwZGItODcwOTI3ZjQ3ZDQw",
+    "state": "CfDJ8Np58AsG1bJGuh497LOW6dUM-xvjJBcRR5y9XytxU0sVzaOOTf27fUvbdFG0Nzip0XHF1-aH8KJ7SbZTG54P0CE3B0-DlThMAkVrubhSnkBxi9h8BM4sFUdUx7cai8k8ptoHKZ8xvteZoQZ8twzIl80Gyk6qUyQkHWL1lfso31NYJKpI8svlassF-uZb1RXexwWfbt-Ff6v--Usa3HXeFcqi0QaNqCInnuxlpezukmHShP0ydkE6if6mSClUILFWYiE59jnu4ii14d5LxV5O1qiqlQEQ4FoWP1zRH_j4l6hY4I5RlUbaCi2H4vjfcnYoJ9gYJG8Vo9bgqfMkuSN4YrI",
+    "x-client-SKU": "ID_NETSTANDARD2_0",
+    "x-client-ver": "5.3.0.0"
+  }
+}
+2019-05-29 23:12:46.885 +08:00 [DBG] blogging-service-client credentials token request validation success
+2019-05-29 23:12:46.885 +08:00 [INF] Token request validation success
+{
+  "ClientId": "blogging-service-client",
+  "ClientName": "blogging-service-client",
+  "GrantType": "client_credentials",
+  "Scopes": "IdentityService InternalGateway",
+  "Raw": {
+    "grant_type": "client_credentials",
+    "scope": "InternalGateway IdentityService"
+  }
+}
+2019-05-29 23:12:46.885 +08:00 [DBG] Getting claims for access token for client: blogging-service-client
+2019-05-29 23:12:46.888 +08:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "blogging-service-client",
+  "ClientName": "blogging-service-client",
+  "Endpoint": "Token",
+  "Scopes": "IdentityService InternalGateway",
+  "GrantType": "client_credentials",
+  "Tokens": [
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****igUg"
+    }
+  ],
+  "ActivityId": "0HLN48VUR84AJ:0000000A",
+  "TimeStamp": "2019-05-29T15:12:46Z",
+  "ProcessId": 13360,
+  "LocalIpAddress": "127.0.0.1:8492",
+  "RemoteIpAddress": "::1"
+}
+2019-05-29 23:12:46.889 +08:00 [DBG] Token request success.
+2019-05-29 23:12:46.889 +08:00 [INF] Request finished in 92.6631ms 200 application/json; charset=UTF-8
+2019-05-29 23:12:46.933 +08:00 [DBG] Client is configured to not require consent, no consent is required
+2019-05-29 23:12:46.939 +08:00 [DBG] Creating Hybrid Flow response.
+2019-05-29 23:12:47.025 +08:00 [DBG] Creating Implicit Flow response.
+2019-05-29 23:12:47.033 +08:00 [DBG] Getting claims for identity token for subject: 3edd90be-60d2-8c6a-a0be-39ee16501e76 and client: public-website-client
+2019-05-29 23:12:47.065 +08:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "public-website-client",
+  "ClientName": "public-website-client",
+  "RedirectUri": "http://localhost:53435/signin-oidc",
+  "Endpoint": "Authorize",
+  "SubjectId": "3edd90be-60d2-8c6a-a0be-39ee16501e76",
+  "Scopes": "openid profile role email phone PublicWebSiteGateway ProductService BloggingService",
+  "GrantType": "hybrid",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****ndcQ"
+    },
+    {
+      "TokenType": "code",
+      "TokenValue": "****d444"
+    }
+  ],
+  "ActivityId": "0HLN48VUR84AI:0000000B",
+  "TimeStamp": "2019-05-29T15:12:47Z",
+  "ProcessId": 13360,
+  "LocalIpAddress": "127.0.0.1:8492",
+  "RemoteIpAddress": "::1"
+}
+2019-05-29 23:12:47.068 +08:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "3edd90be-60d2-8c6a-a0be-39ee16501e76",
+  "ClientId": "public-website-client",
+  "RedirectUri": "http://localhost:53435/signin-oidc",
+  "State": "CfDJ8Np58AsG1bJGuh497LOW6dUM-xvjJBcRR5y9XytxU0sVzaOOTf27fUvbdFG0Nzip0XHF1-aH8KJ7SbZTG54P0CE3B0-DlThMAkVrubhSnkBxi9h8BM4sFUdUx7cai8k8ptoHKZ8xvteZoQZ8twzIl80Gyk6qUyQkHWL1lfso31NYJKpI8svlassF-uZb1RXexwWfbt-Ff6v--Usa3HXeFcqi0QaNqCInnuxlpezukmHShP0ydkE6if6mSClUILFWYiE59jnu4ii14d5LxV5O1qiqlQEQ4FoWP1zRH_j4l6hY4I5RlUbaCi2H4vjfcnYoJ9gYJG8Vo9bgqfMkuSN4YrI",
+  "Scope": "openid profile role email phone PublicWebSiteGateway ProductService BloggingService"
+}
+2019-05-29 23:12:47.083 +08:00 [DBG] Augmenting SignInContext
+2019-05-29 23:12:47.084 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2019-05-29 23:12:47.090 +08:00 [INF] Request finished in 349.1334ms 200 text/html; charset=UTF-8
+2019-05-29 23:12:47.251 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:64999/connect/token application/x-www-form-urlencoded 213
+2019-05-29 23:12:47.252 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-05-29 23:12:47.279 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-05-29 23:12:47.279 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-05-29 23:12:47.279 +08:00 [DBG] Start token request.
+2019-05-29 23:12:47.279 +08:00 [DBG] Start client validation
+2019-05-29 23:12:47.279 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-05-29 23:12:47.283 +08:00 [DBG] Start parsing for secret in post body
+2019-05-29 23:12:47.284 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-05-29 23:12:47.284 +08:00 [DBG] Secret id found: public-website-client
+2019-05-29 23:12:47.299 +08:00 [DBG] client configuration validation for client public-website-client succeeded.
+2019-05-29 23:12:47.299 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-05-29 23:12:47.299 +08:00 [DBG] Client validation success
+2019-05-29 23:12:47.299 +08:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "public-website-client",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLN48VUR84AJ:0000000B",
+  "TimeStamp": "2019-05-29T15:12:47Z",
+  "ProcessId": 13360,
+  "LocalIpAddress": "127.0.0.1:8492",
+  "RemoteIpAddress": "::1"
+}
+2019-05-29 23:12:47.299 +08:00 [DBG] Start token request validation
+2019-05-29 23:12:47.312 +08:00 [DBG] Start validation of authorization code token request
+2019-05-29 23:12:47.417 +08:00 [DBG] Validation of authorization code token request success
+2019-05-29 23:12:47.417 +08:00 [INF] Token request validation success
+{
+  "ClientId": "public-website-client",
+  "ClientName": "public-website-client",
+  "GrantType": "authorization_code",
+  "AuthorizationCode": "703e79f1e42198a6fc6e37ab64bec46d64a62f9f7ecb5d4bec17bda69bfdd444",
+  "Raw": {
+    "client_id": "public-website-client",
+    "client_secret": "***REDACTED***",
+    "code": "703e79f1e42198a6fc6e37ab64bec46d64a62f9f7ecb5d4bec17bda69bfdd444",
+    "grant_type": "authorization_code",
+    "redirect_uri": "http://localhost:53435/signin-oidc"
+  }
+}
+2019-05-29 23:12:47.438 +08:00 [DBG] client configuration validation for client public-website-client succeeded.
+2019-05-29 23:12:47.490 +08:00 [DBG] Getting claims for access token for client: public-website-client
+2019-05-29 23:12:47.490 +08:00 [DBG] Getting claims for access token for subject: 3edd90be-60d2-8c6a-a0be-39ee16501e76
+2019-05-29 23:12:47.529 +08:00 [DBG] client configuration validation for client public-website-client succeeded.
+2019-05-29 23:12:47.575 +08:00 [DBG] Getting claims for identity token for subject: 3edd90be-60d2-8c6a-a0be-39ee16501e76 and client: public-website-client
+2019-05-29 23:12:47.599 +08:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "public-website-client",
+  "ClientName": "public-website-client",
+  "Endpoint": "Token",
+  "Scopes": "openid profile role email phone PublicWebSiteGateway ProductService BloggingService",
+  "GrantType": "authorization_code",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****1aOg"
+    },
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****bs3Q"
+    }
+  ],
+  "ActivityId": "0HLN48VUR84AJ:0000000B",
+  "TimeStamp": "2019-05-29T15:12:47Z",
+  "ProcessId": 13360,
+  "LocalIpAddress": "127.0.0.1:8492",
+  "RemoteIpAddress": "::1"
+}
+2019-05-29 23:12:47.599 +08:00 [DBG] Token request success.
+2019-05-29 23:12:47.599 +08:00 [INF] Request finished in 347.8518ms 200 application/json; charset=UTF-8
+2019-05-29 23:12:47.615 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/connect/userinfo  
+2019-05-29 23:12:47.615 +08:00 [DBG] Request path /connect/userinfo matched to endpoint type Userinfo
+2019-05-29 23:12:47.633 +08:00 [DBG] Endpoint enabled: Userinfo, successfully created handler: IdentityServer4.Endpoints.UserInfoEndpoint
+2019-05-29 23:12:47.633 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo
+2019-05-29 23:12:47.642 +08:00 [DBG] Start userinfo request
+2019-05-29 23:12:47.646 +08:00 [DBG] Bearer token found in header
+2019-05-29 23:12:47.687 +08:00 [DBG] client configuration validation for client public-website-client succeeded.
+2019-05-29 23:12:47.701 +08:00 [DBG] client configuration validation for client public-website-client succeeded.
+2019-05-29 23:12:47.708 +08:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2019-05-29 23:12:47.712 +08:00 [DBG] Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "ExpectedScope": "openid",
+  "Claims": {
+    "nbf": 1559142767,
+    "exp": 1590678767,
+    "iss": "http://localhost:64999",
+    "aud": [
+      "http://localhost:64999/resources",
+      "ProductService",
+      "PublicWebSiteGateway",
+      "BloggingService"
+    ],
+    "client_id": "public-website-client",
+    "sub": "3edd90be-60d2-8c6a-a0be-39ee16501e76",
+    "auth_time": 1559142766,
+    "idp": "local",
+    "role": "admin",
+    "name": "admin",
+    "email": "admin@abp.io",
+    "email_verified": false,
+    "scope": [
+      "phone",
+      "openid",
+      "role",
+      "profile",
+      "email",
+      "ProductService",
+      "PublicWebSiteGateway",
+      "BloggingService"
+    ],
+    "amr": "pwd"
+  }
+}
+2019-05-29 23:12:47.728 +08:00 [DBG] Creating userinfo response
+2019-05-29 23:12:47.732 +08:00 [DBG] Scopes in access token: phone openid role profile email ProductService PublicWebSiteGateway BloggingService
+2019-05-29 23:12:47.734 +08:00 [DBG] Scopes in access token: phone openid role profile email ProductService PublicWebSiteGateway BloggingService
+2019-05-29 23:12:47.749 +08:00 [DBG] Requested claim types: phone_number phone_number_verified sub role birthdate family_name gender given_name locale middle_name name nickname picture preferred_username profile updated_at website zoneinfo email email_verified
+2019-05-29 23:12:47.750 +08:00 [DBG] Scopes in access token: phone openid role profile email ProductService PublicWebSiteGateway BloggingService
+2019-05-29 23:12:47.767 +08:00 [INF] Profile service returned to the following claim types: sub role preferred_username name email email_verified
+2019-05-29 23:12:47.767 +08:00 [DBG] End userinfo request
+2019-05-29 23:12:47.770 +08:00 [INF] Request finished in 155.7364ms 200 application/json; charset=UTF-8
+2019-05-29 23:12:47.864 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/.well-known/openid-configuration  
+2019-05-29 23:12:47.865 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-29 23:12:47.877 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-29 23:12:47.877 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-29 23:12:47.878 +08:00 [DBG] Start discovery request
+2019-05-29 23:12:47.889 +08:00 [INF] Request finished in 24.6842ms 200 application/json; charset=UTF-8
+2019-05-29 23:12:47.941 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/.well-known/openid-configuration/jwks  
+2019-05-29 23:12:47.942 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-05-29 23:12:47.955 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-05-29 23:12:47.955 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-05-29 23:12:47.955 +08:00 [DBG] Start key discovery request
+2019-05-29 23:12:47.956 +08:00 [INF] Request finished in 14.5196ms 200 application/json; charset=UTF-8
+2019-05-29 23:13:02.656 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/.well-known/openid-configuration  
+2019-05-29 23:13:02.656 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-29 23:13:02.667 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-29 23:13:02.667 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-29 23:13:02.667 +08:00 [DBG] Start discovery request
+2019-05-29 23:13:02.678 +08:00 [INF] Request finished in 21.724ms 200 application/json; charset=UTF-8
+2019-05-29 23:13:02.748 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/.well-known/openid-configuration/jwks  
+2019-05-29 23:13:02.748 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-05-29 23:13:02.761 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-05-29 23:13:02.761 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-05-29 23:13:02.761 +08:00 [DBG] Start key discovery request
+2019-05-29 23:13:02.761 +08:00 [INF] Request finished in 13.5723ms 200 application/json; charset=UTF-8
+2019-05-29 23:13:24.639 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/.well-known/openid-configuration  
+2019-05-29 23:13:24.640 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-29 23:13:24.652 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-29 23:13:24.652 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-29 23:13:24.652 +08:00 [DBG] Start discovery request
+2019-05-29 23:13:24.660 +08:00 [INF] Request finished in 20.975ms 200 application/json; charset=UTF-8
+2019-05-29 23:13:24.744 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/.well-known/openid-configuration/jwks  
+2019-05-29 23:13:24.744 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-05-29 23:13:24.757 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-05-29 23:13:24.757 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-05-29 23:13:24.757 +08:00 [DBG] Start key discovery request
+2019-05-29 23:13:24.757 +08:00 [INF] Request finished in 13.4304ms 200 application/json; charset=UTF-8
+2019-05-29 23:13:32.362 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/.well-known/openid-configuration  
+2019-05-29 23:13:32.362 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-29 23:13:32.378 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-29 23:13:32.378 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-29 23:13:32.378 +08:00 [DBG] Start discovery request
+2019-05-29 23:13:32.391 +08:00 [INF] Request finished in 29.3045ms 200 application/json; charset=UTF-8
+2019-05-29 23:13:32.430 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/.well-known/openid-configuration/jwks  
+2019-05-29 23:13:32.430 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-05-29 23:13:32.444 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-05-29 23:13:32.444 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-05-29 23:13:32.444 +08:00 [DBG] Start key discovery request
+2019-05-29 23:13:32.444 +08:00 [INF] Request finished in 14.8606ms 200 application/json; charset=UTF-8
+2019-05-29 23:13:32.506 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/connect/authorize?client_id=backend-admin-app-client&redirect_uri=http%3A%2F%2Flocalhost%3A51954%2Fsignin-oidc&response_type=code%20id_token&scope=openid%20profile%20role%20email%20phone%20BackendAdminAppGateway%20IdentityService%20ProductService&response_mode=form_post&nonce=636947396124618100.ZTY1ZWU2YmYtY2EwYi00NzBiLTgwYzctM2FjZGY1Y2FlOGY2NTk4NmFhOTktOTc0Ni00ZDNkLWE2ZGItZWUyMDEzOWJkMTZi&state=CfDJ8Np58AsG1bJGuh497LOW6dVguCZWMkxtLzXjDBcJo7X-yTdaGuhxe-pN5iuOPPOb5m4nvATbzWAhgX69-p9VQglNVq5_vSXkIqUxtxYvUq6OpyUo_qSsVdKed3KzDgF5iFHNZq2LE-lnyIb-7sMUvxvLYVoB02cSiPqxAv5stkKu7y63PzKUce56fmviFGczTsp-r_tkUsEVQfkNzlbE6tjBaCuzmS2vMTvvAZRjBJSB5KPwAZg-a5Mugdi6Yvy6qdN9wqtXQAh3YGgw5KUma0-bDV5hJ8GR8bHxbhDvo583NmPYwyRQuS912Iqc7rryZ1rSCvTf18wBeRI9V-2eJQs&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=5.3.0.0  
+2019-05-29 23:13:32.518 +08:00 [DBG] Request path /connect/authorize matched to endpoint type Authorize
+2019-05-29 23:13:32.520 +08:00 [DBG] Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2019-05-29 23:13:32.520 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2019-05-29 23:13:32.520 +08:00 [DBG] Start authorize request
+2019-05-29 23:13:32.520 +08:00 [DBG] User in authorize request: 3edd90be-60d2-8c6a-a0be-39ee16501e76
+2019-05-29 23:13:32.520 +08:00 [DBG] Start authorize request protocol validation
+2019-05-29 23:13:32.527 +08:00 [DBG] client configuration validation for client backend-admin-app-client succeeded.
+2019-05-29 23:13:32.527 +08:00 [DBG] Checking for PKCE parameters
+2019-05-29 23:13:32.527 +08:00 [DBG] No PKCE used.
+2019-05-29 23:13:32.583 +08:00 [DBG] Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2019-05-29 23:13:32.583 +08:00 [INF] ValidatedAuthorizeRequest
+{
+  "ClientId": "backend-admin-app-client",
+  "ClientName": "backend-admin-app-client",
+  "RedirectUri": "http://localhost:51954/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:51954/signin-oidc"
+  ],
+  "SubjectId": "3edd90be-60d2-8c6a-a0be-39ee16501e76",
+  "ResponseType": "code id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "hybrid",
+  "RequestedScopes": "openid profile role email phone BackendAdminAppGateway IdentityService ProductService",
+  "State": "CfDJ8Np58AsG1bJGuh497LOW6dVguCZWMkxtLzXjDBcJo7X-yTdaGuhxe-pN5iuOPPOb5m4nvATbzWAhgX69-p9VQglNVq5_vSXkIqUxtxYvUq6OpyUo_qSsVdKed3KzDgF5iFHNZq2LE-lnyIb-7sMUvxvLYVoB02cSiPqxAv5stkKu7y63PzKUce56fmviFGczTsp-r_tkUsEVQfkNzlbE6tjBaCuzmS2vMTvvAZRjBJSB5KPwAZg-a5Mugdi6Yvy6qdN9wqtXQAh3YGgw5KUma0-bDV5hJ8GR8bHxbhDvo583NmPYwyRQuS912Iqc7rryZ1rSCvTf18wBeRI9V-2eJQs",
+  "Nonce": "636947396124618100.ZTY1ZWU2YmYtY2EwYi00NzBiLTgwYzctM2FjZGY1Y2FlOGY2NTk4NmFhOTktOTc0Ni00ZDNkLWE2ZGItZWUyMDEzOWJkMTZi",
+  "SessionId": "69e7f7876f37517a96a367f4d8913b3e",
+  "Raw": {
+    "client_id": "backend-admin-app-client",
+    "redirect_uri": "http://localhost:51954/signin-oidc",
+    "response_type": "code id_token",
+    "scope": "openid profile role email phone BackendAdminAppGateway IdentityService ProductService",
+    "response_mode": "form_post",
+    "nonce": "636947396124618100.ZTY1ZWU2YmYtY2EwYi00NzBiLTgwYzctM2FjZGY1Y2FlOGY2NTk4NmFhOTktOTc0Ni00ZDNkLWE2ZGItZWUyMDEzOWJkMTZi",
+    "state": "CfDJ8Np58AsG1bJGuh497LOW6dVguCZWMkxtLzXjDBcJo7X-yTdaGuhxe-pN5iuOPPOb5m4nvATbzWAhgX69-p9VQglNVq5_vSXkIqUxtxYvUq6OpyUo_qSsVdKed3KzDgF5iFHNZq2LE-lnyIb-7sMUvxvLYVoB02cSiPqxAv5stkKu7y63PzKUce56fmviFGczTsp-r_tkUsEVQfkNzlbE6tjBaCuzmS2vMTvvAZRjBJSB5KPwAZg-a5Mugdi6Yvy6qdN9wqtXQAh3YGgw5KUma0-bDV5hJ8GR8bHxbhDvo583NmPYwyRQuS912Iqc7rryZ1rSCvTf18wBeRI9V-2eJQs",
+    "x-client-SKU": "ID_NETSTANDARD2_0",
+    "x-client-ver": "5.3.0.0"
+  }
+}
+2019-05-29 23:13:32.591 +08:00 [DBG] Client is configured to not require consent, no consent is required
+2019-05-29 23:13:32.591 +08:00 [DBG] Creating Hybrid Flow response.
+2019-05-29 23:13:32.608 +08:00 [DBG] Creating Implicit Flow response.
+2019-05-29 23:13:32.609 +08:00 [DBG] Getting claims for identity token for subject: 3edd90be-60d2-8c6a-a0be-39ee16501e76 and client: backend-admin-app-client
+2019-05-29 23:13:32.623 +08:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "backend-admin-app-client",
+  "ClientName": "backend-admin-app-client",
+  "RedirectUri": "http://localhost:51954/signin-oidc",
+  "Endpoint": "Authorize",
+  "SubjectId": "3edd90be-60d2-8c6a-a0be-39ee16501e76",
+  "Scopes": "openid profile role email phone BackendAdminAppGateway IdentityService ProductService",
+  "GrantType": "hybrid",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****etZg"
+    },
+    {
+      "TokenType": "code",
+      "TokenValue": "****81ac"
+    }
+  ],
+  "ActivityId": "0HLN48VUR84AJ:00000010",
+  "TimeStamp": "2019-05-29T15:13:32Z",
+  "ProcessId": 13360,
+  "LocalIpAddress": "127.0.0.1:8492",
+  "RemoteIpAddress": "::1"
+}
+2019-05-29 23:13:32.623 +08:00 [INF] Authorize endpoint response
+{
+  "SubjectId": "3edd90be-60d2-8c6a-a0be-39ee16501e76",
+  "ClientId": "backend-admin-app-client",
+  "RedirectUri": "http://localhost:51954/signin-oidc",
+  "State": "CfDJ8Np58AsG1bJGuh497LOW6dVguCZWMkxtLzXjDBcJo7X-yTdaGuhxe-pN5iuOPPOb5m4nvATbzWAhgX69-p9VQglNVq5_vSXkIqUxtxYvUq6OpyUo_qSsVdKed3KzDgF5iFHNZq2LE-lnyIb-7sMUvxvLYVoB02cSiPqxAv5stkKu7y63PzKUce56fmviFGczTsp-r_tkUsEVQfkNzlbE6tjBaCuzmS2vMTvvAZRjBJSB5KPwAZg-a5Mugdi6Yvy6qdN9wqtXQAh3YGgw5KUma0-bDV5hJ8GR8bHxbhDvo583NmPYwyRQuS912Iqc7rryZ1rSCvTf18wBeRI9V-2eJQs",
+  "Scope": "openid profile role email phone BackendAdminAppGateway IdentityService ProductService"
+}
+2019-05-29 23:13:32.623 +08:00 [DBG] Augmenting SignInContext
+2019-05-29 23:13:32.624 +08:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2019-05-29 23:13:32.624 +08:00 [INF] Request finished in 118.2263ms 200 text/html; charset=UTF-8
+2019-05-29 23:13:32.823 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:64999/connect/token application/x-www-form-urlencoded 216
+2019-05-29 23:13:32.824 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-05-29 23:13:32.836 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-05-29 23:13:32.836 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-05-29 23:13:32.836 +08:00 [DBG] Start token request.
+2019-05-29 23:13:32.837 +08:00 [DBG] Start client validation
+2019-05-29 23:13:32.837 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-05-29 23:13:32.837 +08:00 [DBG] Start parsing for secret in post body
+2019-05-29 23:13:32.837 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-05-29 23:13:32.837 +08:00 [DBG] Secret id found: backend-admin-app-client
+2019-05-29 23:13:32.843 +08:00 [DBG] client configuration validation for client backend-admin-app-client succeeded.
+2019-05-29 23:13:32.843 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-05-29 23:13:32.843 +08:00 [DBG] Client validation success
+2019-05-29 23:13:32.844 +08:00 [INF] {
+  "Name": "Client Authentication Success",
+  "Category": "Authentication",
+  "EventType": "Success",
+  "Id": 1010,
+  "ClientId": "backend-admin-app-client",
+  "AuthenticationMethod": "SharedSecret",
+  "ActivityId": "0HLN48VUR84AI:00000011",
+  "TimeStamp": "2019-05-29T15:13:32Z",
+  "ProcessId": 13360,
+  "LocalIpAddress": "127.0.0.1:8492",
+  "RemoteIpAddress": "::1"
+}
+2019-05-29 23:13:32.844 +08:00 [DBG] Start token request validation
+2019-05-29 23:13:32.844 +08:00 [DBG] Start validation of authorization code token request
+2019-05-29 23:13:32.871 +08:00 [DBG] Validation of authorization code token request success
+2019-05-29 23:13:32.871 +08:00 [INF] Token request validation success
+{
+  "ClientId": "backend-admin-app-client",
+  "ClientName": "backend-admin-app-client",
+  "GrantType": "authorization_code",
+  "AuthorizationCode": "da7d4827fa141fb004c655f993e87b5df1b3df8e4eb8b0e3d75d3f7bf16681ac",
+  "Raw": {
+    "client_id": "backend-admin-app-client",
+    "client_secret": "***REDACTED***",
+    "code": "da7d4827fa141fb004c655f993e87b5df1b3df8e4eb8b0e3d75d3f7bf16681ac",
+    "grant_type": "authorization_code",
+    "redirect_uri": "http://localhost:51954/signin-oidc"
+  }
+}
+2019-05-29 23:13:32.878 +08:00 [DBG] client configuration validation for client backend-admin-app-client succeeded.
+2019-05-29 23:13:32.903 +08:00 [DBG] Getting claims for access token for client: backend-admin-app-client
+2019-05-29 23:13:32.903 +08:00 [DBG] Getting claims for access token for subject: 3edd90be-60d2-8c6a-a0be-39ee16501e76
+2019-05-29 23:13:32.922 +08:00 [DBG] client configuration validation for client backend-admin-app-client succeeded.
+2019-05-29 23:13:32.944 +08:00 [DBG] Getting claims for identity token for subject: 3edd90be-60d2-8c6a-a0be-39ee16501e76 and client: backend-admin-app-client
+2019-05-29 23:13:32.956 +08:00 [INF] {
+  "Name": "Token Issued Success",
+  "Category": "Token",
+  "EventType": "Success",
+  "Id": 2000,
+  "ClientId": "backend-admin-app-client",
+  "ClientName": "backend-admin-app-client",
+  "Endpoint": "Token",
+  "Scopes": "openid profile role email phone BackendAdminAppGateway IdentityService ProductService",
+  "GrantType": "authorization_code",
+  "Tokens": [
+    {
+      "TokenType": "id_token",
+      "TokenValue": "****5NlA"
+    },
+    {
+      "TokenType": "access_token",
+      "TokenValue": "****jzQw"
+    }
+  ],
+  "ActivityId": "0HLN48VUR84AI:00000011",
+  "TimeStamp": "2019-05-29T15:13:32Z",
+  "ProcessId": 13360,
+  "LocalIpAddress": "127.0.0.1:8492",
+  "RemoteIpAddress": "::1"
+}
+2019-05-29 23:13:32.956 +08:00 [DBG] Token request success.
+2019-05-29 23:13:32.957 +08:00 [INF] Request finished in 133.4569ms 200 application/json; charset=UTF-8
+2019-05-29 23:13:32.969 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/connect/userinfo  
+2019-05-29 23:13:32.969 +08:00 [DBG] Request path /connect/userinfo matched to endpoint type Userinfo
+2019-05-29 23:13:32.979 +08:00 [DBG] Endpoint enabled: Userinfo, successfully created handler: IdentityServer4.Endpoints.UserInfoEndpoint
+2019-05-29 23:13:32.980 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo
+2019-05-29 23:13:32.980 +08:00 [DBG] Start userinfo request
+2019-05-29 23:13:32.980 +08:00 [DBG] Bearer token found in header
+2019-05-29 23:13:32.990 +08:00 [DBG] client configuration validation for client backend-admin-app-client succeeded.
+2019-05-29 23:13:32.996 +08:00 [DBG] client configuration validation for client backend-admin-app-client succeeded.
+2019-05-29 23:13:33.004 +08:00 [DBG] Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator
+2019-05-29 23:13:33.004 +08:00 [DBG] Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "ExpectedScope": "openid",
+  "Claims": {
+    "nbf": 1559142812,
+    "exp": 1590678812,
+    "iss": "http://localhost:64999",
+    "aud": [
+      "http://localhost:64999/resources",
+      "ProductService",
+      "BackendAdminAppGateway",
+      "IdentityService"
+    ],
+    "client_id": "backend-admin-app-client",
+    "sub": "3edd90be-60d2-8c6a-a0be-39ee16501e76",
+    "auth_time": 1559142766,
+    "idp": "local",
+    "role": "admin",
+    "name": "admin",
+    "email": "admin@abp.io",
+    "email_verified": false,
+    "scope": [
+      "phone",
+      "openid",
+      "role",
+      "profile",
+      "email",
+      "ProductService",
+      "BackendAdminAppGateway",
+      "IdentityService"
+    ],
+    "amr": "pwd"
+  }
+}
+2019-05-29 23:13:33.009 +08:00 [DBG] Creating userinfo response
+2019-05-29 23:13:33.009 +08:00 [DBG] Scopes in access token: phone openid role profile email ProductService BackendAdminAppGateway IdentityService
+2019-05-29 23:13:33.009 +08:00 [DBG] Scopes in access token: phone openid role profile email ProductService BackendAdminAppGateway IdentityService
+2019-05-29 23:13:33.014 +08:00 [DBG] Requested claim types: phone_number phone_number_verified sub role birthdate family_name gender given_name locale middle_name name nickname picture preferred_username profile updated_at website zoneinfo email email_verified
+2019-05-29 23:13:33.014 +08:00 [DBG] Scopes in access token: phone openid role profile email ProductService BackendAdminAppGateway IdentityService
+2019-05-29 23:13:33.027 +08:00 [INF] Profile service returned to the following claim types: sub role preferred_username name email email_verified
+2019-05-29 23:13:33.027 +08:00 [DBG] End userinfo request
+2019-05-29 23:13:33.027 +08:00 [INF] Request finished in 58.8656ms 200 application/json; charset=UTF-8
+2019-05-29 23:15:24.816 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/  
+2019-05-29 23:15:25.021 +08:00 [INF] Route matched with {page = "/Index", controller = "", area = "", action = ""}. Executing page /Index
+2019-05-29 23:15:25.022 +08:00 [INF] Executing handler method AuthServer.Host.Pages.IndexModel.OnGet with arguments (null) - ModelState is "Valid"
+2019-05-29 23:15:25.022 +08:00 [INF] Executed handler method OnGet, returned result .
+2019-05-29 23:15:25.022 +08:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2019-05-29 23:15:25.022 +08:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2019-05-29 23:15:25.346 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.30 ms.
+2019-05-29 23:15:25.556 +08:00 [DBG] Added bundle 'Basic.Global' to the page in 0.56 ms.
+2019-05-29 23:15:25.557 +08:00 [INF] Executed page /Index in 535.1165ms
+2019-05-29 23:15:25.557 +08:00 [INF] Request finished in 740.29ms 200 text/html; charset=utf-8
+2019-05-29 23:15:25.673 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/Abp/ApplicationConfigurationScript  
+2019-05-29 23:15:25.674 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/Abp/ServiceProxyScript  
+2019-05-29 23:15:25.689 +08:00 [INF] Route matched with {area = "Abp", action = "Get", controller = "AbpApplicationConfigurationScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:15:25.690 +08:00 [INF] Route matched with {area = "Abp", action = "GetAll", controller = "AbpServiceProxyScript", page = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:15:25.690 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:15:25.690 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) with arguments (["Volo.Abp.AspNetCore.Mvc.ProxyScripting.ServiceProxyGenerationModel"]) - Validation state: "Valid"
+2019-05-29 23:15:25.690 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.1068ms.
+2019-05-29 23:15:25.691 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:15:25.691 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ProxyScripting.AbpServiceProxyScriptController.GetAll (Volo.Abp.AspNetCore.Mvc) in 1.0168000000000001ms
+2019-05-29 23:15:25.691 +08:00 [INF] Request finished in 16.6124ms 200 text/plain; charset=utf-8
+2019-05-29 23:15:25.707 +08:00 [INF] Authorization was successful.
+2019-05-29 23:15:25.712 +08:00 [INF] Authorization was successful.
+2019-05-29 23:15:25.716 +08:00 [INF] Authorization was successful.
+2019-05-29 23:15:25.720 +08:00 [INF] Authorization was successful.
+2019-05-29 23:15:25.725 +08:00 [INF] Authorization was successful.
+2019-05-29 23:15:25.728 +08:00 [INF] Authorization was successful.
+2019-05-29 23:15:25.732 +08:00 [INF] Authorization was successful.
+2019-05-29 23:15:25.736 +08:00 [INF] Authorization was successful.
+2019-05-29 23:15:25.739 +08:00 [INF] Authorization was successful.
+2019-05-29 23:15:25.742 +08:00 [INF] Authorization was successful.
+2019-05-29 23:15:25.742 +08:00 [INF] Authorization failed.
+2019-05-29 23:15:25.745 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 54.728ms.
+2019-05-29 23:15:25.745 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:15:25.746 +08:00 [INF] Executing ObjectResult, writing value of type 'System.String'.
+2019-05-29 23:15:25.746 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationScriptController.Get (Volo.Abp.AspNetCore.Mvc) in 56.831300000000006ms
+2019-05-29 23:15:25.754 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:15:25.754 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:15:25.754 +08:00 [INF] Request finished in 81.4808ms 200 text/plain; charset=utf-8
+2019-05-29 23:15:25.795 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:64999/libs/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+2019-05-29 23:15:25.808 +08:00 [INF] Sending file. Request path: '/libs/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\Programming\Coding\dotnet\MicroserviceDemo\applications\AuthServer.Host\wwwroot\libs\font-awesome\fonts\fontawesome-webfont.woff2'
+2019-05-29 23:15:25.808 +08:00 [INF] Request finished in 12.915ms 200 font/woff2

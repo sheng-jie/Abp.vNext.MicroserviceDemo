@@ -1,0 +1,182 @@
+2019-05-29 23:10:27.472 +08:00 [INF] Starting IdentityService.Host.
+2019-05-29 23:10:28.445 +08:00 [INF] Loaded ABP modules:
+2019-05-29 23:10:28.447 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 23:10:28.447 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 23:10:28.447 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 23:10:28.447 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 23:10:28.447 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 23:10:28.447 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 23:10:28.447 +08:00 [INF] - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2019-05-29 23:10:28.447 +08:00 [INF] - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2019-05-29 23:10:28.447 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 23:10:28.447 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 23:10:28.447 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 23:10:28.447 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 23:10:28.447 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-05-29 23:10:28.448 +08:00 [INF] - ProductManagement.ProductManagementDomainSharedModule
+2019-05-29 23:10:28.448 +08:00 [INF] - ProductManagement.ProductManagementDomainModule
+2019-05-29 23:10:28.448 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 23:10:28.449 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 23:10:28.449 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 23:10:28.449 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 23:10:28.449 +08:00 [INF] - ProductManagement.ProductManagementApplicationContractsModule
+2019-05-29 23:10:28.449 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-05-29 23:10:28.449 +08:00 [INF] - ProductManagement.ProductManagementApplicationModule
+2019-05-29 23:10:28.449 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 23:10:28.449 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 23:10:28.449 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 23:10:28.449 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 23:10:28.449 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 23:10:28.449 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 23:10:28.449 +08:00 [INF] - ProductManagement.ProductManagementHttpApiModule
+2019-05-29 23:10:28.449 +08:00 [INF] - ProductManagement.EntityFrameworkCore.ProductManagementEntityFrameworkCoreModule
+2019-05-29 23:10:28.449 +08:00 [INF] - ProductService.Host.ProductServiceHostModule
+2019-05-29 23:10:28.486 +08:00 [DBG] No class found with auto mapping attributes.
+2019-05-29 23:10:31.032 +08:00 [INF] Initialized all ABP modules.
+2019-05-29 23:10:31.362 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:60244/  
+2019-05-29 23:10:31.404 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:10:31.658 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action ProductService.Host.Controllers.HomeController.Index (ProductService.Host)
+2019-05-29 23:10:31.691 +08:00 [INF] Executing action method ProductService.Host.Controllers.HomeController.Index (ProductService.Host) - Validation state: "Valid"
+2019-05-29 23:10:31.697 +08:00 [INF] Executed action method ProductService.Host.Controllers.HomeController.Index (ProductService.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.154ms.
+2019-05-29 23:10:31.703 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2019-05-29 23:10:31.707 +08:00 [INF] Executed action ProductService.Host.Controllers.HomeController.Index (ProductService.Host) in 44.973200000000006ms
+2019-05-29 23:10:31.727 +08:00 [INF] Request finished in 366.6339ms 302 
+2019-05-29 23:10:31.758 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:60244/swagger  
+2019-05-29 23:10:31.759 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:10:31.761 +08:00 [INF] Request finished in 3.0155ms 301 
+2019-05-29 23:10:31.780 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:60244/swagger/index.html  
+2019-05-29 23:10:31.785 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:10:31.839 +08:00 [INF] Request finished in 59.5161ms 200 text/html
+2019-05-29 23:10:31.867 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:60244/swagger/swagger-ui.css  
+2019-05-29 23:10:31.868 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:10:31.897 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-05-29 23:10:31.907 +08:00 [INF] Request finished in 40.0145ms 200 text/css
+2019-05-29 23:10:31.980 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:60244/swagger/swagger-ui-bundle.js  
+2019-05-29 23:10:31.981 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:10:32.003 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-05-29 23:10:32.004 +08:00 [INF] Request finished in 23.4201ms 200 application/javascript
+2019-05-29 23:10:32.005 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:60244/swagger/swagger-ui-standalone-preset.js  
+2019-05-29 23:10:32.006 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:10:32.015 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-05-29 23:10:32.015 +08:00 [INF] Request finished in 10.1866ms 200 application/javascript
+2019-05-29 23:10:33.547 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:60244/swagger/v1/swagger.json  
+2019-05-29 23:10:33.547 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:10:33.592 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:60244/swagger/favicon-32x32.png  
+2019-05-29 23:10:33.593 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:10:33.594 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-05-29 23:10:33.594 +08:00 [INF] Request finished in 1.9542ms 200 image/png
+2019-05-29 23:10:33.704 +08:00 [INF] Request finished in 156.9569ms 200 application/json;charset=utf-8
+2019-05-29 23:10:38.737 +08:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:17555/iisintegration  0
+2019-05-29 23:10:38.738 +08:00 [INF] Request finished in 0.3234ms 202 
+2019-05-29 23:12:59.057 +08:00 [INF] Starting IdentityService.Host.
+2019-05-29 23:13:00.169 +08:00 [INF] Loaded ABP modules:
+2019-05-29 23:13:00.170 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 23:13:00.170 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 23:13:00.170 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 23:13:00.170 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 23:13:00.170 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 23:13:00.170 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 23:13:00.170 +08:00 [INF] - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2019-05-29 23:13:00.170 +08:00 [INF] - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2019-05-29 23:13:00.170 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 23:13:00.170 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 23:13:00.170 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 23:13:00.170 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 23:13:00.170 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 23:13:00.170 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-05-29 23:13:00.171 +08:00 [INF] - ProductManagement.ProductManagementDomainSharedModule
+2019-05-29 23:13:00.171 +08:00 [INF] - ProductManagement.ProductManagementDomainModule
+2019-05-29 23:13:00.171 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 23:13:00.172 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 23:13:00.172 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 23:13:00.172 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 23:13:00.172 +08:00 [INF] - ProductManagement.ProductManagementApplicationContractsModule
+2019-05-29 23:13:00.172 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-05-29 23:13:00.172 +08:00 [INF] - ProductManagement.ProductManagementApplicationModule
+2019-05-29 23:13:00.172 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 23:13:00.172 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 23:13:00.172 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 23:13:00.172 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 23:13:00.172 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 23:13:00.172 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 23:13:00.172 +08:00 [INF] - ProductManagement.ProductManagementHttpApiModule
+2019-05-29 23:13:00.172 +08:00 [INF] - ProductManagement.EntityFrameworkCore.ProductManagementEntityFrameworkCoreModule
+2019-05-29 23:13:00.172 +08:00 [INF] - ProductService.Host.ProductServiceHostModule
+2019-05-29 23:13:00.222 +08:00 [DBG] No class found with auto mapping attributes.
+2019-05-29 23:13:02.475 +08:00 [INF] Initialized all ABP modules.
+2019-05-29 23:13:02.599 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:60244/api/productManagement/public/products?api-version=1.0  0
+2019-05-29 23:13:02.824 +08:00 [INF] Successfully validated the token.
+2019-05-29 23:13:02.828 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2019-05-29 23:13:03.006 +08:00 [INF] Route matched with {area = "productManagement", action = "GetListAsync", controller = "PublicProducts"}. Executing action ProductManagement.PublicProductsController.GetListAsync (ProductManagement.HttpApi)
+2019-05-29 23:13:03.034 +08:00 [INF] Executing action method ProductManagement.PublicProductsController.GetListAsync (ProductManagement.HttpApi) - Validation state: "Valid"
+2019-05-29 23:13:03.248 +08:00 [INF] Executed action method ProductManagement.PublicProductsController.GetListAsync (ProductManagement.HttpApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 210.0855ms.
+2019-05-29 23:13:03.275 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:13:03.286 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.ListResultDto`1[[ProductManagement.ProductDto, ProductManagement.Application.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-05-29 23:13:03.319 +08:00 [INF] Executed action ProductManagement.PublicProductsController.GetListAsync (ProductManagement.HttpApi) in 309.9537ms
+2019-05-29 23:13:03.734 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:13:03.735 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:13:03.742 +08:00 [INF] Request finished in 1144.0307ms 200 application/json; charset=utf-8
+2019-05-29 23:13:23.892 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:60244/api/productManagement/public/products?api-version=1.0  0
+2019-05-29 23:13:23.894 +08:00 [INF] Successfully validated the token.
+2019-05-29 23:13:23.894 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2019-05-29 23:13:23.896 +08:00 [INF] Route matched with {area = "productManagement", action = "GetListAsync", controller = "PublicProducts"}. Executing action ProductManagement.PublicProductsController.GetListAsync (ProductManagement.HttpApi)
+2019-05-29 23:13:23.897 +08:00 [INF] Executing action method ProductManagement.PublicProductsController.GetListAsync (ProductManagement.HttpApi) - Validation state: "Valid"
+2019-05-29 23:13:23.904 +08:00 [INF] Executed action method ProductManagement.PublicProductsController.GetListAsync (ProductManagement.HttpApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6.9207ms.
+2019-05-29 23:13:23.905 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:13:23.906 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.ListResultDto`1[[ProductManagement.ProductDto, ProductManagement.Application.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-05-29 23:13:23.907 +08:00 [INF] Executed action ProductManagement.PublicProductsController.GetListAsync (ProductManagement.HttpApi) in 10.8827ms
+2019-05-29 23:13:23.918 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:13:23.918 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:13:23.918 +08:00 [INF] Request finished in 25.7864ms 200 application/json; charset=utf-8
+2019-05-29 23:13:59.106 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:60244/api/productManagement/public/products?api-version=1.0  0
+2019-05-29 23:13:59.106 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:13:59.108 +08:00 [INF] Route matched with {area = "productManagement", action = "GetListAsync", controller = "PublicProducts"}. Executing action ProductManagement.PublicProductsController.GetListAsync (ProductManagement.HttpApi)
+2019-05-29 23:13:59.109 +08:00 [INF] Executing action method ProductManagement.PublicProductsController.GetListAsync (ProductManagement.HttpApi) - Validation state: "Valid"
+2019-05-29 23:13:59.113 +08:00 [INF] Executed action method ProductManagement.PublicProductsController.GetListAsync (ProductManagement.HttpApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.9776000000000002ms.
+2019-05-29 23:13:59.113 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:13:59.113 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Application.Dtos.ListResultDto`1[[ProductManagement.ProductDto, ProductManagement.Application.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2019-05-29 23:13:59.114 +08:00 [INF] Executed action ProductManagement.PublicProductsController.GetListAsync (ProductManagement.HttpApi) in 5.9126ms
+2019-05-29 23:13:59.131 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:13:59.131 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:13:59.131 +08:00 [INF] Request finished in 24.6964ms 200 application/json; charset=utf-8

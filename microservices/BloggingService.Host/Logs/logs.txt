@@ -1,0 +1,472 @@
+2019-05-29 23:10:19.047 +08:00 [INF] Starting IdentityService.Host.
+2019-05-29 23:10:20.320 +08:00 [INF] Loaded ABP modules:
+2019-05-29 23:10:20.321 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 23:10:20.321 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 23:10:20.322 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 23:10:20.322 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 23:10:20.322 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 23:10:20.322 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 23:10:20.322 +08:00 [INF] - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2019-05-29 23:10:20.322 +08:00 [INF] - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2019-05-29 23:10:20.322 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 23:10:20.322 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 23:10:20.322 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 23:10:20.322 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 23:10:20.322 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 23:10:20.322 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 23:10:20.322 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 23:10:20.322 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 23:10:20.322 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Blogging.BloggingDomainSharedModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Blogging.BloggingApplicationContractsModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 23:10:20.323 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Blogging.BloggingHttpApiModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Blogging.BloggingDomainModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Abp.Users.MongoDB.AbpUsersMongoDbModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Blogging.MongoDB.BloggingMongoDbModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Blogging.BloggingApplicationModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2019-05-29 23:10:20.324 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-05-29 23:10:20.325 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-05-29 23:10:20.325 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-05-29 23:10:20.325 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2019-05-29 23:10:20.325 +08:00 [INF] - BloggingService.Host.BloggingServiceHostModule
+2019-05-29 23:10:20.363 +08:00 [DBG] No class found with auto mapping attributes.
+2019-05-29 23:10:24.428 +08:00 [INF] Initialized all ABP modules.
+2019-05-29 23:10:24.709 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62157/  
+2019-05-29 23:10:24.709 +08:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:10607/iisintegration  0
+2019-05-29 23:10:24.719 +08:00 [INF] Request finished in 12.3327ms 202 
+2019-05-29 23:10:24.750 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:10:24.903 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action BloggingService.Host.Controllers.HomeController.Index (BloggingService.Host)
+2019-05-29 23:10:24.922 +08:00 [INF] Executing action method BloggingService.Host.Controllers.HomeController.Index (BloggingService.Host) - Validation state: "Valid"
+2019-05-29 23:10:24.927 +08:00 [INF] Executed action method BloggingService.Host.Controllers.HomeController.Index (BloggingService.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.33340000000000003ms.
+2019-05-29 23:10:24.932 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2019-05-29 23:10:24.934 +08:00 [INF] Executed action BloggingService.Host.Controllers.HomeController.Index (BloggingService.Host) in 29.6822ms
+2019-05-29 23:10:24.944 +08:00 [INF] Request finished in 237.4941ms 302 
+2019-05-29 23:10:29.551 +08:00 [INF] Starting IdentityService.Host.
+2019-05-29 23:10:30.846 +08:00 [INF] Loaded ABP modules:
+2019-05-29 23:10:30.847 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 23:10:30.847 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 23:10:30.847 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 23:10:30.847 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 23:10:30.848 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Blogging.BloggingDomainSharedModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Blogging.BloggingApplicationContractsModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Blogging.BloggingHttpApiModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Blogging.BloggingDomainModule
+2019-05-29 23:10:30.849 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-05-29 23:10:30.850 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-05-29 23:10:30.850 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-05-29 23:10:30.850 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2019-05-29 23:10:30.850 +08:00 [INF] - Volo.Abp.Users.MongoDB.AbpUsersMongoDbModule
+2019-05-29 23:10:30.850 +08:00 [INF] - Volo.Blogging.MongoDB.BloggingMongoDbModule
+2019-05-29 23:10:30.850 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-05-29 23:10:30.850 +08:00 [INF] - Volo.Blogging.BloggingApplicationModule
+2019-05-29 23:10:30.850 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2019-05-29 23:10:30.850 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2019-05-29 23:10:30.850 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2019-05-29 23:10:30.850 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-05-29 23:10:30.850 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-05-29 23:10:30.850 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-05-29 23:10:30.850 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2019-05-29 23:10:30.850 +08:00 [INF] - BloggingService.Host.BloggingServiceHostModule
+2019-05-29 23:10:30.897 +08:00 [DBG] No class found with auto mapping attributes.
+2019-05-29 23:10:34.248 +08:00 [INF] Initialized all ABP modules.
+2019-05-29 23:10:34.576 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62157/swagger  
+2019-05-29 23:10:34.609 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:10:34.644 +08:00 [INF] Request finished in 69.5724ms 301 
+2019-05-29 23:10:34.650 +08:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:17690/iisintegration  0
+2019-05-29 23:10:34.651 +08:00 [INF] Request finished in 0.5375ms 202 
+2019-05-29 23:10:39.294 +08:00 [INF] Starting IdentityService.Host.
+2019-05-29 23:10:41.295 +08:00 [INF] Loaded ABP modules:
+2019-05-29 23:10:41.297 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 23:10:41.297 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 23:10:41.297 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 23:10:41.297 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 23:10:41.297 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 23:10:41.297 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 23:10:41.297 +08:00 [INF] - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2019-05-29 23:10:41.297 +08:00 [INF] - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2019-05-29 23:10:41.297 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 23:10:41.297 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 23:10:41.297 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 23:10:41.297 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 23:10:41.297 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 23:10:41.298 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 23:10:41.298 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 23:10:41.298 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 23:10:41.298 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-05-29 23:10:41.298 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2019-05-29 23:10:41.298 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-05-29 23:10:41.298 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-05-29 23:10:41.298 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-05-29 23:10:41.298 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 23:10:41.298 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 23:10:41.298 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 23:10:41.298 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 23:10:41.298 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 23:10:41.298 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-05-29 23:10:41.298 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 23:10:41.298 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 23:10:41.298 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-05-29 23:10:41.299 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-05-29 23:10:41.299 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-05-29 23:10:41.299 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-05-29 23:10:41.299 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-05-29 23:10:41.299 +08:00 [INF] - Volo.Blogging.BloggingDomainSharedModule
+2019-05-29 23:10:41.299 +08:00 [INF] - Volo.Blogging.BloggingApplicationContractsModule
+2019-05-29 23:10:41.299 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 23:10:41.299 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 23:10:41.299 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 23:10:41.299 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 23:10:41.299 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 23:10:41.299 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 23:10:41.299 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 23:10:41.299 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 23:10:41.299 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 23:10:41.300 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 23:10:41.300 +08:00 [INF] - Volo.Blogging.BloggingHttpApiModule
+2019-05-29 23:10:41.300 +08:00 [INF] - Volo.Blogging.BloggingDomainModule
+2019-05-29 23:10:41.300 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-05-29 23:10:41.300 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-05-29 23:10:41.300 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-05-29 23:10:41.300 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2019-05-29 23:10:41.300 +08:00 [INF] - Volo.Abp.Users.MongoDB.AbpUsersMongoDbModule
+2019-05-29 23:10:41.300 +08:00 [INF] - Volo.Blogging.MongoDB.BloggingMongoDbModule
+2019-05-29 23:10:41.300 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-05-29 23:10:41.300 +08:00 [INF] - Volo.Blogging.BloggingApplicationModule
+2019-05-29 23:10:41.300 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2019-05-29 23:10:41.300 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2019-05-29 23:10:41.300 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2019-05-29 23:10:41.300 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-05-29 23:10:41.300 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-05-29 23:10:41.300 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-05-29 23:10:41.301 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2019-05-29 23:10:41.301 +08:00 [INF] - BloggingService.Host.BloggingServiceHostModule
+2019-05-29 23:10:41.362 +08:00 [DBG] No class found with auto mapping attributes.
+2019-05-29 23:10:44.314 +08:00 [INF] Initialized all ABP modules.
+2019-05-29 23:10:44.546 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62157/swagger/index.html  
+2019-05-29 23:10:44.585 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:10:44.662 +08:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:19044/iisintegration  0
+2019-05-29 23:10:44.667 +08:00 [INF] Request finished in 4.1161ms 202 
+2019-05-29 23:10:44.709 +08:00 [INF] Request finished in 164.8394ms 200 text/html
+2019-05-29 23:10:49.414 +08:00 [INF] Starting IdentityService.Host.
+2019-05-29 23:10:51.064 +08:00 [INF] Loaded ABP modules:
+2019-05-29 23:10:51.065 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 23:10:51.065 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 23:10:51.065 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 23:10:51.065 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 23:10:51.066 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Blogging.BloggingDomainSharedModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Blogging.BloggingApplicationContractsModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Blogging.BloggingHttpApiModule
+2019-05-29 23:10:51.067 +08:00 [INF] - Volo.Blogging.BloggingDomainModule
+2019-05-29 23:10:51.068 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-05-29 23:10:51.068 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-05-29 23:10:51.068 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-05-29 23:10:51.068 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2019-05-29 23:10:51.068 +08:00 [INF] - Volo.Abp.Users.MongoDB.AbpUsersMongoDbModule
+2019-05-29 23:10:51.068 +08:00 [INF] - Volo.Blogging.MongoDB.BloggingMongoDbModule
+2019-05-29 23:10:51.068 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-05-29 23:10:51.068 +08:00 [INF] - Volo.Blogging.BloggingApplicationModule
+2019-05-29 23:10:51.068 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2019-05-29 23:10:51.068 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2019-05-29 23:10:51.068 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2019-05-29 23:10:51.068 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-05-29 23:10:51.068 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-05-29 23:10:51.068 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-05-29 23:10:51.068 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2019-05-29 23:10:51.068 +08:00 [INF] - BloggingService.Host.BloggingServiceHostModule
+2019-05-29 23:10:51.125 +08:00 [DBG] No class found with auto mapping attributes.
+2019-05-29 23:10:54.078 +08:00 [INF] Initialized all ABP modules.
+2019-05-29 23:10:54.366 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62157/swagger/swagger-ui-standalone-preset.js  
+2019-05-29 23:10:54.366 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62157/swagger/swagger-ui.css  
+2019-05-29 23:10:54.366 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62157/swagger/swagger-ui-bundle.js  
+2019-05-29 23:10:54.408 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:10:54.408 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:10:54.408 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:10:54.460 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-05-29 23:10:54.460 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-05-29 23:10:54.460 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-05-29 23:10:54.466 +08:00 [INF] Request finished in 101.2739ms 200 text/css
+2019-05-29 23:10:54.466 +08:00 [INF] Request finished in 101.2159ms 200 application/javascript
+2019-05-29 23:10:54.466 +08:00 [INF] Request finished in 101.2174ms 200 application/javascript
+2019-05-29 23:10:54.663 +08:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:26722/iisintegration  0
+2019-05-29 23:10:54.665 +08:00 [INF] Request finished in 1.6948ms 202 
+2019-05-29 23:11:00.340 +08:00 [INF] Starting IdentityService.Host.
+2019-05-29 23:11:01.648 +08:00 [INF] Loaded ABP modules:
+2019-05-29 23:11:01.649 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 23:11:01.649 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 23:11:01.649 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 23:11:01.649 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 23:11:01.649 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 23:11:01.649 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 23:11:01.649 +08:00 [INF] - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2019-05-29 23:11:01.649 +08:00 [INF] - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2019-05-29 23:11:01.649 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 23:11:01.650 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 23:11:01.650 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 23:11:01.650 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 23:11:01.650 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 23:11:01.650 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 23:11:01.650 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 23:11:01.650 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 23:11:01.650 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-05-29 23:11:01.650 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2019-05-29 23:11:01.650 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-05-29 23:11:01.650 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-05-29 23:11:01.650 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-05-29 23:11:01.650 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 23:11:01.650 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 23:11:01.650 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 23:11:01.650 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 23:11:01.650 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 23:11:01.650 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-05-29 23:11:01.650 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 23:11:01.650 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 23:11:01.651 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-05-29 23:11:01.651 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-05-29 23:11:01.651 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-05-29 23:11:01.651 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-05-29 23:11:01.651 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-05-29 23:11:01.651 +08:00 [INF] - Volo.Blogging.BloggingDomainSharedModule
+2019-05-29 23:11:01.651 +08:00 [INF] - Volo.Blogging.BloggingApplicationContractsModule
+2019-05-29 23:11:01.651 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 23:11:01.651 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 23:11:01.651 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 23:11:01.651 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 23:11:01.651 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 23:11:01.651 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 23:11:01.652 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 23:11:01.652 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 23:11:01.652 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 23:11:01.652 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 23:11:01.652 +08:00 [INF] - Volo.Blogging.BloggingHttpApiModule
+2019-05-29 23:11:01.652 +08:00 [INF] - Volo.Blogging.BloggingDomainModule
+2019-05-29 23:11:01.652 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-05-29 23:11:01.652 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-05-29 23:11:01.652 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-05-29 23:11:01.652 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2019-05-29 23:11:01.652 +08:00 [INF] - Volo.Abp.Users.MongoDB.AbpUsersMongoDbModule
+2019-05-29 23:11:01.652 +08:00 [INF] - Volo.Blogging.MongoDB.BloggingMongoDbModule
+2019-05-29 23:11:01.652 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-05-29 23:11:01.652 +08:00 [INF] - Volo.Blogging.BloggingApplicationModule
+2019-05-29 23:11:01.652 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2019-05-29 23:11:01.652 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2019-05-29 23:11:01.653 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2019-05-29 23:11:01.653 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-05-29 23:11:01.653 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-05-29 23:11:01.653 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-05-29 23:11:01.653 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2019-05-29 23:11:01.653 +08:00 [INF] - BloggingService.Host.BloggingServiceHostModule
+2019-05-29 23:11:01.707 +08:00 [DBG] No class found with auto mapping attributes.
+2019-05-29 23:11:05.367 +08:00 [INF] Initialized all ABP modules.
+2019-05-29 23:11:05.506 +08:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:28018/iisintegration  0
+2019-05-29 23:11:05.506 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62157/swagger/v1/swagger.json  
+2019-05-29 23:11:05.518 +08:00 [INF] Request finished in 12.3016ms 202 
+2019-05-29 23:11:05.551 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:11:05.879 +08:00 [INF] Request finished in 373.9854ms 200 application/json;charset=utf-8
+2019-05-29 23:11:19.973 +08:00 [INF] Starting IdentityService.Host.
+2019-05-29 23:11:21.182 +08:00 [INF] Loaded ABP modules:
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 23:11:21.184 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Blogging.BloggingDomainSharedModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Blogging.BloggingApplicationContractsModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Blogging.BloggingHttpApiModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Blogging.BloggingDomainModule
+2019-05-29 23:11:21.185 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-05-29 23:11:21.186 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-05-29 23:11:21.186 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-05-29 23:11:21.186 +08:00 [INF] - Volo.Abp.MongoDB.AbpMongoDbModule
+2019-05-29 23:11:21.186 +08:00 [INF] - Volo.Abp.Users.MongoDB.AbpUsersMongoDbModule
+2019-05-29 23:11:21.186 +08:00 [INF] - Volo.Blogging.MongoDB.BloggingMongoDbModule
+2019-05-29 23:11:21.186 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-05-29 23:11:21.186 +08:00 [INF] - Volo.Blogging.BloggingApplicationModule
+2019-05-29 23:11:21.186 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2019-05-29 23:11:21.186 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2019-05-29 23:11:21.186 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2019-05-29 23:11:21.186 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-05-29 23:11:21.186 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-05-29 23:11:21.186 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-05-29 23:11:21.186 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2019-05-29 23:11:21.186 +08:00 [INF] - BloggingService.Host.BloggingServiceHostModule
+2019-05-29 23:11:21.226 +08:00 [DBG] No class found with auto mapping attributes.
+2019-05-29 23:11:24.350 +08:00 [INF] Initialized all ABP modules.
+2019-05-29 23:11:24.571 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:62157/swagger/favicon-32x32.png  
+2019-05-29 23:11:24.623 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:11:24.673 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-05-29 23:11:24.677 +08:00 [INF] Request finished in 107.2792ms 200 image/png
+2019-05-29 23:12:48.677 +08:00 [ERR] A write operation resulted in an error.
+  E11000 duplicate key error collection: MsDemo_Blogging.BlgUsers index: _id_ dup key: { : BinData(3, BE90DD3ED2606A8CA0BE39EE16501E76) }
+MongoDB.Driver.MongoWriteException: A write operation resulted in an error.
+  E11000 duplicate key error collection: MsDemo_Blogging.BlgUsers index: _id_ dup key: { : BinData(3, BE90DD3ED2606A8CA0BE39EE16501E76) } ---> MongoDB.Driver.MongoBulkWriteException`1[Volo.Blogging.Users.BlogUser]: A bulk write operation resulted in one or more errors.
+  E11000 duplicate key error collection: MsDemo_Blogging.BlgUsers index: _id_ dup key: { : BinData(3, BE90DD3ED2606A8CA0BE39EE16501E76) }
+   at MongoDB.Driver.MongoCollectionImpl`1.BulkWriteAsync(IClientSessionHandle session, IEnumerable`1 requests, BulkWriteOptions options, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionBase`1.InsertOneAsync(TDocument document, InsertOneOptions options, Func`3 bulkWriteAsync)
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.MongoCollectionBase`1.InsertOneAsync(TDocument document, InsertOneOptions options, Func`3 bulkWriteAsync)
+   at Volo.Abp.Domain.Repositories.MongoDB.MongoDbRepository`2.InsertAsync(TEntity entity, Boolean autoSave, CancellationToken cancellationToken) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.MongoDB\Volo\Abp\Domain\Repositories\MongoDB\MongoDbRepository.cs:line 76
+   at Volo.Abp.Uow.UnitOfWorkInterceptor.InterceptAsync(IAbpMethodInvocation invocation) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Uow\Volo\Abp\Uow\UnitOfWorkInterceptor.cs:line 46
+   at Volo.Abp.Castle.DynamicProxy.CastleAbpInterceptorAdapter`1.ExecuteWithReturnValueAsync[T](IInvocation invocation, IInvocationProceedInfo proceedInfo) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Castle.Core\Volo\Abp\Castle\DynamicProxy\CastleAbpInterceptorAdapter.cs:line 82
+   at Volo.Abp.Users.UserLookupService`2.WithNewUowAsync(Func`1 func) in D:\Programming\Coding\dotnet\abp\modules\users\src\Volo.Abp.Users.Domain\Volo\Abp\Users\UserLookupService.cs:line 147
+   at Volo.Abp.Users.UserLookupService`2.FindByIdAsync(Guid id, CancellationToken cancellationToken) in D:\Programming\Coding\dotnet\abp\modules\users\src\Volo.Abp.Users.Domain\Volo\Abp\Users\UserLookupService.cs:line 71
+   at Volo.Blogging.Users.BlogUserSynchronizer.HandleEventAsync(EntityUpdatedEto`1 eventData) in D:\Programming\Coding\dotnet\abp\modules\blogging\src\Volo.Blogging.Domain\Volo\Blogging\Users\BlogUserSynchronizer.cs:line 29
+   at Volo.Abp.EventBus.EventBusBase.TriggerHandlerAsync(IEventHandlerFactory asyncHandlerFactory, Type eventType, Object eventData, List`1 exceptions) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.EventBus\Volo\Abp\EventBus\EventBusBase.cs:line 185
+   at System.AbpExceptionExtensions.ReThrow(Exception exception) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\System\AbpExceptionExtensions.cs:line 19
+   at Volo.Abp.EventBus.EventBusBase.TriggerHandlersAsync(Type eventType, Object eventData) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.EventBus\Volo\Abp\EventBus\EventBusBase.cs:line 98
+   at Volo.Abp.EventBus.RabbitMq.RabbitMqDistributedEventBus.ProcessEventAsync(IModel channel, BasicDeliverEventArgs ea) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.EventBus.RabbitMQ\Volo\Abp\EventBus\RabbitMq\RabbitMqDistributedEventBus.cs:line 89
+   at Volo.Abp.RabbitMQ.RabbitMqMessageConsumer.HandleIncomingMessage(IModel channel, BasicDeliverEventArgs basicDeliverEventArgs) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.RabbitMQ\Volo\Abp\RabbitMQ\RabbitMqMessageConsumer.cs:line 188

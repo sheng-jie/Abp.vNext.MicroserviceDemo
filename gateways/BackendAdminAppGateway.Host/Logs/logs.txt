@@ -1,0 +1,325 @@
+2019-05-29 23:10:54.658 +08:00 [INF] Starting BackendAdminAppGateway.Host.
+2019-05-29 23:10:56.182 +08:00 [INF] Loaded ABP modules:
+2019-05-29 23:10:56.183 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 23:10:56.183 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 23:10:56.183 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-05-29 23:10:56.183 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 23:10:56.183 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 23:10:56.184 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 23:10:56.184 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 23:10:56.184 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 23:10:56.184 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 23:10:56.184 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 23:10:56.184 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-05-29 23:10:56.184 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 23:10:56.184 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-05-29 23:10:56.184 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 23:10:56.185 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 23:10:56.185 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 23:10:56.185 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 23:10:56.185 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 23:10:56.185 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 23:10:56.185 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 23:10:56.185 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 23:10:56.185 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 23:10:56.185 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 23:10:56.185 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 23:10:56.185 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 23:10:56.185 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 23:10:56.185 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-05-29 23:10:56.185 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-05-29 23:10:56.186 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-05-29 23:10:56.186 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 23:10:56.186 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 23:10:56.186 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 23:10:56.186 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 23:10:56.186 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 23:10:56.186 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 23:10:56.186 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2019-05-29 23:10:56.186 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2019-05-29 23:10:56.186 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2019-05-29 23:10:56.186 +08:00 [INF] - ProductManagement.ProductManagementDomainSharedModule
+2019-05-29 23:10:56.186 +08:00 [INF] - ProductManagement.ProductManagementApplicationContractsModule
+2019-05-29 23:10:56.187 +08:00 [INF] - ProductManagement.ProductManagementHttpApiModule
+2019-05-29 23:10:56.187 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-05-29 23:10:56.187 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2019-05-29 23:10:56.187 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 23:10:56.187 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 23:10:56.187 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-05-29 23:10:56.187 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-05-29 23:10:56.187 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2019-05-29 23:10:56.187 +08:00 [INF] - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2019-05-29 23:10:56.187 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-05-29 23:10:56.187 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-05-29 23:10:56.187 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-05-29 23:10:56.187 +08:00 [INF] - Volo.Blogging.BloggingDomainSharedModule
+2019-05-29 23:10:56.187 +08:00 [INF] - Volo.Blogging.BloggingApplicationContractsModule
+2019-05-29 23:10:56.187 +08:00 [INF] - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2019-05-29 23:10:56.187 +08:00 [INF] - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2019-05-29 23:10:56.187 +08:00 [INF] - Volo.Abp.PermissionManagement.IdentityServer.AbpPermissionManagementDomainIdentityServerModule
+2019-05-29 23:10:56.188 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2019-05-29 23:10:56.188 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2019-05-29 23:10:56.188 +08:00 [INF] - BackendAdminAppGateway.Host.BackendAdminAppGatewayHostModule
+2019-05-29 23:10:56.617 +08:00 [INF] Initialized all ABP modules.
+2019-05-29 23:10:56.926 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:65115/  
+2019-05-29 23:10:56.977 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:10:57.012 +08:00 [DBG] requestId: 0HLN48VCU289Q:00000001, previousRequestId: no previous request id, message: ocelot pipeline started
+2019-05-29 23:10:57.021 +08:00 [DBG] requestId: 0HLN48VCU289Q:00000001, previousRequestId: no previous request id, message: Upstream url path is /
+2019-05-29 23:10:57.034 +08:00 [WRN] requestId: 0HLN48VCU289Q:00000001, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: /, verb: GET.
+2019-05-29 23:10:57.034 +08:00 [WRN] requestId: 0HLN48VCU289Q:00000001, previousRequestId: no previous request id, message: Failed to match ReRoute configuration for upstream path: /, verb: GET.
+2019-05-29 23:10:57.036 +08:00 [WRN] requestId: 0HLN48VCU289Q:00000001, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: /, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/, request method: GET
+2019-05-29 23:10:57.038 +08:00 [DBG] requestId: 0HLN48VCU289Q:00000001, previousRequestId: no previous request id, message: ocelot pipeline finished
+2019-05-29 23:10:57.046 +08:00 [INF] Request finished in 122.1165ms 404 
+2019-05-29 23:11:01.229 +08:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:40957/iisintegration  0
+2019-05-29 23:11:01.230 +08:00 [INF] Request finished in 0.3247ms 202 
+2019-05-29 23:11:30.231 +08:00 [INF] Starting BackendAdminAppGateway.Host.
+2019-05-29 23:11:31.679 +08:00 [INF] Loaded ABP modules:
+2019-05-29 23:11:31.681 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 23:11:31.681 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 23:11:31.681 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-05-29 23:11:31.681 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 23:11:31.681 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 23:11:31.681 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 23:11:31.681 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 23:11:31.681 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 23:11:31.681 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 23:11:31.681 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 23:11:31.681 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-05-29 23:11:31.681 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 23:11:31.681 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-05-29 23:11:31.681 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 23:11:31.681 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 23:11:31.681 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 23:11:31.681 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 23:11:31.681 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 23:11:31.681 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 23:11:31.682 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 23:11:31.682 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 23:11:31.682 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 23:11:31.682 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 23:11:31.682 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 23:11:31.682 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 23:11:31.682 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 23:11:31.682 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-05-29 23:11:31.682 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-05-29 23:11:31.682 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-05-29 23:11:31.682 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 23:11:31.682 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 23:11:31.682 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 23:11:31.682 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 23:11:31.682 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 23:11:31.682 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 23:11:31.682 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2019-05-29 23:11:31.682 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2019-05-29 23:11:31.682 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2019-05-29 23:11:31.683 +08:00 [INF] - ProductManagement.ProductManagementDomainSharedModule
+2019-05-29 23:11:31.683 +08:00 [INF] - ProductManagement.ProductManagementApplicationContractsModule
+2019-05-29 23:11:31.683 +08:00 [INF] - ProductManagement.ProductManagementHttpApiModule
+2019-05-29 23:11:31.683 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-05-29 23:11:31.683 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2019-05-29 23:11:31.683 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 23:11:31.683 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 23:11:31.683 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-05-29 23:11:31.683 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-05-29 23:11:31.683 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2019-05-29 23:11:31.683 +08:00 [INF] - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2019-05-29 23:11:31.683 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-05-29 23:11:31.683 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-05-29 23:11:31.683 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-05-29 23:11:31.683 +08:00 [INF] - Volo.Blogging.BloggingDomainSharedModule
+2019-05-29 23:11:31.683 +08:00 [INF] - Volo.Blogging.BloggingApplicationContractsModule
+2019-05-29 23:11:31.683 +08:00 [INF] - Volo.Abp.PermissionManagement.Identity.AbpPermissionManagementDomainIdentityModule
+2019-05-29 23:11:31.684 +08:00 [INF] - Volo.Abp.IdentityServer.AbpIdentityServerDomainSharedModule
+2019-05-29 23:11:31.684 +08:00 [INF] - Volo.Abp.PermissionManagement.IdentityServer.AbpPermissionManagementDomainIdentityServerModule
+2019-05-29 23:11:31.684 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2019-05-29 23:11:31.684 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2019-05-29 23:11:31.684 +08:00 [INF] - BackendAdminAppGateway.Host.BackendAdminAppGatewayHostModule
+2019-05-29 23:11:32.185 +08:00 [INF] Initialized all ABP modules.
+2019-05-29 23:11:32.357 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:65115/api/abp/api-definition  
+2019-05-29 23:11:32.418 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:11:32.635 +08:00 [INF] Route matched with {action = "Get", controller = "AbpApiDefinition", area = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:11:32.668 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:11:32.694 +08:00 [DBG] ActionApiDescriptionModel.Create: FileConfiguration.Get
+2019-05-29 23:11:32.699 +08:00 [DBG] ActionApiDescriptionModel.Create: FileConfiguration.PostByFileConfiguration
+2019-05-29 23:11:32.702 +08:00 [DBG] ActionApiDescriptionModel.Create: OutputCache.DeleteByRegion
+2019-05-29 23:11:32.702 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpServiceProxyScript.GetAllByModel
+2019-05-29 23:11:32.702 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpLanguages.SwitchByCultureAndUiCultureAndReturnUrl
+2019-05-29 23:11:32.703 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfigurationScript.Get
+2019-05-29 23:11:32.703 +08:00 [DBG] ActionApiDescriptionModel.Create: Products.GetListPagedAsyncByInput
+2019-05-29 23:11:32.703 +08:00 [DBG] ActionApiDescriptionModel.Create: Products.GetListAsync
+2019-05-29 23:11:32.703 +08:00 [DBG] ActionApiDescriptionModel.Create: Products.GetAsyncById
+2019-05-29 23:11:32.703 +08:00 [DBG] ActionApiDescriptionModel.Create: Products.CreateAsyncByInput
+2019-05-29 23:11:32.704 +08:00 [DBG] ActionApiDescriptionModel.Create: Products.UpdateAsyncByIdAndInput
+2019-05-29 23:11:32.704 +08:00 [DBG] ActionApiDescriptionModel.Create: Products.DeleteAsyncById
+2019-05-29 23:11:32.704 +08:00 [DBG] ActionApiDescriptionModel.Create: PublicProducts.GetListAsync
+2019-05-29 23:11:32.704 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2019-05-29 23:11:32.704 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.Get
+2019-05-29 23:11:32.704 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAsyncById
+2019-05-29 23:11:32.705 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetListAsyncByInput
+2019-05-29 23:11:32.705 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.CreateAsyncByInput
+2019-05-29 23:11:32.705 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.UpdateAsyncByIdAndInput
+2019-05-29 23:11:32.705 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.DeleteAsyncById
+2019-05-29 23:11:32.706 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAllListAsync
+2019-05-29 23:11:32.706 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetAsyncById
+2019-05-29 23:11:32.706 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetListAsyncByInput
+2019-05-29 23:11:32.706 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.CreateAsyncByInput
+2019-05-29 23:11:32.706 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateAsyncByIdAndInput
+2019-05-29 23:11:32.706 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.DeleteAsyncById
+2019-05-29 23:11:32.706 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetRolesAsyncById
+2019-05-29 23:11:32.706 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateRolesAsyncByIdAndInput
+2019-05-29 23:11:32.706 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByUsernameAsyncByUsername
+2019-05-29 23:11:32.706 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByEmailAsyncByEmail
+2019-05-29 23:11:32.707 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUserLookup.FindByIdAsyncById
+2019-05-29 23:11:32.707 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUserLookup.FindByUserNameAsyncByUserName
+2019-05-29 23:11:32.707 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.GetAsync
+2019-05-29 23:11:32.707 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.UpdateAsyncByInput
+2019-05-29 23:11:32.707 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.ChangePasswordAsyncByCurrentPasswordAndNewPassword
+2019-05-29 23:11:32.707 +08:00 [DBG] ActionApiDescriptionModel.Create: Permissions.GetAsyncByProviderNameAndProviderKey
+2019-05-29 23:11:32.707 +08:00 [DBG] ActionApiDescriptionModel.Create: Permissions.UpdateAsyncByProviderNameAndProviderKeyAndInput
+2019-05-29 23:11:32.710 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 36.9924ms.
+2019-05-29 23:11:32.723 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel'.
+2019-05-29 23:11:32.878 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) in 239.8708ms
+2019-05-29 23:11:32.885 +08:00 [INF] Request finished in 529.3019ms 200 application/json; charset=utf-8
+2019-05-29 23:11:33.087 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:65115/api/abp/application-configuration?api-version=1.0  
+2019-05-29 23:11:33.087 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:11:33.095 +08:00 [INF] Route matched with {action = "GetAsync", controller = "AbpApplicationConfiguration", area = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:11:33.141 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:11:33.240 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.240 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.241 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.241 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.241 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.241 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.241 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.241 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.241 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.241 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.241 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.241 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.241 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.241 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.241 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.241 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.242 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.242 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.242 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.242 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.242 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.242 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.242 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.242 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.242 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.242 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.242 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.242 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.242 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.242 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.242 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:33.242 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:34.835 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1693.9515000000001ms.
+2019-05-29 23:11:34.865 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2019-05-29 23:11:34.884 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 1788.587ms
+2019-05-29 23:11:34.891 +08:00 [INF] Request finished in 1804.662ms 200 application/json; charset=utf-8
+2019-05-29 23:11:48.249 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:65115/  
+2019-05-29 23:11:48.249 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:11:48.257 +08:00 [DBG] requestId: 0HLN48VNFNOQG:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2019-05-29 23:11:48.266 +08:00 [DBG] requestId: 0HLN48VNFNOQG:00000003, previousRequestId: no previous request id, message: Upstream url path is /
+2019-05-29 23:11:48.282 +08:00 [WRN] requestId: 0HLN48VNFNOQG:00000003, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: /, verb: GET.
+2019-05-29 23:11:48.282 +08:00 [WRN] requestId: 0HLN48VNFNOQG:00000003, previousRequestId: no previous request id, message: Failed to match ReRoute configuration for upstream path: /, verb: GET.
+2019-05-29 23:11:48.283 +08:00 [WRN] requestId: 0HLN48VNFNOQG:00000003, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: /, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/, request method: GET
+2019-05-29 23:11:48.285 +08:00 [DBG] requestId: 0HLN48VNFNOQG:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2019-05-29 23:11:48.287 +08:00 [INF] Request finished in 37.5959ms 404 
+2019-05-29 23:13:32.187 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:65115/api/abp/api-definition  
+2019-05-29 23:13:32.188 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:13:32.189 +08:00 [INF] Route matched with {action = "Get", controller = "AbpApiDefinition", area = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:13:32.189 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:13:32.189 +08:00 [DBG] ActionApiDescriptionModel.Create: FileConfiguration.Get
+2019-05-29 23:13:32.189 +08:00 [DBG] ActionApiDescriptionModel.Create: FileConfiguration.PostByFileConfiguration
+2019-05-29 23:13:32.189 +08:00 [DBG] ActionApiDescriptionModel.Create: OutputCache.DeleteByRegion
+2019-05-29 23:13:32.190 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpServiceProxyScript.GetAllByModel
+2019-05-29 23:13:32.190 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpLanguages.SwitchByCultureAndUiCultureAndReturnUrl
+2019-05-29 23:13:32.190 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfigurationScript.Get
+2019-05-29 23:13:32.190 +08:00 [DBG] ActionApiDescriptionModel.Create: Products.GetListPagedAsyncByInput
+2019-05-29 23:13:32.190 +08:00 [DBG] ActionApiDescriptionModel.Create: Products.GetListAsync
+2019-05-29 23:13:32.190 +08:00 [DBG] ActionApiDescriptionModel.Create: Products.GetAsyncById
+2019-05-29 23:13:32.190 +08:00 [DBG] ActionApiDescriptionModel.Create: Products.CreateAsyncByInput
+2019-05-29 23:13:32.190 +08:00 [DBG] ActionApiDescriptionModel.Create: Products.UpdateAsyncByIdAndInput
+2019-05-29 23:13:32.191 +08:00 [DBG] ActionApiDescriptionModel.Create: Products.DeleteAsyncById
+2019-05-29 23:13:32.191 +08:00 [DBG] ActionApiDescriptionModel.Create: PublicProducts.GetListAsync
+2019-05-29 23:13:32.191 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2019-05-29 23:13:32.191 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.Get
+2019-05-29 23:13:32.191 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAsyncById
+2019-05-29 23:13:32.191 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetListAsyncByInput
+2019-05-29 23:13:32.191 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.CreateAsyncByInput
+2019-05-29 23:13:32.191 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.UpdateAsyncByIdAndInput
+2019-05-29 23:13:32.191 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.DeleteAsyncById
+2019-05-29 23:13:32.191 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAllListAsync
+2019-05-29 23:13:32.191 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetAsyncById
+2019-05-29 23:13:32.192 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetListAsyncByInput
+2019-05-29 23:13:32.192 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.CreateAsyncByInput
+2019-05-29 23:13:32.192 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateAsyncByIdAndInput
+2019-05-29 23:13:32.192 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.DeleteAsyncById
+2019-05-29 23:13:32.192 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetRolesAsyncById
+2019-05-29 23:13:32.192 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateRolesAsyncByIdAndInput
+2019-05-29 23:13:32.192 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByUsernameAsyncByUsername
+2019-05-29 23:13:32.192 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByEmailAsyncByEmail
+2019-05-29 23:13:32.192 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUserLookup.FindByIdAsyncById
+2019-05-29 23:13:32.192 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUserLookup.FindByUserNameAsyncByUserName
+2019-05-29 23:13:32.192 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.GetAsync
+2019-05-29 23:13:32.193 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.UpdateAsyncByInput
+2019-05-29 23:13:32.193 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.ChangePasswordAsyncByCurrentPasswordAndNewPassword
+2019-05-29 23:13:32.193 +08:00 [DBG] ActionApiDescriptionModel.Create: Permissions.GetAsyncByProviderNameAndProviderKey
+2019-05-29 23:13:32.193 +08:00 [DBG] ActionApiDescriptionModel.Create: Permissions.UpdateAsyncByProviderNameAndProviderKeyAndInput
+2019-05-29 23:13:32.193 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 3.7795ms.
+2019-05-29 23:13:32.193 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel'.
+2019-05-29 23:13:32.194 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) in 4.8245000000000005ms
+2019-05-29 23:13:32.194 +08:00 [INF] Request finished in 6.2464ms 200 application/json; charset=utf-8
+2019-05-29 23:13:32.251 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:65115/api/abp/application-configuration?api-version=1.0  
+2019-05-29 23:13:32.251 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:13:32.252 +08:00 [INF] Route matched with {action = "GetAsync", controller = "AbpApplicationConfiguration", area = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:13:32.253 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:13:32.253 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.253 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.254 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.254 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.254 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.254 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.254 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.254 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.254 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.254 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.254 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.254 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.254 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.254 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.255 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.255 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.255 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.255 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.255 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.255 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.255 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.255 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.255 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.255 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.255 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.255 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.255 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.256 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.256 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.256 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.256 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.256 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.259 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 6.2401ms.
+2019-05-29 23:13:32.259 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.ApplicationConfigurationDto'.
+2019-05-29 23:13:32.260 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApplicationConfigurations.AbpApplicationConfigurationController.GetAsync (Volo.Abp.AspNetCore.Mvc) in 7.7486000000000006ms
+2019-05-29 23:13:32.260 +08:00 [INF] Request finished in 8.7332ms 200 application/json; charset=utf-8
+2019-05-29 23:13:36.235 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:65115/  
+2019-05-29 23:13:36.236 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:13:36.236 +08:00 [DBG] requestId: 0HLN48VNFNOQH:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2019-05-29 23:13:36.236 +08:00 [DBG] requestId: 0HLN48VNFNOQH:00000003, previousRequestId: no previous request id, message: Upstream url path is /
+2019-05-29 23:13:36.236 +08:00 [WRN] requestId: 0HLN48VNFNOQH:00000003, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: /, verb: GET.
+2019-05-29 23:13:36.236 +08:00 [WRN] requestId: 0HLN48VNFNOQH:00000003, previousRequestId: no previous request id, message: Failed to match ReRoute configuration for upstream path: /, verb: GET.
+2019-05-29 23:13:36.236 +08:00 [WRN] requestId: 0HLN48VNFNOQH:00000003, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: /, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/, request method: GET
+2019-05-29 23:13:36.236 +08:00 [DBG] requestId: 0HLN48VNFNOQH:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2019-05-29 23:13:36.236 +08:00 [INF] Request finished in 1.1888ms 404 

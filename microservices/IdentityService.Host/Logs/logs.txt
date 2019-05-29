@@ -1,0 +1,240 @@
+2019-05-29 22:58:43.899 +08:00 [INF] Starting IdentityService.Host.
+2019-05-29 22:58:44.675 +08:00 [FTL] Application startup exception
+StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). MISCONF Redis is configured to save RDB snapshots, but is currently not able to persist on disk. Commands that may modify the data set are disabled. Please check Redis logs for details about the error.
+   at StackExchange.Redis.ConnectionMultiplexer.ConnectImpl(Object configuration, TextWriter log) in C:\projects\stackexchange-redis\src\StackExchange.Redis\ConnectionMultiplexer.cs:line 935
+   at IdentityService.Host.IdentityServiceHostModule.ConfigureServices(ServiceConfigurationContext context) in D:\Programming\Coding\dotnet\MicroserviceDemo\microservices\IdentityService.Host\IdentityServiceHostModule.cs:line 84
+   at Volo.Abp.Modularity.ModuleLoader.ConfigureServices(List`1 modules, IServiceCollection services) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Volo\Abp\Modularity\ModuleLoader.cs:line 122
+   at Volo.Abp.Modularity.ModuleLoader.LoadModules(IServiceCollection services, Type startupModuleType, PlugInSourceList plugInSources) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Volo\Abp\Modularity\ModuleLoader.cs:line 23
+   at Volo.Abp.AbpApplicationBase.LoadModules(IServiceCollection services, AbpApplicationCreationOptions options) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationBase.cs:line 80
+   at Volo.Abp.AbpApplicationBase..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationBase.cs:line 44
+   at Volo.Abp.AbpApplicationWithExternalServiceProvider..ctor(Type startupModuleType, IServiceCollection services, Action`1 optionsAction) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationWithExternalServiceProvider.cs:line 13
+   at Volo.Abp.AbpApplicationFactory.Create(Type startupModuleType, IServiceCollection services, Action`1 optionsAction) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationFactory.cs:line 37
+   at Volo.Abp.AbpApplicationFactory.Create[TStartupModule](IServiceCollection services, Action`1 optionsAction) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Volo\Abp\AbpApplicationFactory.cs:line 29
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionApplicationExtensions.AddApplication[TStartupModule](IServiceCollection services, Action`1 optionsAction) in D:\Programming\Coding\dotnet\abp\framework\src\Volo.Abp.Core\Microsoft\Extensions\DependencyInjection\ServiceCollectionApplicationExtensions.cs:line 15
+   at IdentityService.Host.Startup.ConfigureServices(IServiceCollection services) in D:\Programming\Coding\dotnet\MicroserviceDemo\microservices\IdentityService.Host\Startup.cs:line 14
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.ConfigureServices(IServiceCollection services)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.EnsureApplicationServices()
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.Initialize()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+2019-05-29 22:58:45.001 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/  
+2019-05-29 22:58:45.095 +08:00 [INF] Request finished in 94.9937ms 500 text/html; charset=utf-8
+2019-05-29 22:58:46.628 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/favicon.ico  
+2019-05-29 22:58:46.636 +08:00 [INF] Request finished in 8.065ms 500 text/html; charset=utf-8
+2019-05-29 23:05:38.338 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/  
+2019-05-29 23:05:38.341 +08:00 [INF] Request finished in 3.5778ms 500 text/html; charset=utf-8
+2019-05-29 23:05:38.704 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/favicon.ico  
+2019-05-29 23:05:38.708 +08:00 [INF] Request finished in 3.7406ms 500 text/html; charset=utf-8
+2019-05-29 23:05:38.782 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/  
+2019-05-29 23:05:38.786 +08:00 [INF] Request finished in 3.9896ms 500 text/html; charset=utf-8
+2019-05-29 23:05:39.008 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/favicon.ico  
+2019-05-29 23:05:39.008 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/  
+2019-05-29 23:05:39.014 +08:00 [ERR] Connection id "0HLN48OIPM738", Request id "0HLN48OIPM738:00000004": An unhandled exception was thrown by the application.
+System.ArgumentNullException: Value cannot be null.
+Parameter name: values
+   at System.String.Join(String separator, IEnumerable`1 values)
+   at Microsoft.Extensions.RazorViews.BaseView.EndWriteAttribute()
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-05-29 23:05:39.015 +08:00 [INF] Request finished in 7.1804ms 500 text/html; charset=utf-8
+2019-05-29 23:05:39.019 +08:00 [INF] Request finished in 10.9899ms 500 
+2019-05-29 23:05:39.241 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/  
+2019-05-29 23:05:39.241 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/favicon.ico  
+2019-05-29 23:05:39.243 +08:00 [ERR] Connection id "0HLN48OIPM738", Request id "0HLN48OIPM738:00000005": An unhandled exception was thrown by the application.
+System.InvalidOperationException: Collection was modified; enumeration operation may not execute.
+   at System.Collections.Generic.List`1.Enumerator.MoveNextRare()
+   at System.String.Join(String separator, IEnumerable`1 values)
+   at Microsoft.Extensions.RazorViews.BaseView.EndWriteAttribute()
+   at Microsoft.AspNetCore.Hosting.Views.ErrorPage.ExecuteAsync()
+   at Microsoft.Extensions.RazorViews.BaseView.ExecuteAsync(HttpContext context)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2019-05-29 23:05:39.247 +08:00 [INF] Request finished in 6.0339ms 500 
+2019-05-29 23:05:39.248 +08:00 [INF] Request finished in 6.6348ms 500 text/html; charset=utf-8
+2019-05-29 23:05:39.379 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/  
+2019-05-29 23:05:39.384 +08:00 [INF] Request finished in 4.5625ms 500 text/html; charset=utf-8
+2019-05-29 23:05:39.591 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/favicon.ico  
+2019-05-29 23:05:39.604 +08:00 [INF] Request finished in 13.133ms 500 text/html; charset=utf-8
+2019-05-29 23:05:39.994 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/  
+2019-05-29 23:05:39.999 +08:00 [INF] Request finished in 5.7219ms 500 text/html; charset=utf-8
+2019-05-29 23:05:40.204 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/favicon.ico  
+2019-05-29 23:05:40.209 +08:00 [INF] Request finished in 5.2555ms 500 text/html; charset=utf-8
+2019-05-29 23:05:40.328 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/  
+2019-05-29 23:05:40.332 +08:00 [INF] Request finished in 4.4527ms 500 text/html; charset=utf-8
+2019-05-29 23:05:40.565 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/favicon.ico  
+2019-05-29 23:05:40.573 +08:00 [INF] Request finished in 7.7829ms 500 text/html; charset=utf-8
+2019-05-29 23:05:41.740 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/  
+2019-05-29 23:05:41.748 +08:00 [INF] Request finished in 7.9358ms 500 text/html; charset=utf-8
+2019-05-29 23:05:41.970 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/favicon.ico  
+2019-05-29 23:05:41.975 +08:00 [INF] Request finished in 4.5554ms 500 text/html; charset=utf-8
+2019-05-29 23:05:42.012 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/  
+2019-05-29 23:05:42.016 +08:00 [INF] Request finished in 3.9705ms 500 text/html; charset=utf-8
+2019-05-29 23:05:42.271 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/favicon.ico  
+2019-05-29 23:05:42.277 +08:00 [INF] Request finished in 6.3303ms 500 text/html; charset=utf-8
+2019-05-29 23:08:47.545 +08:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:24447/iisintegration  0
+2019-05-29 23:09:53.086 +08:00 [INF] Starting IdentityService.Host.
+2019-05-29 23:09:54.267 +08:00 [INF] Loaded ABP modules:
+2019-05-29 23:09:54.268 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 23:09:54.269 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 23:09:54.270 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 23:09:54.271 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 23:09:54.271 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2019-05-29 23:09:54.271 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-05-29 23:09:54.271 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2019-05-29 23:09:54.271 +08:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2019-05-29 23:09:54.271 +08:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2019-05-29 23:09:54.271 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-05-29 23:09:54.271 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2019-05-29 23:09:54.271 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationModule
+2019-05-29 23:09:54.271 +08:00 [INF] - IdentityService.Host.IdentityServiceHostModule
+2019-05-29 23:09:54.315 +08:00 [DBG] No class found with auto mapping attributes.
+2019-05-29 23:09:55.168 +08:00 [INF] Initialized all ABP modules.
+2019-05-29 23:09:55.465 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/  
+2019-05-29 23:09:55.505 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:09:55.687 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = ""}. Executing action IdentityService.Host.Controllers.HomeController.Index (IdentityService.Host)
+2019-05-29 23:09:55.719 +08:00 [INF] Executing action method IdentityService.Host.Controllers.HomeController.Index (IdentityService.Host) - Validation state: "Valid"
+2019-05-29 23:09:55.727 +08:00 [INF] Executed action method IdentityService.Host.Controllers.HomeController.Index (IdentityService.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.22310000000000002ms.
+2019-05-29 23:09:55.744 +08:00 [INF] Executing RedirectResult, redirecting to /swagger.
+2019-05-29 23:09:55.746 +08:00 [INF] Executed action IdentityService.Host.Controllers.HomeController.Index (IdentityService.Host) in 57.4052ms
+2019-05-29 23:09:55.760 +08:00 [INF] Request finished in 297.4554ms 302 
+2019-05-29 23:09:55.790 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/swagger/index.html  
+2019-05-29 23:09:55.794 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:09:55.878 +08:00 [INF] Request finished in 88.1568ms 200 text/html
+2019-05-29 23:10:13.188 +08:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:19223/iisintegration  0
+2019-05-29 23:10:13.188 +08:00 [INF] Request finished in 0.2859ms 202 
+2019-05-29 23:12:43.340 +08:00 [INF] Starting IdentityService.Host.
+2019-05-29 23:12:44.347 +08:00 [INF] Loaded ABP modules:
+2019-05-29 23:12:44.348 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 23:12:44.348 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 23:12:44.348 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 23:12:44.348 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 23:12:44.348 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 23:12:44.348 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 23:12:44.348 +08:00 [INF] - Volo.Abp.RabbitMQ.AbpRabbitMqModule
+2019-05-29 23:12:44.348 +08:00 [INF] - Volo.Abp.EventBus.RabbitMq.AbpEventBusRabbitMqModule
+2019-05-29 23:12:44.348 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 23:12:44.348 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainSharedModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.AuditLogging.AbpAuditLoggingDomainModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.AuditLogging.EntityFrameworkCore.AbpAuditLoggingEntityFrameworkCoreModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-05-29 23:12:44.349 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-05-29 23:12:44.350 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 23:12:44.350 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 23:12:44.350 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 23:12:44.350 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 23:12:44.350 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-05-29 23:12:44.350 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-05-29 23:12:44.350 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 23:12:44.350 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 23:12:44.350 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 23:12:44.350 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 23:12:44.350 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 23:12:44.350 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 23:12:44.350 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2019-05-29 23:12:44.350 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainModule
+2019-05-29 23:12:44.350 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainModule
+2019-05-29 23:12:44.350 +08:00 [INF] - Volo.Abp.Users.EntityFrameworkCore.AbpUsersEntityFrameworkCoreModule
+2019-05-29 23:12:44.350 +08:00 [INF] - Volo.Abp.Identity.EntityFrameworkCore.AbpIdentityEntityFrameworkCoreModule
+2019-05-29 23:12:44.350 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-05-29 23:12:44.350 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationModule
+2019-05-29 23:12:44.350 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationModule
+2019-05-29 23:12:44.350 +08:00 [INF] - IdentityService.Host.IdentityServiceHostModule
+2019-05-29 23:12:44.388 +08:00 [DBG] No class found with auto mapping attributes.
+2019-05-29 23:12:45.049 +08:00 [INF] Initialized all ABP modules.
+2019-05-29 23:12:45.395 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/api/identity/user-lookup/3edd90be-60d2-8c6a-a0be-39ee16501e76?api-version=1.0  0
+2019-05-29 23:12:45.613 +08:00 [INF] Successfully validated the token.
+2019-05-29 23:12:45.617 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2019-05-29 23:12:45.814 +08:00 [INF] Route matched with {area = "identity", controller = "UserLookup", action = "FindByIdAsync"}. Executing action Volo.Abp.Identity.IdentityUserLookupController.FindByIdAsync (Volo.Abp.Identity.HttpApi)
+2019-05-29 23:12:45.897 +08:00 [INF] Executing action method Volo.Abp.Identity.IdentityUserLookupController.FindByIdAsync (Volo.Abp.Identity.HttpApi) with arguments (["3edd90be-60d2-8c6a-a0be-39ee16501e76"]) - Validation state: "Valid"
+2019-05-29 23:12:46.903 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:63568/api/identity/user-lookup/3edd90be-60d2-8c6a-a0be-39ee16501e76?api-version=1.0  0
+2019-05-29 23:12:46.905 +08:00 [INF] Successfully validated the token.
+2019-05-29 23:12:46.906 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2019-05-29 23:12:46.908 +08:00 [INF] Route matched with {area = "identity", controller = "UserLookup", action = "FindByIdAsync"}. Executing action Volo.Abp.Identity.IdentityUserLookupController.FindByIdAsync (Volo.Abp.Identity.HttpApi)
+2019-05-29 23:12:46.910 +08:00 [INF] Executing action method Volo.Abp.Identity.IdentityUserLookupController.FindByIdAsync (Volo.Abp.Identity.HttpApi) with arguments (["3edd90be-60d2-8c6a-a0be-39ee16501e76"]) - Validation state: "Valid"
+2019-05-29 23:12:47.367 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:47.367 +08:00 [INF] Authorization was successful.
+2019-05-29 23:12:47.977 +08:00 [INF] Executed action method Volo.Abp.Identity.IdentityUserLookupController.FindByIdAsync (Volo.Abp.Identity.HttpApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1065.5893ms.
+2019-05-29 23:12:47.977 +08:00 [INF] Executed action method Volo.Abp.Identity.IdentityUserLookupController.FindByIdAsync (Volo.Abp.Identity.HttpApi), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2076.484ms.
+2019-05-29 23:12:48.029 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:48.029 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:48.069 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:48.069 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:48.088 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Users.UserData'.
+2019-05-29 23:12:48.088 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Users.UserData'.
+2019-05-29 23:12:48.101 +08:00 [INF] Executed action Volo.Abp.Identity.IdentityUserLookupController.FindByIdAsync (Volo.Abp.Identity.HttpApi) in 2284.9026ms
+2019-05-29 23:12:48.101 +08:00 [INF] Executed action Volo.Abp.Identity.IdentityUserLookupController.FindByIdAsync (Volo.Abp.Identity.HttpApi) in 1190.8081ms
+2019-05-29 23:12:48.425 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:48.425 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:48.425 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:48.425 +08:00 [DBG] Added 0 entity changes to the current audit log
+2019-05-29 23:12:48.434 +08:00 [INF] Request finished in 1530.7852ms 200 application/json; charset=utf-8
+2019-05-29 23:12:48.434 +08:00 [INF] Request finished in 3041.2142ms 200 application/json; charset=utf-8

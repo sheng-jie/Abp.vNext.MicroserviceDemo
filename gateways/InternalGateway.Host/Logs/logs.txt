@@ -1,0 +1,231 @@
+2019-05-29 23:10:44.679 +08:00 [INF] Starting IdentityService.Host.
+2019-05-29 23:10:46.093 +08:00 [INF] Loaded ABP modules:
+2019-05-29 23:10:46.095 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 23:10:46.095 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 23:10:46.095 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-05-29 23:10:46.095 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 23:10:46.095 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 23:10:46.095 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 23:10:46.095 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 23:10:46.095 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 23:10:46.095 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 23:10:46.095 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 23:10:46.095 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-05-29 23:10:46.095 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 23:10:46.096 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 23:10:46.097 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 23:10:46.097 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2019-05-29 23:10:46.097 +08:00 [INF] - Volo.Blogging.BloggingDomainSharedModule
+2019-05-29 23:10:46.097 +08:00 [INF] - Volo.Blogging.BloggingApplicationContractsModule
+2019-05-29 23:10:46.097 +08:00 [INF] - Volo.Blogging.BloggingHttpApiModule
+2019-05-29 23:10:46.097 +08:00 [INF] - ProductManagement.ProductManagementDomainSharedModule
+2019-05-29 23:10:46.097 +08:00 [INF] - ProductManagement.ProductManagementApplicationContractsModule
+2019-05-29 23:10:46.097 +08:00 [INF] - ProductManagement.ProductManagementHttpApiModule
+2019-05-29 23:10:46.097 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-05-29 23:10:46.097 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2019-05-29 23:10:46.097 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 23:10:46.097 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 23:10:46.097 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-05-29 23:10:46.097 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-05-29 23:10:46.097 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-05-29 23:10:46.097 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-05-29 23:10:46.097 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-05-29 23:10:46.097 +08:00 [INF] - InternalGateway.Host.InternalGatewayHostModule
+2019-05-29 23:10:46.505 +08:00 [INF] Initialized all ABP modules.
+2019-05-29 23:10:46.840 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:65129/  
+2019-05-29 23:10:46.892 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:10:46.928 +08:00 [DBG] requestId: 0HLN48V9TOQ8K:00000001, previousRequestId: no previous request id, message: ocelot pipeline started
+2019-05-29 23:10:46.935 +08:00 [DBG] requestId: 0HLN48V9TOQ8K:00000001, previousRequestId: no previous request id, message: Upstream url path is /
+2019-05-29 23:10:46.949 +08:00 [WRN] requestId: 0HLN48V9TOQ8K:00000001, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: /, verb: GET.
+2019-05-29 23:10:46.950 +08:00 [WRN] requestId: 0HLN48V9TOQ8K:00000001, previousRequestId: no previous request id, message: Failed to match ReRoute configuration for upstream path: /, verb: GET.
+2019-05-29 23:10:46.951 +08:00 [WRN] requestId: 0HLN48V9TOQ8K:00000001, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: /, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/, request method: GET
+2019-05-29 23:10:46.952 +08:00 [DBG] requestId: 0HLN48V9TOQ8K:00000001, previousRequestId: no previous request id, message: ocelot pipeline finished
+2019-05-29 23:10:46.960 +08:00 [INF] Request finished in 123.5174ms 404 
+2019-05-29 23:10:48.870 +08:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:45995/iisintegration  0
+2019-05-29 23:10:48.871 +08:00 [INF] Request finished in 0.8814ms 202 
+2019-05-29 23:11:55.143 +08:00 [INF] Starting IdentityService.Host.
+2019-05-29 23:11:56.535 +08:00 [INF] Loaded ABP modules:
+2019-05-29 23:11:56.536 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 23:11:56.537 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 23:11:56.538 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 23:11:56.538 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 23:11:56.538 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 23:11:56.538 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-05-29 23:11:56.538 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-05-29 23:11:56.538 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-05-29 23:11:56.538 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 23:11:56.538 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 23:11:56.538 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 23:11:56.538 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 23:11:56.538 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 23:11:56.538 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 23:11:56.538 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2019-05-29 23:11:56.538 +08:00 [INF] - Volo.Blogging.BloggingDomainSharedModule
+2019-05-29 23:11:56.538 +08:00 [INF] - Volo.Blogging.BloggingApplicationContractsModule
+2019-05-29 23:11:56.538 +08:00 [INF] - Volo.Blogging.BloggingHttpApiModule
+2019-05-29 23:11:56.538 +08:00 [INF] - ProductManagement.ProductManagementDomainSharedModule
+2019-05-29 23:11:56.538 +08:00 [INF] - ProductManagement.ProductManagementApplicationContractsModule
+2019-05-29 23:11:56.538 +08:00 [INF] - ProductManagement.ProductManagementHttpApiModule
+2019-05-29 23:11:56.538 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule
+2019-05-29 23:11:56.538 +08:00 [INF] - Volo.Abp.EntityFrameworkCore.MySQL.AbpEntityFrameworkCoreMySQLModule
+2019-05-29 23:11:56.539 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 23:11:56.539 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 23:11:56.539 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainModule
+2019-05-29 23:11:56.539 +08:00 [INF] - Volo.Abp.PermissionManagement.EntityFrameworkCore.AbpPermissionManagementEntityFrameworkCoreModule
+2019-05-29 23:11:56.539 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainSharedModule
+2019-05-29 23:11:56.539 +08:00 [INF] - Volo.Abp.SettingManagement.AbpSettingManagementDomainModule
+2019-05-29 23:11:56.539 +08:00 [INF] - Volo.Abp.SettingManagement.EntityFrameworkCore.AbpSettingManagementEntityFrameworkCoreModule
+2019-05-29 23:11:56.539 +08:00 [INF] - InternalGateway.Host.InternalGatewayHostModule
+2019-05-29 23:11:57.001 +08:00 [INF] Initialized all ABP modules.
+2019-05-29 23:11:57.300 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:65129/  
+2019-05-29 23:11:57.364 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:11:57.403 +08:00 [DBG] requestId: 0HLN48VUTKFM7:00000001, previousRequestId: no previous request id, message: ocelot pipeline started
+2019-05-29 23:11:57.413 +08:00 [DBG] requestId: 0HLN48VUTKFM7:00000001, previousRequestId: no previous request id, message: Upstream url path is /
+2019-05-29 23:11:57.431 +08:00 [WRN] requestId: 0HLN48VUTKFM7:00000001, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: /, verb: GET.
+2019-05-29 23:11:57.432 +08:00 [WRN] requestId: 0HLN48VUTKFM7:00000001, previousRequestId: no previous request id, message: Failed to match ReRoute configuration for upstream path: /, verb: GET.
+2019-05-29 23:11:57.433 +08:00 [WRN] requestId: 0HLN48VUTKFM7:00000001, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: /, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/, request method: GET
+2019-05-29 23:11:57.435 +08:00 [DBG] requestId: 0HLN48VUTKFM7:00000001, previousRequestId: no previous request id, message: ocelot pipeline finished
+2019-05-29 23:11:57.444 +08:00 [INF] Request finished in 145.7893ms 404 
+2019-05-29 23:12:37.712 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:65129/api/abp/api-definition  
+2019-05-29 23:12:37.713 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:12:37.884 +08:00 [INF] Route matched with {action = "Get", controller = "AbpApiDefinition", area = ""}. Executing action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc)
+2019-05-29 23:12:37.916 +08:00 [INF] Executing action method Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) - Validation state: "Valid"
+2019-05-29 23:12:37.944 +08:00 [DBG] ActionApiDescriptionModel.Create: FileConfiguration.Get
+2019-05-29 23:12:37.947 +08:00 [DBG] ActionApiDescriptionModel.Create: FileConfiguration.PostByFileConfiguration
+2019-05-29 23:12:37.949 +08:00 [DBG] ActionApiDescriptionModel.Create: OutputCache.DeleteByRegion
+2019-05-29 23:12:37.949 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpServiceProxyScript.GetAllByModel
+2019-05-29 23:12:37.949 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpLanguages.SwitchByCultureAndUiCultureAndReturnUrl
+2019-05-29 23:12:37.949 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfigurationScript.Get
+2019-05-29 23:12:37.950 +08:00 [DBG] ActionApiDescriptionModel.Create: Products.GetListPagedAsyncByInput
+2019-05-29 23:12:37.950 +08:00 [DBG] ActionApiDescriptionModel.Create: Products.GetListAsync
+2019-05-29 23:12:37.950 +08:00 [DBG] ActionApiDescriptionModel.Create: Products.GetAsyncById
+2019-05-29 23:12:37.950 +08:00 [DBG] ActionApiDescriptionModel.Create: Products.CreateAsyncByInput
+2019-05-29 23:12:37.950 +08:00 [DBG] ActionApiDescriptionModel.Create: Products.UpdateAsyncByIdAndInput
+2019-05-29 23:12:37.950 +08:00 [DBG] ActionApiDescriptionModel.Create: Products.DeleteAsyncById
+2019-05-29 23:12:37.950 +08:00 [DBG] ActionApiDescriptionModel.Create: PublicProducts.GetListAsync
+2019-05-29 23:12:37.951 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApplicationConfiguration.GetAsync
+2019-05-29 23:12:37.951 +08:00 [DBG] ActionApiDescriptionModel.Create: AbpApiDefinition.Get
+2019-05-29 23:12:37.951 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAsyncById
+2019-05-29 23:12:37.951 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetListAsyncByInput
+2019-05-29 23:12:37.951 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.CreateAsyncByInput
+2019-05-29 23:12:37.951 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.UpdateAsyncByIdAndInput
+2019-05-29 23:12:37.951 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.DeleteAsyncById
+2019-05-29 23:12:37.951 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityRole.GetAllListAsync
+2019-05-29 23:12:37.951 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetAsyncById
+2019-05-29 23:12:37.951 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetListAsyncByInput
+2019-05-29 23:12:37.952 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.CreateAsyncByInput
+2019-05-29 23:12:37.952 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateAsyncByIdAndInput
+2019-05-29 23:12:37.952 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.DeleteAsyncById
+2019-05-29 23:12:37.952 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.GetRolesAsyncById
+2019-05-29 23:12:37.952 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.UpdateRolesAsyncByIdAndInput
+2019-05-29 23:12:37.952 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByUsernameAsyncByUsername
+2019-05-29 23:12:37.952 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUser.FindByEmailAsyncByEmail
+2019-05-29 23:12:37.952 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUserLookup.FindByIdAsyncById
+2019-05-29 23:12:37.952 +08:00 [DBG] ActionApiDescriptionModel.Create: IdentityUserLookup.FindByUserNameAsyncByUserName
+2019-05-29 23:12:37.952 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.GetAsync
+2019-05-29 23:12:37.953 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.UpdateAsyncByInput
+2019-05-29 23:12:37.953 +08:00 [DBG] ActionApiDescriptionModel.Create: Profile.ChangePasswordAsyncByCurrentPasswordAndNewPassword
+2019-05-29 23:12:37.953 +08:00 [DBG] ActionApiDescriptionModel.Create: BlogFiles.GetAsyncByName
+2019-05-29 23:12:37.953 +08:00 [DBG] ActionApiDescriptionModel.Create: BlogFiles.GetForWebAsyncByName
+2019-05-29 23:12:37.953 +08:00 [DBG] ActionApiDescriptionModel.Create: BlogFiles.CreateAsyncByInput
+2019-05-29 23:12:37.953 +08:00 [DBG] ActionApiDescriptionModel.Create: BlogFiles.UploadImageByFile
+2019-05-29 23:12:37.953 +08:00 [DBG] ActionApiDescriptionModel.Create: Blogs.GetListAsync
+2019-05-29 23:12:37.953 +08:00 [DBG] ActionApiDescriptionModel.Create: Blogs.GetByShortNameAsyncByShortName
+2019-05-29 23:12:37.953 +08:00 [DBG] ActionApiDescriptionModel.Create: Blogs.GetAsyncById
+2019-05-29 23:12:37.953 +08:00 [DBG] ActionApiDescriptionModel.Create: Blogs.CreateByInput
+2019-05-29 23:12:37.954 +08:00 [DBG] ActionApiDescriptionModel.Create: Blogs.UpdateByIdAndInput
+2019-05-29 23:12:37.954 +08:00 [DBG] ActionApiDescriptionModel.Create: Blogs.DeleteById
+2019-05-29 23:12:37.954 +08:00 [DBG] ActionApiDescriptionModel.Create: Comments.GetHierarchicalListOfPostAsyncByPostId
+2019-05-29 23:12:37.954 +08:00 [DBG] ActionApiDescriptionModel.Create: Comments.CreateAsyncByInput
+2019-05-29 23:12:37.954 +08:00 [DBG] ActionApiDescriptionModel.Create: Comments.UpdateAsyncByIdAndInput
+2019-05-29 23:12:37.954 +08:00 [DBG] ActionApiDescriptionModel.Create: Comments.DeleteAsyncById
+2019-05-29 23:12:37.954 +08:00 [DBG] ActionApiDescriptionModel.Create: Posts.GetListByBlogIdAndTagNameByBlogIdAndTagName
+2019-05-29 23:12:37.954 +08:00 [DBG] ActionApiDescriptionModel.Create: Posts.GetForReadingAsyncByInput
+2019-05-29 23:12:37.954 +08:00 [DBG] ActionApiDescriptionModel.Create: Posts.GetAsyncById
+2019-05-29 23:12:37.954 +08:00 [DBG] ActionApiDescriptionModel.Create: Posts.CreateAsyncByInput
+2019-05-29 23:12:37.955 +08:00 [DBG] ActionApiDescriptionModel.Create: Posts.UpdateAsyncByIdAndInput
+2019-05-29 23:12:37.955 +08:00 [DBG] ActionApiDescriptionModel.Create: Posts.DeleteAsyncById
+2019-05-29 23:12:37.955 +08:00 [DBG] ActionApiDescriptionModel.Create: Tags.GetPopularTagsByBlogIdAndInput
+2019-05-29 23:12:37.958 +08:00 [INF] Executed action method Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 37.7688ms.
+2019-05-29 23:12:37.968 +08:00 [INF] Executing ObjectResult, writing value of type 'Volo.Abp.Http.Modeling.ApplicationApiDescriptionModel'.
+2019-05-29 23:12:38.119 +08:00 [INF] Executed action Volo.Abp.AspNetCore.Mvc.ApiExploring.AbpApiDefinitionController.Get (Volo.Abp.AspNetCore.Mvc) in 232.6827ms
+2019-05-29 23:12:38.120 +08:00 [INF] Request finished in 408.125ms 200 application/json; charset=utf-8
+2019-05-29 23:12:38.515 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:65129/api/identity/user-lookup/3edd90be-60d2-8c6a-a0be-39ee16501e76?api-version=1.0  
+2019-05-29 23:12:38.702 +08:00 [INF] Successfully validated the token.
+2019-05-29 23:12:38.706 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2019-05-29 23:12:38.707 +08:00 [DBG] requestId: 0HLN48VUTKFM7:00000003, previousRequestId: no previous request id, message: ocelot pipeline started
+2019-05-29 23:12:38.707 +08:00 [DBG] requestId: 0HLN48VUTKFM7:00000003, previousRequestId: no previous request id, message: Upstream url path is /api/identity/user-lookup/3edd90be-60d2-8c6a-a0be-39ee16501e76
+2019-05-29 23:12:38.711 +08:00 [DBG] requestId: 0HLN48VUTKFM7:00000003, previousRequestId: no previous request id, message: downstream templates are /api/identity/{everything}
+2019-05-29 23:12:38.738 +08:00 [INF] requestId: 0HLN48VUTKFM7:00000003, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/identity/{everything}
+2019-05-29 23:12:38.744 +08:00 [INF] requestId: 0HLN48VUTKFM7:00000003, previousRequestId: no previous request id, message: No authentication needed for /api/identity/user-lookup/3edd90be-60d2-8c6a-a0be-39ee16501e76
+2019-05-29 23:12:38.748 +08:00 [INF] requestId: 0HLN48VUTKFM7:00000003, previousRequestId: no previous request id, message: /api/identity/{everything} route does not require user to be authorised
+2019-05-29 23:12:38.771 +08:00 [DBG] requestId: 0HLN48VUTKFM7:00000003, previousRequestId: no previous request id, message: Downstream url is http://localhost:63568/api/identity/user-lookup/3edd90be-60d2-8c6a-a0be-39ee16501e76?api-version=1.0
+2019-05-29 23:12:46.895 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:65129/api/identity/user-lookup/3edd90be-60d2-8c6a-a0be-39ee16501e76?api-version=1.0  
+2019-05-29 23:12:46.896 +08:00 [INF] Successfully validated the token.
+2019-05-29 23:12:46.896 +08:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2019-05-29 23:12:46.897 +08:00 [DBG] requestId: 0HLN48VUTKFM8:00000001, previousRequestId: no previous request id, message: ocelot pipeline started
+2019-05-29 23:12:46.897 +08:00 [DBG] requestId: 0HLN48VUTKFM8:00000001, previousRequestId: no previous request id, message: Upstream url path is /api/identity/user-lookup/3edd90be-60d2-8c6a-a0be-39ee16501e76
+2019-05-29 23:12:46.897 +08:00 [DBG] requestId: 0HLN48VUTKFM8:00000001, previousRequestId: no previous request id, message: downstream templates are /api/identity/{everything}
+2019-05-29 23:12:46.897 +08:00 [INF] requestId: 0HLN48VUTKFM8:00000001, previousRequestId: no previous request id, message: EndpointRateLimiting is not enabled for /api/identity/{everything}
+2019-05-29 23:12:46.897 +08:00 [INF] requestId: 0HLN48VUTKFM8:00000001, previousRequestId: no previous request id, message: No authentication needed for /api/identity/user-lookup/3edd90be-60d2-8c6a-a0be-39ee16501e76
+2019-05-29 23:12:46.897 +08:00 [INF] requestId: 0HLN48VUTKFM8:00000001, previousRequestId: no previous request id, message: /api/identity/{everything} route does not require user to be authorised
+2019-05-29 23:12:46.897 +08:00 [DBG] requestId: 0HLN48VUTKFM8:00000001, previousRequestId: no previous request id, message: Downstream url is http://localhost:63568/api/identity/user-lookup/3edd90be-60d2-8c6a-a0be-39ee16501e76?api-version=1.0
+2019-05-29 23:12:48.435 +08:00 [DBG] requestId: 0HLN48VUTKFM8:00000001, previousRequestId: no previous request id, message: setting http response message
+2019-05-29 23:12:48.435 +08:00 [DBG] requestId: 0HLN48VUTKFM7:00000003, previousRequestId: no previous request id, message: setting http response message
+2019-05-29 23:12:48.461 +08:00 [DBG] requestId: 0HLN48VUTKFM8:00000001, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2019-05-29 23:12:48.461 +08:00 [DBG] requestId: 0HLN48VUTKFM7:00000003, previousRequestId: no previous request id, message: no pipeline errors, setting and returning completed response
+2019-05-29 23:12:48.469 +08:00 [DBG] requestId: 0HLN48VUTKFM8:00000001, previousRequestId: no previous request id, message: ocelot pipeline finished
+2019-05-29 23:12:48.469 +08:00 [DBG] requestId: 0HLN48VUTKFM7:00000003, previousRequestId: no previous request id, message: ocelot pipeline finished
+2019-05-29 23:12:48.479 +08:00 [INF] Request finished in 9963.3738ms 200 application/json; charset=utf-8
+2019-05-29 23:12:48.479 +08:00 [INF] Request finished in 1583.2272ms 200 application/json; charset=utf-8
+2019-05-29 23:13:39.205 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:65129/  
+2019-05-29 23:13:39.206 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2019-05-29 23:13:39.207 +08:00 [DBG] requestId: 0HLN48VUTKFM8:00000002, previousRequestId: no previous request id, message: ocelot pipeline started
+2019-05-29 23:13:39.207 +08:00 [DBG] requestId: 0HLN48VUTKFM8:00000002, previousRequestId: no previous request id, message: Upstream url path is /
+2019-05-29 23:13:39.207 +08:00 [WRN] requestId: 0HLN48VUTKFM8:00000002, previousRequestId: no previous request id, message: DownstreamRouteFinderMiddleware setting pipeline errors. IDownstreamRouteFinder returned Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: /, verb: GET.
+2019-05-29 23:13:39.207 +08:00 [WRN] requestId: 0HLN48VUTKFM8:00000002, previousRequestId: no previous request id, message: Failed to match ReRoute configuration for upstream path: /, verb: GET.
+2019-05-29 23:13:39.207 +08:00 [WRN] requestId: 0HLN48VUTKFM8:00000002, previousRequestId: no previous request id, message: Error Code: UnableToFindDownstreamRouteError Message: Failed to match ReRoute configuration for upstream path: /, verb: GET. errors found in ResponderMiddleware. Setting error response for request path:/, request method: GET
+2019-05-29 23:13:39.207 +08:00 [DBG] requestId: 0HLN48VUTKFM8:00000002, previousRequestId: no previous request id, message: ocelot pipeline finished
+2019-05-29 23:13:39.207 +08:00 [INF] Request finished in 1.8451ms 404 

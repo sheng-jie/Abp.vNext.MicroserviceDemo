@@ -1,0 +1,254 @@
+2019-05-29 23:11:23.183 +08:00 [INF] Starting BackendAdminApp.Host.
+2019-05-29 23:11:24.503 +08:00 [INF] Loaded ABP modules:
+2019-05-29 23:11:24.504 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 23:11:24.504 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 23:11:24.504 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 23:11:24.505 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 23:11:24.505 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 23:11:24.505 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 23:11:24.505 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 23:11:24.505 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 23:11:24.505 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 23:11:24.505 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 23:11:24.505 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2019-05-29 23:11:24.505 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 23:11:24.505 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 23:11:24.505 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 23:11:24.505 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 23:11:24.505 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 23:11:24.505 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 23:11:24.505 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 23:11:24.505 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 23:11:24.505 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.Client.AbpAspNetCoreMvcClientModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.AspNetCore.Authentication.OAuth.AbpAspNetCoreAuthenticationOAuthModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2019-05-29 23:11:24.506 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2019-05-29 23:11:24.507 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2019-05-29 23:11:24.507 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2019-05-29 23:11:24.507 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-05-29 23:11:24.507 +08:00 [INF] - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2019-05-29 23:11:24.507 +08:00 [INF] - Volo.Abp.PermissionManagement.Web.AbpPermissionManagementWebModule
+2019-05-29 23:11:24.507 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2019-05-29 23:11:24.507 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2019-05-29 23:11:24.507 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2019-05-29 23:11:24.507 +08:00 [INF] - Volo.Abp.Identity.Web.AbpIdentityWebModule
+2019-05-29 23:11:24.507 +08:00 [INF] - Volo.Blogging.BloggingDomainSharedModule
+2019-05-29 23:11:24.507 +08:00 [INF] - Volo.Blogging.BloggingApplicationContractsModule
+2019-05-29 23:11:24.507 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementHttpApiClientModule
+2019-05-29 23:11:24.507 +08:00 [INF] - ProductManagement.ProductManagementDomainSharedModule
+2019-05-29 23:11:24.507 +08:00 [INF] - ProductManagement.ProductManagementApplicationContractsModule
+2019-05-29 23:11:24.507 +08:00 [INF] - ProductManagement.ProductManagementHttpApiClientModule
+2019-05-29 23:11:24.507 +08:00 [INF] - ProductManagement.ProductManagementHttpApiModule
+2019-05-29 23:11:24.507 +08:00 [INF] - ProductManagement.ProductManagementWebModule
+2019-05-29 23:11:24.507 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2019-05-29 23:11:24.507 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2019-05-29 23:11:24.507 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.AbpAspNetCoreMvcUiBasicThemeModule
+2019-05-29 23:11:24.507 +08:00 [INF] - BackendAdminApp.Host.BackendAdminAppHostModule
+2019-05-29 23:11:24.561 +08:00 [DBG] No class found with auto mapping attributes.
+2019-05-29 23:11:33.076 +08:00 [WRN] Could not find IdentityClientConfiguration for . Either define a configuration for  or set a default configuration.
+2019-05-29 23:11:35.113 +08:00 [INF] Initialized all ABP modules.
+2019-05-29 23:11:35.379 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51954/  
+2019-05-29 23:11:35.379 +08:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:25762/iisintegration  0
+2019-05-29 23:11:35.390 +08:00 [INF] Request finished in 13.3184ms 202 
+2019-05-29 23:11:35.720 +08:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing action BackendAdminApp.Host.Controllers.HomeController.Index (BackendAdminApp.Host)
+2019-05-29 23:11:35.745 +08:00 [INF] Executing action method BackendAdminApp.Host.Controllers.HomeController.Index (BackendAdminApp.Host) - Validation state: "Valid"
+2019-05-29 23:11:35.751 +08:00 [INF] Executed action method BackendAdminApp.Host.Controllers.HomeController.Index (BackendAdminApp.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.2747ms.
+2019-05-29 23:11:35.760 +08:00 [INF] Executing RedirectResult, redirecting to /Identity/Users.
+2019-05-29 23:11:35.763 +08:00 [INF] Executed action BackendAdminApp.Host.Controllers.HomeController.Index (BackendAdminApp.Host) in 40.3459ms
+2019-05-29 23:11:35.771 +08:00 [INF] Request finished in 394.1866ms 302 
+2019-05-29 23:11:40.503 +08:00 [INF] Starting BackendAdminApp.Host.
+2019-05-29 23:11:41.809 +08:00 [INF] Loaded ABP modules:
+2019-05-29 23:11:41.811 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 23:11:41.811 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 23:11:41.811 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 23:11:41.811 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 23:11:41.811 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 23:11:41.811 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 23:11:41.811 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 23:11:41.811 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 23:11:41.811 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 23:11:41.811 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 23:11:41.811 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2019-05-29 23:11:41.811 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 23:11:41.811 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 23:11:41.811 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 23:11:41.812 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 23:11:41.812 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 23:11:41.812 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 23:11:41.812 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 23:11:41.812 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 23:11:41.812 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 23:11:41.812 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 23:11:41.812 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 23:11:41.812 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 23:11:41.812 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 23:11:41.812 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 23:11:41.812 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 23:11:41.812 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 23:11:41.812 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 23:11:41.812 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.Client.AbpAspNetCoreMvcClientModule
+2019-05-29 23:11:41.812 +08:00 [INF] - Volo.Abp.AspNetCore.Authentication.OAuth.AbpAspNetCoreAuthenticationOAuthModule
+2019-05-29 23:11:41.812 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2019-05-29 23:11:41.812 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2019-05-29 23:11:41.812 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-05-29 23:11:41.813 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-05-29 23:11:41.813 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-05-29 23:11:41.813 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-05-29 23:11:41.813 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-05-29 23:11:41.813 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-05-29 23:11:41.813 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2019-05-29 23:11:41.813 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 23:11:41.813 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 23:11:41.813 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 23:11:41.813 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 23:11:41.813 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2019-05-29 23:11:41.813 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2019-05-29 23:11:41.813 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2019-05-29 23:11:41.813 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2019-05-29 23:11:41.813 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-05-29 23:11:41.813 +08:00 [INF] - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2019-05-29 23:11:41.813 +08:00 [INF] - Volo.Abp.PermissionManagement.Web.AbpPermissionManagementWebModule
+2019-05-29 23:11:41.813 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2019-05-29 23:11:41.813 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2019-05-29 23:11:41.813 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2019-05-29 23:11:41.814 +08:00 [INF] - Volo.Abp.Identity.Web.AbpIdentityWebModule
+2019-05-29 23:11:41.814 +08:00 [INF] - Volo.Blogging.BloggingDomainSharedModule
+2019-05-29 23:11:41.814 +08:00 [INF] - Volo.Blogging.BloggingApplicationContractsModule
+2019-05-29 23:11:41.814 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementHttpApiClientModule
+2019-05-29 23:11:41.814 +08:00 [INF] - ProductManagement.ProductManagementDomainSharedModule
+2019-05-29 23:11:41.814 +08:00 [INF] - ProductManagement.ProductManagementApplicationContractsModule
+2019-05-29 23:11:41.814 +08:00 [INF] - ProductManagement.ProductManagementHttpApiClientModule
+2019-05-29 23:11:41.814 +08:00 [INF] - ProductManagement.ProductManagementHttpApiModule
+2019-05-29 23:11:41.814 +08:00 [INF] - ProductManagement.ProductManagementWebModule
+2019-05-29 23:11:41.814 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2019-05-29 23:11:41.814 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2019-05-29 23:11:41.814 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.AbpAspNetCoreMvcUiBasicThemeModule
+2019-05-29 23:11:41.814 +08:00 [INF] - BackendAdminApp.Host.BackendAdminAppHostModule
+2019-05-29 23:11:41.864 +08:00 [DBG] No class found with auto mapping attributes.
+2019-05-29 23:11:42.882 +08:00 [INF] Initialized all ABP modules.
+2019-05-29 23:11:43.187 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51954/Identity/Users  
+2019-05-29 23:11:45.315 +08:00 [INF] Request starting HTTP/1.1 POST http://127.0.0.1:41316/iisintegration  0
+2019-05-29 23:11:45.320 +08:00 [INF] Request finished in 4.5386ms 202 
+2019-05-29 23:11:45.571 +08:00 [INF] Route matched with {page = "/Identity/Users/Index", action = "", controller = "", area = ""}. Executing page /Identity/Users/Index
+2019-05-29 23:11:45.605 +08:00 [INF] Authorization failed.
+2019-05-29 23:11:45.610 +08:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-05-29 23:11:45.616 +08:00 [INF] Executing ChallengeResult with authentication schemes ([]).
+2019-05-29 23:11:56.358 +08:00 [INF] Starting BackendAdminApp.Host.
+2019-05-29 23:11:57.576 +08:00 [INF] Loaded ABP modules:
+2019-05-29 23:11:57.578 +08:00 [INF] - Volo.Abp.Castle.AbpCastleCoreModule
+2019-05-29 23:11:57.578 +08:00 [INF] - Volo.Abp.Autofac.AbpAutofacModule
+2019-05-29 23:11:57.578 +08:00 [INF] - Volo.Abp.Http.AbpHttpAbstractionsModule
+2019-05-29 23:11:57.578 +08:00 [INF] - Volo.Abp.Timing.AbpTimingModule
+2019-05-29 23:11:57.578 +08:00 [INF] - Volo.Abp.Json.AbpJsonModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.Http.AbpHttpModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.Threading.AbpThreadingModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.Data.AbpDataModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.Security.AbpSecurityModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.MultiTenancy.AbpMultiTenancyModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.Http.Client.AbpHttpClientModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.Auditing.AbpAuditingModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.EventBus.AbpEventBusModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.Guids.AbpGuidsModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.Uow.AbpUnitOfWorkModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.ObjectMapping.AbpObjectMappingModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.Domain.AbpDddDomainModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.Validation.AbpValidationModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationAbstractionsModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.Authorization.AbpAuthorizationModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.Settings.AbpSettingsModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.Features.AbpFeaturesModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.Application.AbpDddApplicationModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcContractsModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.Serialization.AbpSerializationModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.Caching.AbpCachingModule
+2019-05-29 23:11:57.579 +08:00 [INF] - Volo.Abp.VirtualFileSystem.AbpVirtualFileSystemModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.Localization.AbpLocalizationModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.Client.AbpAspNetCoreMvcClientModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.AspNetCore.Authentication.OAuth.AbpAspNetCoreAuthenticationOAuthModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.IdentityModel.AbpIdentityModelModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.Http.Client.IdentityModel.AbpHttpClientIdentityModelModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.Users.AbpUsersDomainSharedModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityDomainSharedModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.Users.AbpUsersAbstractionModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementDomainSharedModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementApplicationContractsModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityApplicationContractsModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiClientModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.UI.AbpUiModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.AspNetCore.AbpAspNetCoreModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.ApiVersioning.AbpApiVersioningAbstractionsModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.AbpAspNetCoreMvcModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.Identity.AbpIdentityHttpApiModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.UI.Navigation.AbpUiNavigationModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.AbpAspNetCoreMvcUiModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.AbpAspNetCoreMvcUiBootstrapModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.AutoMapper.AbpAutoMapperModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.PermissionManagement.HttpApi.AbpPermissionManagementHttpApiModule
+2019-05-29 23:11:57.580 +08:00 [INF] - Volo.Abp.PermissionManagement.Web.AbpPermissionManagementWebModule
+2019-05-29 23:11:57.581 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Bundling.AbpAspNetCoreMvcUiBundlingModule
+2019-05-29 23:11:57.581 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Packages.AbpAspNetCoreMvcUiPackagesModule
+2019-05-29 23:11:57.581 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Shared.AbpAspNetCoreMvcUiThemeSharedModule
+2019-05-29 23:11:57.581 +08:00 [INF] - Volo.Abp.Identity.Web.AbpIdentityWebModule
+2019-05-29 23:11:57.581 +08:00 [INF] - Volo.Blogging.BloggingDomainSharedModule
+2019-05-29 23:11:57.581 +08:00 [INF] - Volo.Blogging.BloggingApplicationContractsModule
+2019-05-29 23:11:57.581 +08:00 [INF] - Volo.Abp.PermissionManagement.AbpPermissionManagementHttpApiClientModule
+2019-05-29 23:11:57.581 +08:00 [INF] - ProductManagement.ProductManagementDomainSharedModule
+2019-05-29 23:11:57.581 +08:00 [INF] - ProductManagement.ProductManagementApplicationContractsModule
+2019-05-29 23:11:57.581 +08:00 [INF] - ProductManagement.ProductManagementHttpApiClientModule
+2019-05-29 23:11:57.581 +08:00 [INF] - ProductManagement.ProductManagementHttpApiModule
+2019-05-29 23:11:57.581 +08:00 [INF] - ProductManagement.ProductManagementWebModule
+2019-05-29 23:11:57.581 +08:00 [INF] - Volo.Abp.AspNetCore.MultiTenancy.AbpAspNetCoreMultiTenancyModule
+2019-05-29 23:11:57.581 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy.AbpAspNetCoreMvcUiMultiTenancyModule
+2019-05-29 23:11:57.581 +08:00 [INF] - Volo.Abp.AspNetCore.Mvc.UI.Theme.Basic.AbpAspNetCoreMvcUiBasicThemeModule
+2019-05-29 23:11:57.581 +08:00 [INF] - BackendAdminApp.Host.BackendAdminAppHostModule
+2019-05-29 23:11:57.633 +08:00 [DBG] No class found with auto mapping attributes.
+2019-05-29 23:11:58.412 +08:00 [INF] Initialized all ABP modules.
+2019-05-29 23:11:58.752 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51954/favicon.ico  
+2019-05-29 23:11:58.994 +08:00 [INF] Request finished in 242.893ms 404 
+2019-05-29 23:13:30.544 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51954/Identity/Users  
+2019-05-29 23:13:30.556 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:32.139 +08:00 [INF] Route matched with {page = "/Identity/Users/Index", action = "", controller = "", area = ""}. Executing page /Identity/Users/Index
+2019-05-29 23:13:32.240 +08:00 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2019-05-29 23:13:32.242 +08:00 [WRN] Could not find IdentityClientConfiguration for . Either define a configuration for  or set a default configuration.
+2019-05-29 23:13:32.333 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:32.340 +08:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-05-29 23:13:32.345 +08:00 [INF] Executing ChallengeResult with authentication schemes ([]).
+2019-05-29 23:13:32.465 +08:00 [INF] AuthenticationScheme: oidc was challenged.
+2019-05-29 23:13:32.472 +08:00 [INF] Executed page /Identity/Users/Index in 330.3005ms
+2019-05-29 23:13:32.479 +08:00 [INF] Request finished in 1935.2791ms 302 
+2019-05-29 23:13:32.758 +08:00 [INF] Request starting HTTP/1.1 POST http://localhost:51954/signin-oidc application/x-www-form-urlencoded 1742
+2019-05-29 23:13:33.044 +08:00 [INF] AuthenticationScheme: Cookies signed in.
+2019-05-29 23:13:33.044 +08:00 [INF] Request finished in 286.3615ms 302 
+2019-05-29 23:13:33.062 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51954/Identity/Users  
+2019-05-29 23:13:33.065 +08:00 [INF] Route matched with {page = "/Identity/Users/Index", action = "", controller = "", area = ""}. Executing page /Identity/Users/Index
+2019-05-29 23:13:33.070 +08:00 [INF] Authorization failed.
+2019-05-29 23:13:33.070 +08:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'.
+2019-05-29 23:13:33.072 +08:00 [INF] Executing ForbidResult with authentication schemes ([]).
+2019-05-29 23:13:33.076 +08:00 [INF] AuthenticationScheme: Cookies was forbidden.
+2019-05-29 23:13:33.076 +08:00 [INF] AuthenticationScheme: oidc was forbidden.
+2019-05-29 23:13:33.076 +08:00 [INF] Executed page /Identity/Users/Index in 11.056600000000001ms
+2019-05-29 23:13:33.077 +08:00 [INF] Request finished in 14.1463ms 302 
+2019-05-29 23:13:33.094 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:51954/Account/AccessDenied?ReturnUrl=%2FIdentity%2FUsers  
+2019-05-29 23:13:33.095 +08:00 [INF] Request finished in 0.9711ms 404 
